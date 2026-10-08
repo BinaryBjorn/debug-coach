@@ -1,0 +1,14 @@
+{
+  "name": "debug-marketing",
+  "description": "Debug Marketing: Debug Coach, leer werken met Claude op je eigen werk.",
+  "owner": {
+    "name": "Bjorn Vanden Broeck (Debug Marketing)"
+  },
+  "plugins": [
+    {
+      "name": "debug-coach",
+      "source": "./",
+      "description": "Debug Coach: leer werken met Claude op je eigen werk, via zeven missies en een coach."
+    }
+  ]
+}

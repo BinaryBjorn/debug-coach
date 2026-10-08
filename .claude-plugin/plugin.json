@@ -1,0 +1,8 @@
+{
+  "name": "debug-coach",
+  "description": "Debug Coach: leer werken met Claude op je eigen werk, via zeven missies en een coach die uitlegt tot je hem niet meer nodig hebt. Start met /start: Claude zet je werkmap klaar en leert jou kennen (missie 1).",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bjorn Vanden Broeck (Debug Marketing)"
+  }
+}
