@@ -16,7 +16,8 @@ De skill heeft vier stappen: **0 inventaris, 1 werkmap, 2 missie 1, 3 meter**. S
 Kijk in de werkmap (de map die de app opende):
 
 - **Leeg, of geen werkmap van Debug Coach** (geen `voortgang.md` en geen `ik/profiel.md`): een nieuwe start. Ga naar stap 1.
-- **De werkmap bestaat al, ook maar voor een deel** (`voortgang.md` of `ik/profiel.md` staat er): dit is een tweede keer. **Overschrijf nooit iets.**
+- **Een vers werkmappakket:** staan alle missies op `open` in `voortgang.md` en staat het profiel (`ik/profiel.md`) bovenaan op `status: leeg`, dan is het een nieuwe start, ook als alle bestanden al bestaan. De gebruiker heeft nog niets gedaan: het welkom, de tabel van de werkmap en de uitleg van projectbrein en context zijn nieuw voor de gebruiker. Doe stap 1 volledig (welkom, tabel, projectbrein; schrijf enkel wat ontbreekt, overschrijf niets), dan stap 2 met de uitleg van context, en na missie 1 altijd de meter van stap 3. Zeg niet "je werkmap bestaat al".
+- **De werkmap bestaat al, ook maar voor een deel** (`voortgang.md` of `ik/profiel.md` staat er, en het is geen vers werkmappakket): dit is een tweede keer. **Overschrijf nooit iets.**
   1. Schrijf enkel de templatebestanden die ontbreken (regels van stap 1) en zeg in één regel welke.
   2. Lees `voortgang.md` en `ik/profiel.md`.
   3. Bestond het profiel al, maar `voortgang.md` niet (net aangemaakt uit het template): het profiel telt. Een sectie op `gevuld` of `ontwerp` vraag je nooit opnieuw en schrijf je nooit opnieuw. Halen **Rol**, **Dossiers** en **Account** al `ontwerp` of `gevuld`, dan is enkel de trainingsschakelaar nog te bespreken (stap 2, enkel dat deel); daarna zet je missie 1 op `klaar`.
@@ -46,7 +47,7 @@ successen.md
 projecten/README.md
 ```
 
-**Schrijf een bestand enkel als het nog niet bestaat.** Een bestaand bestand overschrijf je nooit, ook niet als het er anders uitziet dan het template. Leg daarna de werkmap uit in één korte tabel (bestand en waarvoor, in gewone taal, hoogstens zes rijen). Leg **projectbrein** één keer uit, in coachstijl: één zin wat het is, en *"Denk eraan als: de briefing die je een nieuwe collega op dag één geeft."* Zeg erbij dat `CLAUDE.md` en `AGENTS.md` hetzelfde projectbrein zijn, één voor elke app.
+**Schrijf een bestand enkel als het nog niet bestaat.** Een bestaand bestand overschrijf je nooit, ook niet als het er anders uitziet dan het template. Bij een vers werkmappakket bestaan ze allemaal al: schrijf dan niets en zeg in het welkom dat je werkmap al klaarstaat en dat je ze samen overloopt. Leg daarna, ook dan, de werkmap uit in één korte tabel (bestand en waarvoor, in gewone taal, hoogstens zes rijen). Leg **projectbrein** één keer uit, in coachstijl: één zin wat het is, en *"Denk eraan als: de briefing die je een nieuwe collega op dag één geeft."* Zeg erbij dat `CLAUDE.md` en `AGENTS.md` hetzelfde projectbrein zijn, één voor elke app.
 
 ## Stap 2: missie 1, de coach leert jou kennen
 
