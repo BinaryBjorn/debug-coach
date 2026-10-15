@@ -1,0 +1,12 @@
+{"ronde": 1, "features": [
+ {"id": "D01", "oordeel": "slaagt", "bevinding": "'start' op een vers pakket (alle missies open, profiel leeg): welkom, tabel, projectbrein, context, niets overschreven, na missie 1 de meter."},
+ {"id": "D02", "oordeel": "slaagt", "bevinding": "Missie 2 nagespeeld: voorstel en stop, gebruiker kiest het dossier, typt zelf de vraag, coach zet de verbeterde vraag ernaast en voert niets uit voor de keuze."},
+ {"id": "D03", "oordeel": "slaagt", "bevinding": "Elke routestap in de zeven missies begint met Jij: of De coach: (check OK); de verdeling klopt, op het weetje in missie 7 Route Claude stap 8 na."},
+ {"id": "D04", "oordeel": "slaagt", "bevinding": "Missie 7: menupad letterlijk uit het missiebestand, geen gok bij 'ik vind customize niet', niet klaar na 'staat erop' tot de test in een nieuw gesprek bevestigd is."},
+ {"id": "D05", "oordeel": "slaagt", "bevinding": "In start en missie 7 eerst enkel de twee vragen; de rij in de volgende beurt, letterlijk, en 'geen antwoord' als de gebruiker de vragen negeerde."},
+ {"id": "D06", "oordeel": "slaagt", "bevinding": "In de stand uitgebreid werden 'project' (missie 2) en 'skill' (missie 7) ongevraagd uitgelegd met 'Denk eraan als:' en een voorbeeld uit het eigen werk."},
+ {"id": "D07", "oordeel": "slaagt", "bevinding": "Geen voortgangslink tussen backticks in plugin/; in missie 7 kwam de link als gewone tekst op een eigen regel."},
+ {"id": "D08", "oordeel": "slaagt", "bevinding": "'vraag eerst' staat in elke SKILL.md die verwijderen, overschrijven of vervangen noemt; de regel over technische waarden staat in beide templates en de gebruiker kreeg geen veldnaam te zien."},
+ {"id": "D09", "oordeel": "slaagt", "bevinding": "Missie 3 legt onder beide routes het kopiëren en plakken van een mail uit, met de toetsen voor Windows en Mac."}
+],
+ "gemist_door_bouwer": []}
