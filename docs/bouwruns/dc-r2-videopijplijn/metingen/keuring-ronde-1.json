@@ -1,0 +1,14 @@
+{
+  "ronde": 1,
+  "features": [
+    {"id": "V01", "oordeel": "slaagt", "bevinding": "plan.json voor de demo (120 fps-bron) nagerekend: bron_begin, stapduur, bevriezen, totaal 8,0 s en begrensde zoomdoelen (400,250) en (1040,650) kloppen met de rekenregels."},
+    {"id": "V02", "oordeel": "slaagt", "bevinding": "Kader 1452x906 op (234,87) met afgeronde hoeken op het verloop #0B1628 naar #1A2D4A, zie screenshots/S7a-1-begin.png; kleuren als constanten in videos/huisstijl.py."},
+    {"id": "V03", "oordeel": "slaagt", "bevinding": "Op 1,0 s staat 1,8x ingezoomd en de cirkel precies op het klikdoel (screenshots/S7a-2-klik1.png); klik buiten de opname wordt begrensd tot de hoek van het kader."},
+    {"id": "V04", "oordeel": "slaagt", "bevinding": "Bevriezen en wegknippen bevestigd met een tijdsbalk in de bron (S7b-*.png), duur 8,0 s en 15,0 s in de variant; let op: features.json staat nog op open/passes false, de bouwer vinkte V04 nooit af."},
+    {"id": "V05", "oordeel": "slaagt", "bevinding": "demo.vtt en het mov_text-spoor in de mp4 hebben dezelfde drie cues (0-3, 3-6, 6-8 s) met de scripttekst."},
+    {"id": "V06", "oordeel": "slaagt", "bevinding": "ffprobe: h264 1920x1080 30 fps, aac en mov_text, alle 8,000 s."},
+    {"id": "V07", "oordeel": "slaagt", "bevinding": "--stem openai zonder OPENAI_API_KEY meldt in één regel 'stem ontbreekt' en maakt de video met de testtoon; geen sleutel in de code."},
+    {"id": "V08", "oordeel": "slaagt", "bevinding": "videos/README.md dekt script, opname.md, ruw/opname.mov en log.json, maak.py, nakijken, uit/, de speler van R3 en OPENAI_API_KEY."}
+  ],
+  "gemist_door_bouwer": []
+}

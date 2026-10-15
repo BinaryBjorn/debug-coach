@@ -10,3 +10,4 @@
 {"tijd": "2026-10-15T19:12:45", "rol": "bouwer", "reden": "lezen enkel in de kloon"}
 {"tijd": "2026-10-15T19:12:58", "rol": "bouwer", "reden": "dit commando raakt een beschermd pad (.bouwrun); enkel lezen mag"}
 {"tijd": "2026-10-15T19:19:20", "rol": "bouwer", "reden": "dit commando raakt een beschermd pad (.bouwrun); enkel lezen mag"}
+{"tijd": "2026-10-15T19:20:11", "rol": "keurder", "reden": "enkel Bjorn tekent een contract; opnieuw tekenen kan niet vanuit een run"}
