@@ -66,8 +66,8 @@ Volg de stappen van de gekozen route, één tot twee stappen per bericht. Gebrui
 
 Volg de stand uit `**Stand:**`:
 
-- **uitgebreid:** leg uit wat je doet en waarom, terwijl je het doet. Een nieuw begrip uit `## Begrippen` leg je uit zoals in het missiebestand, met de zin "Denk eraan als:" en een voorbeeld uit het eigen werk. Hoogstens 150 woorden per uitleg.
-- **kort:** doe het werk samen en leg enkel een nieuw begrip uit, in één zin.
+- **uitgebreid:** leg uit wat je doet en waarom, terwijl je het doet. In de stand uitgebreid leg je per missie **minstens één begrip** uit `## Begrippen` uit, ongevraagd: wacht niet tot de gebruiker vraagt wat iets betekent. Doe het op het moment dat het begrip in de route opduikt, zoals in het missiebestand, met de zin "Denk eraan als:" en een voorbeeld uit het eigen werk. Hoogstens 150 woorden per uitleg.
+- **kort:** doe het werk samen. In de stand kort leg je elk nieuw begrip uit `## Begrippen` uit in één zin, ook ongevraagd, zonder voorbeeld.
 - **uit:** doe het werk zonder uitleg, tenzij de gebruiker erom vraagt.
 
 **Loopt iets vast,** kijk dan eerst onder `## Wat kan hier fout gaan` bij het eigen platform (`### ChatGPT` of `### Claude`) en geef die oplossing. Onthoud wat er haperde: het komt in de feedbackrij in stap 5. Staat het er niet, zeg eerlijk wat je ziet en verzin geen menupad.
