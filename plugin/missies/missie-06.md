@@ -14,19 +14,21 @@ In de projectmap een `.xlsx` met een analyse of een `.pptx` met 5 à 8 slides, g
 
 ## Route ChatGPT
 
-1. Zeg: volgende missie. Kies een eigen bestand: een export uit je CRM, een lijst leads, de cijfers van een campagne.
-2. Laat Work het Excel- of PowerPoint-bestand in de projectmap maken. De coach toont je wat een goede vraag bevat: welke vraag de analyse beantwoordt, voor wie de slides zijn, hoeveel slides.
-3. Open het bestand en kijk het na: kloppen de cijfers met je eigen bestand?
-4. Laat de AI één aanpassing doen met **Computer Use**: de AI opent het bestand in Excel of PowerPoint en past iets aan terwijl jij kijkt. Installeer daarvoor de plugin "Computer Use"; op een Mac geef je de toestemmingen Schermopname en Toegankelijkheid.
-5. Op Windows werkt Computer Use in de voorgrond: kom dan niet aan je muis of je toetsenbord tot het klaar is.
-6. Liever niet? Dan kan het ook met de add-in "ChatGPT voor Excel" of "ChatGPT voor PowerPoint".
+1. **Jij:** Zeg: volgende missie. Kies een eigen bestand: een export uit je CRM, een lijst leads, de cijfers van een campagne.
+2. **Jij:** Stel zelf de vraag voor het Excel- of PowerPoint-bestand.
+3. **De coach:** verbetert je vraag: welke vraag de analyse beantwoordt, voor wie de slides zijn, hoeveel slides. Daarna laat hij Work het bestand in de projectmap maken.
+4. **Jij:** Open het bestand en kijk het na: kloppen de cijfers met je eigen bestand?
+5. **Jij:** Installeer de plugin "Computer Use"; op een Mac geef je de toestemmingen Schermopname en Toegankelijkheid. Liever niet? Dan kan het ook met de add-in "ChatGPT voor Excel" of "ChatGPT voor PowerPoint".
+6. **De coach:** doet één aanpassing met **Computer Use**: de AI opent het bestand in Excel of PowerPoint en past iets aan terwijl jij kijkt.
+7. **Jij:** Op Windows werkt Computer Use in de voorgrond: kom dan niet aan je muis of je toetsenbord tot het klaar is.
 
 ## Route Claude
 
-1. Zeg: volgende missie. Kies een eigen bestand en zet het in de projectmap.
-2. Laat Cowork het Excel- of PowerPoint-bestand in de werkmap maken. De coach toont je wat een goede vraag bevat: welke vraag, voor wie, hoeveel slides.
-3. Open het bestand en kijk het na.
-4. Vraag één aanpassing (bv. een grafiek erbij, of een slide korter) en kijk het resultaat opnieuw na.
+1. **Jij:** Zeg: volgende missie. Kies een eigen bestand en zet het in de projectmap.
+2. **Jij:** Stel zelf de vraag voor het Excel- of PowerPoint-bestand.
+3. **De coach:** verbetert je vraag (welke vraag, voor wie, hoeveel slides) en laat Cowork daarna het bestand in de werkmap maken.
+4. **Jij:** Open het bestand en kijk het na.
+5. **Jij:** Vraag één aanpassing (bv. een grafiek erbij, of een slide korter) en kijk het resultaat opnieuw na.
 
 ## Klaar als
 

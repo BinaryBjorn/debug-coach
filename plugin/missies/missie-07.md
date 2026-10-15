@@ -16,21 +16,23 @@ Een update van de coach raakt je eigen skills nooit: de coach komt via GitHub, j
 
 ## Route ChatGPT
 
-1. Zeg: volgende missie. Kies iets wat je elke week opnieuw vraagt.
-2. Schrijf de skill samen met de coach in de lokale plugin `mijn-vaardigheden` uit je werkmap: `.coach/mijn-vaardigheden/skills/eigen-<naam>/SKILL.md`. De coach toont je wat erin moet: wanneer de skill gebruikt wordt, wat ze doet, in welke vorm.
-3. Herstart de app, of kies **Plugins > Refresh**.
-4. Test in een nieuw gesprek: met `@mijn-vaardigheden`, of door het gewoon te vragen.
-5. De coach zet je skill in `successen.md`.
+1. **Jij:** Zeg: volgende missie. Kies iets wat je elke week opnieuw vraagt.
+2. **De coach:** toont je wat er in een skill moet: wanneer de skill gebruikt wordt, wat ze doet, in welke vorm.
+3. **Jij:** Schrijf de skill samen met de coach in de lokale plugin `mijn-vaardigheden` uit je werkmap: `.coach/mijn-vaardigheden/skills/eigen-<naam>/SKILL.md`.
+4. **Jij:** Herstart de app, of kies **Plugins > Refresh**.
+5. **Jij:** Test in een nieuw gesprek: met `@mijn-vaardigheden`, of door het gewoon te vragen. Zeg de coach daarna wat er gebeurde.
+6. **De coach:** zet je skill in `successen.md`.
 
 ## Route Claude
 
-1. Zeg: volgende missie. Kies iets wat je elke week opnieuw vraagt.
-2. In Claude komt de coach uit GitHub, niet uit je werkmap. Een skill in de map `.coach/` laadt daar dus niet.
-3. Schrijf de skill samen met de coach in `projecten/eigen-skills/eigen-<naam>/SKILL.md`.
-4. Verpak de map `eigen-<naam>` als ZIP. De mapnaam is de naam van de skill.
-5. Upload de ZIP in **Customize > Skills > Upload a skill** en zet de skill aan.
-6. Test in een nieuw gesprek. De coach zet je skill in `successen.md`.
-7. In Cowork op de Mac kan je een skill ook opnemen (op Pro, Max en Team).
+1. **Jij:** Zeg: volgende missie. Kies iets wat je elke week opnieuw vraagt.
+2. **De coach:** legt uit dat de coach in Claude uit GitHub komt, niet uit je werkmap. Een skill in de map `.coach/` laadt daar dus niet.
+3. **Jij:** Schrijf de skill samen met de coach in `projecten/eigen-skills/eigen-<naam>/SKILL.md`.
+4. **Jij:** Verpak de map `eigen-<naam>` als ZIP. De mapnaam is de naam van de skill.
+5. **Jij:** Upload de ZIP in **Customize > Skills > Upload a skill** en zet de skill aan.
+6. **Jij:** Test in een nieuw gesprek: vraag iets waarvoor de skill bedoeld is. Zeg de coach daarna dat je uploadde en testte, en wat er gebeurde.
+7. **De coach:** zet je skill in `successen.md`.
+8. **Jij:** In Cowork op de Mac kan je een skill ook opnemen (op Pro, Max en Team).
 
 ## Klaar als
 

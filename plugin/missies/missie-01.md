@@ -16,23 +16,26 @@ Nog niet gestart in je nieuwe rol? Beschrijf de rol waar je naartoe gaat (een va
 
 ## Route ChatGPT
 
-1. Open de ChatGPT-desktopapp, kies bovenaan **Work** en laat Work je werkmap openen (geef de toestemming die het vraagt).
-2. Zeg: start. De coach zet de ontbrekende bestanden in je werkmap.
-3. Beantwoord de vijf vragen in de chat, één per bericht: je rol, je dossiers, je werkwijze (tools en account), je stijl, en bestanden of links.
-4. Upload je CV, je functiebeschrijving of een mail die je goed vond, of zet ze in de werkmap. De coach haalt er zelf uit wat hij nodig heeft.
-5. Geef je coachcode: 8 tekens, letters en cijfers, op je startplanpagina. Heb je ze niet bij de hand, dan kan het later.
-6. Ga naar **Instellingen > Data controls** en kies wat je doet met **"Improve the model for everyone"**. Werk je met klantgegevens, zet het dan uit. De coach legt uit waarom.
-7. Lees je profiel na en verbeter wat niet klopt.
+1. **Jij:** Open de ChatGPT-desktopapp, kies bovenaan **Work** en laat Work je werkmap openen (geef de toestemming die het vraagt).
+2. **Jij:** Zeg: start.
+3. **De coach:** zet de ontbrekende bestanden in je werkmap en stelt je vijf vragen, één per bericht: je rol, je dossiers, je werkwijze (tools en account), je stijl, en bestanden of links.
+4. **Jij:** Beantwoord de vragen in de chat.
+5. **Jij:** Upload je CV, je functiebeschrijving of een mail die je goed vond, of zet ze in de werkmap. De coach haalt er zelf uit wat hij nodig heeft.
+6. **Jij:** Geef je coachcode: 8 tekens, letters en cijfers, op je startplanpagina. Heb je ze niet bij de hand, dan kan het later.
+7. **De coach:** legt uit wat de instelling **"Improve the model for everyone"** doet en waarom je ze uitzet als je met klantgegevens werkt.
+8. **Jij:** Ga naar **Instellingen > Data controls**, kies wat je doet met **"Improve the model for everyone"** en zeg de coach wat je koos.
+9. **Jij:** Lees je profiel na en verbeter wat niet klopt.
 
 ## Route Claude
 
-1. Open de Claude-desktopapp en open je werkmap in Cowork als lokale map (dat kan enkel in de desktopapp).
-2. Zeg: start. De coach zet de ontbrekende bestanden in je werkmap.
-3. Beantwoord de vijf vragen in de chat, één per bericht. Liever alles in één keer? Vraag het formulier; dat is een extra, de chat werkt altijd.
-4. Zet je CV, je functiebeschrijving of een goede mail in de chat of in de werkmap.
-5. Geef je coachcode van je startplanpagina (8 tekens), of laat ze voor later.
-6. De coach vertelt waar je in Claude je privacy-instellingen vindt, en zegt eerlijk wat hij daarover niet zeker weet.
-7. Lees je profiel na en verbeter wat niet klopt.
+1. **Jij:** Open de Claude-desktopapp en open je werkmap in Cowork als lokale map (dat kan enkel in de desktopapp).
+2. **Jij:** Zeg: start.
+3. **De coach:** zet de ontbrekende bestanden in je werkmap en stelt je vijf vragen, één per bericht. Liever alles in één keer? Vraag het formulier; dat is een extra, de chat werkt altijd.
+4. **Jij:** Beantwoord de vragen in de chat.
+5. **Jij:** Zet je CV, je functiebeschrijving of een goede mail in de chat of in de werkmap.
+6. **Jij:** Geef je coachcode van je startplanpagina (8 tekens), of laat ze voor later.
+7. **De coach:** vertelt waar je in Claude je privacy-instellingen vindt, en zegt eerlijk wat hij daarover niet zeker weet.
+8. **Jij:** Lees je profiel na en verbeter wat niet klopt.
 
 ## Klaar als
 

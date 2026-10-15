@@ -14,19 +14,27 @@ Een projectmap `projecten/<dossier>/` voor één van je dossiers, met een `READM
 
 ## Route ChatGPT
 
-1. Zeg: volgende missie. De coach stelt een dossier uit je profiel voor; kies er één.
-2. Laat Work de map `projecten/<dossier>/` in je werkmap aanmaken, met een `README.md`. De coach stelt je per keer één of twee vragen om ze te vullen: het doel, wie erbij betrokken is, de deadlines.
-3. Zet twee à drie bronbestanden in de projectmap: een vorige versie, een briefing, een mail die je bewaarde.
-4. Vraag één echt stuk werk in dat project. De coach toont je wat een goede vraag bevat: wie je bent, wat je wil, voor wie, in welke vorm, met welke bronnen.
-5. De coach legt uit dat ChatGPT ook **Projecten** heeft (chats, bestanden en instructies samen) en wanneer je dat gebruikt: om te delen of om op je gsm verder te werken. De map in je werkmap blijft van jou, en de coach kan erin lezen en schrijven.
+1. **Jij:** Zeg: volgende missie.
+2. **De coach:** stelt een paar dossiers uit je profiel voor.
+3. **Jij:** Kies er één.
+4. **Jij:** Laat Work de map `projecten/<dossier>/` in je werkmap aanmaken, met een `README.md`.
+5. **De coach:** stelt je per keer één of twee vragen om de `README.md` te vullen: het doel, wie erbij betrokken is, de deadlines.
+6. **Jij:** Zet twee à drie bronbestanden in de projectmap: een vorige versie, een briefing, een mail die je bewaarde.
+7. **Jij:** Stel zelf de vraag voor één echt stuk werk in dat project.
+8. **De coach:** verbetert je vraag: wie je bent, wat je wil, voor wie, in welke vorm, met welke bronnen. Pas daarna voert hij ze uit.
+9. **De coach:** legt uit dat ChatGPT ook **Projecten** heeft (chats, bestanden en instructies samen) en wanneer je dat gebruikt: om te delen of om op je gsm verder te werken. De map in je werkmap blijft van jou, en de coach kan erin lezen en schrijven.
 
 ## Route Claude
 
-1. Zeg: volgende missie. De coach stelt een dossier uit je profiel voor; kies er één.
-2. Laat Cowork de map `projecten/<dossier>/` in je werkmap aanmaken, met een `README.md`. De coach vraagt per keer één of twee dingen: het doel, de betrokkenen, de deadlines.
-3. Zet twee à drie bronbestanden in de projectmap.
-4. Vraag één echt stuk werk in dat project. De coach toont je wat een goede vraag bevat: wie je bent, wat je wil, voor wie, in welke vorm, met welke bronnen.
-5. De coach legt uit dat Claude ook projecten kent, en wanneer je die gebruikt tegenover de map in je werkmap.
+1. **Jij:** Zeg: volgende missie.
+2. **De coach:** stelt een paar dossiers uit je profiel voor.
+3. **Jij:** Kies er één.
+4. **Jij:** Laat Cowork de map `projecten/<dossier>/` in je werkmap aanmaken, met een `README.md`.
+5. **De coach:** vraagt per keer één of twee dingen om de `README.md` te vullen: het doel, de betrokkenen, de deadlines.
+6. **Jij:** Zet twee à drie bronbestanden in de projectmap.
+7. **Jij:** Stel zelf de vraag voor één echt stuk werk in dat project.
+8. **De coach:** verbetert je vraag: wie je bent, wat je wil, voor wie, in welke vorm, met welke bronnen. Pas daarna voert hij ze uit.
+9. **De coach:** legt uit dat Claude ook projecten kent, en wanneer je die gebruikt tegenover de map in je werkmap.
 
 ## Klaar als
 

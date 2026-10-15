@@ -14,30 +14,33 @@ Een overzicht `projecten/<dossier>/bronnenlijst.md` van wat de AI nu kan lezen, 
 
 ## Route ChatGPT
 
-1. Zeg: volgende missie.
-2. Zet in OneDrive de map met je werkdocumenten op **altijd op dit apparaat bewaren**, zodat de bestanden echt op je computer staan.
-3. Zet de bestanden die je nodig hebt in je werkmap of in de projectmap van missie 2.
-4. Mails: bewaar een mail als bestand in de projectmap, of plak de tekst in de chat.
-5. Laat Work de bronnenlijst maken: wat staat waar, en wat kan de AI nu lezen.
-6. Vraag een samenvatting van één echt document. De coach toont je wat een goede vraag bevat: voor wie de samenvatting is, hoe lang, en wat je er zeker in wil.
+1. **Jij:** Zeg: volgende missie.
+2. **Jij:** Zet in OneDrive de map met je werkdocumenten op **altijd op dit apparaat bewaren**, zodat de bestanden echt op je computer staan.
+3. **Jij:** Zet de bestanden die je nodig hebt in je werkmap of in de projectmap van missie 2.
+4. **Jij:** Mails: bewaar een mail als bestand in de projectmap, of plak de tekst in de chat.
+5. **De coach:** laat Work de bronnenlijst maken: wat staat waar, en wat kan de AI nu lezen.
+6. **Jij:** Kies één echt document en stel zelf de vraag voor een samenvatting.
+7. **De coach:** verbetert je vraag: voor wie de samenvatting is, hoe lang, en wat je er zeker in wil. Pas daarna maakt hij ze.
 
 ### Met een werkaccount
 
-1. Wil je de Outlook-app in ChatGPT koppelen, dan vraagt dat toestemming van de IT-beheerder van je bedrijf.
-2. De coach schrijft de vraag aan IT voor je; jij stuurt ze zelf.
+1. **De coach:** zegt dat de Outlook-app koppelen in ChatGPT toestemming vraagt van de IT-beheerder van je bedrijf, en schrijft de vraag aan IT voor je.
+2. **Jij:** Stuur de vraag zelf naar IT.
 
 ## Route Claude
 
-1. Zeg: volgende missie.
-2. Zet in OneDrive de map met je werkdocumenten op **altijd op dit apparaat bewaren**.
-3. Zet de bestanden die je nodig hebt in je werkmap of in de projectmap.
-4. Mails: bewaar een mail als bestand in de projectmap, of plak de tekst in de chat.
-5. Laat Cowork de bronnenlijst maken en één echt document samenvatten.
+1. **Jij:** Zeg: volgende missie.
+2. **Jij:** Zet in OneDrive de map met je werkdocumenten op **altijd op dit apparaat bewaren**.
+3. **Jij:** Zet de bestanden die je nodig hebt in je werkmap of in de projectmap.
+4. **Jij:** Mails: bewaar een mail als bestand in de projectmap, of plak de tekst in de chat.
+5. **De coach:** laat Cowork de bronnenlijst maken.
+6. **Jij:** Kies één echt document en stel zelf de vraag voor een samenvatting.
+7. **De coach:** verbetert je vraag (voor wie, hoe lang, wat er zeker in moet) en maakt pas daarna de samenvatting.
 
 ### Met een werkaccount
 
-1. Claude heeft een Microsoft 365-connector. Die werkt enkel met een werkaccount en vraagt één keer toestemming van een beheerder van je bedrijf.
-2. De coach schrijft de vraag aan IT voor je; jij stuurt ze zelf.
+1. **De coach:** zegt dat Claude een Microsoft 365-connector heeft die enkel werkt met een werkaccount en één keer toestemming vraagt van een beheerder van je bedrijf, en schrijft de vraag aan IT voor je.
+2. **Jij:** Stuur de vraag zelf naar IT.
 
 ## Klaar als
 

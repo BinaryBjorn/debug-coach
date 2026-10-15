@@ -14,21 +14,21 @@ Een gesprek omzetten in een samenvatting, beslissingen en vervolgacties. Zonder 
 
 ## Route ChatGPT
 
-1. Zeg: volgende missie. Kies een gesprek: een overleg, een klantgesprek, een teammeeting.
-2. Vraag vooraf toestemming aan de anderen om op te nemen.
-3. Neem het gesprek op met de dictafoon van je gsm.
-4. Upload het audiobestand in de chat (bv. M4A, MP3 of WAV, tot 512 MB). Dat kan op een betaald plan.
-5. Laat Work het verslag in de projectmap schrijven. De coach toont je wat een goede vraag bevat: voor wie het verslag is, welke vorm, en dat elke actie een eigenaar en een datum krijgt.
-6. Laat de vervolgmail als concept schrijven. Niet versturen.
-7. Heb je een Teams-opname van het gesprek, dan kan je die ook gebruiken.
+1. **Jij:** Zeg: volgende missie. Kies een gesprek: een overleg, een klantgesprek, een teammeeting.
+2. **Jij:** Vraag vooraf toestemming aan de anderen om op te nemen.
+3. **Jij:** Neem het gesprek op met de dictafoon van je gsm. Heb je een Teams-opname van het gesprek, dan kan je die ook gebruiken.
+4. **Jij:** Upload het audiobestand in de chat (bv. M4A, MP3 of WAV, tot 512 MB). Dat kan op een betaald plan.
+5. **Jij:** Stel zelf de vraag voor het verslag.
+6. **De coach:** verbetert je vraag: voor wie het verslag is, welke vorm, en dat elke actie een eigenaar en een datum krijgt. Daarna laat hij Work het verslag in de projectmap schrijven.
+7. **De coach:** schrijft de vervolgmail als concept. Niet versturen.
 
 ## Route Claude
 
-1. Zeg: volgende missie. Kies een gesprek en vraag vooraf toestemming om op te nemen.
-2. De coach zegt eerlijk dat hij niet zeker weet of audio uploaden in Claude werkt.
-3. Maak daarom een transcript: met de opname-app van je gsm of uit Teams.
-4. Zet het transcript in de projectmap.
-5. Laat Cowork het verslag en een concept van de vervolgmail schrijven. Niet versturen.
+1. **Jij:** Zeg: volgende missie. Kies een gesprek en vraag vooraf toestemming om op te nemen.
+2. **De coach:** zegt eerlijk dat hij niet zeker weet of audio uploaden in Claude werkt.
+3. **Jij:** Maak daarom een transcript: met de opname-app van je gsm of uit Teams.
+4. **Jij:** Zet het transcript in de projectmap en stel zelf de vraag voor het verslag.
+5. **De coach:** verbetert je vraag en laat Cowork daarna het verslag en een concept van de vervolgmail schrijven. Niet versturen.
 
 ## Klaar als
 

@@ -14,26 +14,28 @@ Alles over één onderwerp van de laatste twee maanden, als tijdlijn per conclus
 
 ## Route ChatGPT
 
-1. Zeg: volgende missie. Kies een onderwerp en een periode (bv. de laatste twee maanden).
-2. Weet vooraf: mails die de AI opent, komen op gelezen te staan. Er wordt niets verstuurd, verwijderd of verplaatst.
-3. Laat Work Outlook.com openen in de ingebouwde browser. Log zelf in; de AI vult nooit je wachtwoord in.
-4. De AI zoekt met een datumfilter, zoals `received:<van>..<tot> "<onderwerp>"`, en leest de mails.
-5. De AI bouwt de tijdlijn in de projectmap. De coach toont je wat een goede vraag bevat: welk onderwerp, welke periode, in welke vorm (per datum, per conclusie).
-6. Lukt de browser niet: bewaar de mails als bestand in de projectmap of plak de tekst in de chat, en laat de AI daaruit de tijdlijn maken.
+1. **Jij:** Zeg: volgende missie. Kies een onderwerp en een periode (bv. de laatste twee maanden).
+2. **De coach:** zegt vooraf dat mails die de AI opent, op gelezen komen te staan. Er wordt niets verstuurd, verwijderd of verplaatst.
+3. **Jij:** Laat Work Outlook.com openen in de ingebouwde browser en log zelf in; de AI vult nooit je wachtwoord in.
+4. **Jij:** Stel zelf de vraag voor de tijdlijn.
+5. **De coach:** verbetert je vraag: welk onderwerp, welke periode, in welke vorm (per datum, per conclusie).
+6. **De coach:** zoekt met een datumfilter, zoals `received:<van>..<tot> "<onderwerp>"`, leest de mails en bouwt de tijdlijn in de projectmap.
+7. **Jij:** Lukt de browser niet: bewaar de mails als bestand in de projectmap of plak de tekst in de chat. De coach maakt de tijdlijn daaruit.
 
 ### Met een werkaccount
 
-1. Is de Outlook-app gekoppeld (missie 3), dan zoekt de AI via die app in plaats van via de browser.
+1. **De coach:** zoekt via de Outlook-app in plaats van via de browser, als je die in missie 3 koppelde.
 
 ## Route Claude
 
-1. Zeg: volgende missie. Kies een onderwerp en een periode.
-2. Persoonlijk account: bewaar de mails als bestand in de projectmap of plak de tekst in de chat.
-3. Cowork bouwt de tijdlijn in de projectmap: per datum de afzender, wat beslist of gevraagd werd, en de open punten.
+1. **Jij:** Zeg: volgende missie. Kies een onderwerp en een periode.
+2. **Jij:** Persoonlijk account: bewaar de mails als bestand in de projectmap of plak de tekst in de chat.
+3. **Jij:** Stel zelf de vraag voor de tijdlijn.
+4. **De coach:** verbetert je vraag en laat Cowork daarna de tijdlijn in de projectmap bouwen: per datum de afzender, wat beslist of gevraagd werd, en de open punten.
 
 ### Met een werkaccount
 
-1. Is de Microsoft 365-connector gekoppeld (missie 3), dan zoekt Claude via de connector in je mail.
+1. **De coach:** zoekt via de Microsoft 365-connector in je mail, als je die in missie 3 koppelde.
 
 ## Klaar als
 
