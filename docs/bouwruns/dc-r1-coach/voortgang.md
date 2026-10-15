@@ -28,3 +28,8 @@
 ## Sessie 6 (15/10/2026)
 - C13 klaar: `README.md` herschreven zonder slash-commando's: installeren in ChatGPT (pakket in OneDrive op Altijd op dit apparaat, Work, Plugins > Add > Add a marketplace `BinaryBjorn/debug-coach`, debug-coach en mijn-vaardigheden onder Personal, "start") en in Claude (Customize > Plugins > Add marketplace), de werkmap, de coachcode, wat je zegt, updates (Upgrade + Refresh, Check for updates). Beslissing 19.
 - Tests: C13 en BASIS groen. Nog open: C06 en C09 afvinken (slagen al), C01 geblokkeerd (V1).
+
+## Sessie 7 (15/10/2026, keurder ronde 1)
+- C02 terug op klaar: `templates/ik/profiel.md` is app-neutraal ("De coach leest dit", "hoe de AI voor jou schrijft"). Het pakket in `dist/` is opnieuw gebouwd en nagekeken.
+- C01 terug op geblokkeerd met reden: enkel het wissen van het oude root-manifest ontbreekt, en dat weigert de hook. Uitweg buiten de run: `git rm` van dat bestand (zie roadblocks.md).
+- Tests: C02 en BASIS groen, C01 1 van 2 groen. De andere keurbevindingen (C03 enz.) zijn voor een volgende sessie.

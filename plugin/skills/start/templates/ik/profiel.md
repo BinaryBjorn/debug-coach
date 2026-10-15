@@ -4,7 +4,7 @@ status: leeg
 last-reviewed: TODO
 ---
 
-> **Wat is dit?** Wie je bent. Claude leest dit elke keer, zodat je jezelf niet telkens opnieuw moet uitleggen. Gevuld in missie 1; je mag het altijd aanpassen.
+> **Wat is dit?** Wie je bent. De coach leest dit elke keer, zodat je jezelf niet telkens opnieuw moet uitleggen. Gevuld in missie 1; je mag het altijd aanpassen.
 
 ## Rol
 
@@ -33,7 +33,7 @@ Platform: `chatgpt` of `claude`. Account: `werk` of `persoonlijk`. Coachcode: de
 
 status: leeg
 
-[TODO: hoe Claude voor jou schrijft: taal, toon, lengte]
+[TODO: hoe de AI voor jou schrijft: taal, toon, lengte]
 
 ## Bronnen
 

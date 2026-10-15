@@ -7,8 +7,8 @@
       "acceptatie": "plugin/plugin.json (portable schema-URL, name debug-coach, version, description) en plugin/.claude-plugin/plugin.json hebben dezelfde name, version en description; .claude-plugin/marketplace.json in de root wijst met source ./plugin naar de plugin; de oude skills/, missies/ en .claude-plugin/plugin.json in de root zijn verhuisd naar plugin/",
       "check": "python3 tests/feature.py C01",
       "passes": false,
-      "status": "open",
-      "reden": "keurder ronde 1: python3 tests/feature.py C01 faalt op tests/test_coach.py:178 omdat .claude-plugin/plugin.json (oud, v0.1.0) nog in de root staat; terecht geblokkeerd door de hook op '.claude', uitweg buiten de run: git rm .claude-plugin/plugin.json; de rest van C01 klopt.",
+      "status": "geblokkeerd",
+      "reden": "enkel tests/test_coach.py:178 faalt: het oude root-manifest .claude-plugin/plugin.json (v0.1.0) moet weg, maar de run-hook weigert elk schrijf- of wiscommando met '.claude' in het pad (bevestigd door de keurder in ronde 1). Uitweg buiten de run: git rm .claude-plugin/plugin.json && git commit; daarna slaagt C01 (de rest is nagekeken en klopt). Zie roadblocks.md en V1.",
       "pogingen": 2
     },
     {
@@ -17,9 +17,9 @@
       "titel": "Werkmap-templates compleet",
       "acceptatie": "plugin/skills/start/templates bevat CLAUDE.md en AGENTS.md (dezelfde coachregels en standregel), ik/profiel.md met de vier werkwijzeregels uit missie-formaat.md (Platform, Account, Coachcode, Tools op [TODO]), voortgang.md met 7 missies en een lege ladder-tabel in het gedeelde formaat, feedback.md (kolommen missie, datum, onduidelijk, vastgelopen, wat de coach zag), successen.md, projecten/README.md; voortgang.md heeft per missie een rij die begint met '| N. ' (N = 1 tot 7)",
       "check": "python3 tests/feature.py C02",
-      "passes": false,
-      "status": "open",
-      "reden": "keurder ronde 1: plugin/skills/start/templates/ik/profiel.md:7 ('Claude leest dit elke keer') en :36 ('hoe Claude voor jou schrijft') staan ook in het ChatGPT-werkmappakket (dist/debug-coach-werkmap/ik/profiel.md) en noemen de verkeerde app; maak ze app-neutraal ('de coach' of 'de AI').",
+      "passes": true,
+      "status": "klaar",
+      "reden": "keurder ronde 1 hersteld: profiel.md:7 zegt nu 'De coach leest dit', :36 'hoe de AI voor jou schrijft'; dist opnieuw gebouwd en nagekeken.",
       "pogingen": 0
     },
     {
