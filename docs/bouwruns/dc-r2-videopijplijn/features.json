@@ -28,8 +28,8 @@
       "titel": "Inzoomen en klikcirkel",
       "acceptatie": "elke stap met een zoomdoel heeft in plan.json zoomfactor 1.8; elke stap met een klik heeft cirkel [x, y, t] in uitvoercoördinaten (binnen 1920x1080) met t binnen de stap; tussen de kliks 1x; de keurder bekijkt kaders rond een klik",
       "check": "python3 tests/feature.py V03",
-      "passes": false,
-      "status": "open",
+      "passes": true,
+      "status": "klaar",
       "reden": "",
       "pogingen": 0
     },
@@ -50,8 +50,8 @@
       "titel": "Ondertitels",
       "acceptatie": "uit/<slug>.vtt heeft één cue per stap met de gesproken tekst en de tijden uit het plan; de mp4 heeft een mov_text-spoor met dezelfde cues",
       "check": "python3 tests/feature.py V05",
-      "passes": false,
-      "status": "open",
+      "passes": true,
+      "status": "klaar",
       "reden": "",
       "pogingen": 0
     },
