@@ -28,8 +28,8 @@
       "titel": "start: werkmap + missie 1 in beide apps",
       "acceptatie": "plugin/skills/start/SKILL.md bevat de stappen inventaris, werkmap, missie 1, meter; vragen in de chat als standaard en het formulier enkel als extra; Platform invullen uit de app waarin hij draait; de coachcode vragen (8 tekens, staat op de startplanpagina) en anders [TODO] laten; de trainingsschakelaar per platform; de voortgangslink m1 of de zin zonder_code; nooit overschrijven; geen slash-commando",
       "check": "python3 tests/feature.py C03",
-      "passes": false,
-      "status": "open",
+      "passes": true,
+      "status": "klaar",
       "reden": "",
       "pogingen": 0
     },
@@ -39,8 +39,8 @@
       "titel": "Zeven missiebestanden volgens het gedeelde formaat",
       "acceptatie": "plugin/missies/missie-01.md tot missie-07.md volgen missie-formaat.md exact (frontmatter missie, titel, video; de zeven koppen in volgorde; foutsubkoppen ChatGPT en Claude); video-slugs zoals in de brief; missie 4 heeft een route zonder werkaccount; missie 5 noemt audio uploaden; missie 7 maakt een eigen- skill in mijn-vaardigheden (ChatGPT) of uploadt ze via Customize > Skills (Claude); Nederlands, geen em dash, geen slash-commando",
       "check": "python3 tests/feature.py C04",
-      "passes": false,
-      "status": "open",
+      "passes": true,
+      "status": "klaar",
       "reden": "",
       "pogingen": 0
     },
