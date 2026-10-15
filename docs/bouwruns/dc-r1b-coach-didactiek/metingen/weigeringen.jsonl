@@ -1,1 +1,13 @@
 {"tijd": "2026-10-15T21:42:37", "rol": "bouwer", "reden": "dit commando raakt een beschermd pad (tests); enkel lezen mag"}
+{"tijd": "2026-10-15T21:58:52", "rol": "keurder", "reden": "enkel Bjorn tekent een contract; opnieuw tekenen kan niet vanuit een run"}
+{"tijd": "2026-10-15T22:00:53", "rol": "keurder", "reden": "dit commando raakt een beschermd pad (tests); enkel lezen mag"}
+{"tijd": "2026-10-15T22:01:56", "rol": "keurder", "reden": "lezen enkel in de kloon"}
+{"tijd": "2026-10-15T22:02:00", "rol": "keurder", "reden": "geen apps of URL's openen"}
+{"tijd": "2026-10-15T22:02:02", "rol": "keurder", "reden": "geen apps of URL's openen"}
+{"tijd": "2026-10-15T22:02:02", "rol": "keurder", "reden": "lezen enkel in de kloon"}
+{"tijd": "2026-10-15T22:02:05", "rol": "keurder", "reden": "geen apps of URL's openen"}
+{"tijd": "2026-10-15T22:02:06", "rol": "keurder", "reden": "geen apps of URL's openen"}
+{"tijd": "2026-10-15T22:02:17", "rol": "keurder", "reden": "lezen enkel in de kloon"}
+{"tijd": "2026-10-15T22:02:34", "rol": "keurder", "reden": "de keurder schrijft enkel in de runmap"}
+{"tijd": "2026-10-15T22:02:39", "rol": "keurder", "reden": "geen apps of URL's openen"}
+{"tijd": "2026-10-15T22:02:42", "rol": "keurder", "reden": "geen apps of URL's openen"}
