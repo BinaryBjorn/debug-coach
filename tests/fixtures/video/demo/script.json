@@ -1,0 +1,30 @@
+{
+  "slug": "demo",
+  "titel": "Demo voor de pijplijntest",
+  "platform": "chatgpt",
+  "app": "ChatGPT desktop (Work)",
+  "stappen": [
+    {
+      "id": "s01",
+      "handeling": "Klik op Work",
+      "tekst": "Eerst kies je bovenaan Work.",
+      "duur_s": 3
+    },
+    {
+      "id": "s02",
+      "handeling": "Typ de vraag",
+      "tekst": "Dan typ je wat je wil.",
+      "duur_s": 2,
+      "zoomdoel": [
+        360,
+        255
+      ]
+    },
+    {
+      "id": "s03",
+      "handeling": "Klik op versturen",
+      "tekst": "En je verstuurt.",
+      "duur_s": 2
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Debug Coach videoscript (gedeeld tussen R1 en R2)",
+  "type": "object",
+  "required": [
+    "slug",
+    "titel",
+    "platform",
+    "app",
+    "stappen"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "titel": {
+      "type": "string",
+      "minLength": 3
+    },
+    "platform": {
+      "enum": [
+        "chatgpt",
+        "claude"
+      ]
+    },
+    "app": {
+      "type": "string",
+      "description": "de app die in beeld is, bv. 'ChatGPT desktop (Work)'"
+    },
+    "stappen": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "handeling",
+          "tekst",
+          "duur_s"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^s[0-9]{2}$"
+          },
+          "handeling": {
+            "type": "string",
+            "description": "wat Claude met Computer Use in de ChatGPT-app doet, in één zin"
+          },
+          "tekst": {
+            "type": "string",
+            "description": "de gesproken tekst van deze stap, ook de ondertitel"
+          },
+          "duur_s": {
+            "type": "number",
+            "minimum": 1,
+            "maximum": 60,
+            "description": "geschatte duur van de gesproken tekst; de testtoon heeft exact deze duur"
+          },
+          "zoomdoel": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 2,
+            "maxItems": 2,
+            "description": "terugval [x, y] in logische schermpunten als het log geen klik heeft voor deze stap; een klik uit het log wint altijd"
+          }
+        }
+      }
+    }
+  }
+}

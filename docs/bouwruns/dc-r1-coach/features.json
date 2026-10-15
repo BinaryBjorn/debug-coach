@@ -1,0 +1,147 @@
+{
+  "features": [
+    {
+      "id": "C01",
+      "scenario": "S5",
+      "titel": "Repo-indeling en twee manifesten",
+      "acceptatie": "plugin/plugin.json (portable schema-URL, name debug-coach, version, description) en plugin/.claude-plugin/plugin.json hebben dezelfde name, version en description; .claude-plugin/marketplace.json in de root wijst met source ./plugin naar de plugin; de oude skills/, missies/ en .claude-plugin/plugin.json in de root zijn verhuisd naar plugin/",
+      "check": "python3 tests/feature.py C01",
+      "passes": false,
+      "status": "open",
+      "reden": "",
+      "pogingen": 0
+    },
+    {
+      "id": "C02",
+      "scenario": "S1",
+      "titel": "Werkmap-templates compleet",
+      "acceptatie": "plugin/skills/start/templates bevat CLAUDE.md en AGENTS.md (dezelfde coachregels en standregel), ik/profiel.md met de vier werkwijzeregels uit missie-formaat.md (Platform, Account, Coachcode, Tools op [TODO]), voortgang.md met 7 missies en een lege ladder-tabel in het gedeelde formaat, feedback.md (kolommen missie, datum, onduidelijk, vastgelopen, wat de coach zag), successen.md, projecten/README.md; voortgang.md heeft per missie een rij die begint met '| N. ' (N = 1 tot 7)",
+      "check": "python3 tests/feature.py C02",
+      "passes": false,
+      "status": "open",
+      "reden": "",
+      "pogingen": 0
+    },
+    {
+      "id": "C03",
+      "scenario": "S1",
+      "titel": "start: werkmap + missie 1 in beide apps",
+      "acceptatie": "plugin/skills/start/SKILL.md bevat de stappen inventaris, werkmap, missie 1, meter; vragen in de chat als standaard en het formulier enkel als extra; Platform invullen uit de app waarin hij draait; de coachcode vragen (8 tekens, staat op de startplanpagina) en anders [TODO] laten; de trainingsschakelaar per platform; de voortgangslink m1 of de zin zonder_code; nooit overschrijven; geen slash-commando",
+      "check": "python3 tests/feature.py C03",
+      "passes": false,
+      "status": "open",
+      "reden": "",
+      "pogingen": 0
+    },
+    {
+      "id": "C04",
+      "scenario": "S2",
+      "titel": "Zeven missiebestanden volgens het gedeelde formaat",
+      "acceptatie": "plugin/missies/missie-01.md tot missie-07.md volgen missie-formaat.md exact (frontmatter missie, titel, video; de zeven koppen in volgorde; foutsubkoppen ChatGPT en Claude); video-slugs zoals in de brief; missie 4 heeft een route zonder werkaccount; missie 5 noemt audio uploaden; missie 7 maakt een eigen- skill in mijn-vaardigheden (ChatGPT) of uploadt ze via Customize > Skills (Claude); Nederlands, geen em dash, geen slash-commando",
+      "check": "python3 tests/feature.py C04",
+      "passes": false,
+      "status": "open",
+      "reden": "",
+      "pogingen": 0
+    },
+    {
+      "id": "C05",
+      "scenario": "S2",
+      "titel": "missie: begeleiden, route, afronden",
+      "acceptatie": "plugin/skills/missie/SKILL.md: meter tonen, volgende open missie voorstellen en overslaan toelaten, route uit Platform en Account (enkel vragen bij [TODO]), coachstand volgen, Klaar als controleren, één rij successen en één rij feedback aanvullen, één keer een lagere stand voorstellen, de voortgangslink m<N> of de zin zonder_code; geen slash-commando",
+      "check": "python3 tests/feature.py C05",
+      "passes": false,
+      "status": "open",
+      "reden": "",
+      "pogingen": 0
+    },
+    {
+      "id": "C06",
+      "scenario": "S3",
+      "titel": "Vastlopen per platform",
+      "acceptatie": "elke missie heeft onder Wat kan hier fout gaan minstens drie items onder ### ChatGPT en twee onder ### Claude in de vorm '- **probleem:** oplossing'",
+      "check": "python3 tests/feature.py C06",
+      "passes": false,
+      "status": "open",
+      "reden": "",
+      "pogingen": 0
+    },
+    {
+      "id": "C07",
+      "scenario": "S4",
+      "titel": "De uitdagingenladder",
+      "acceptatie": "plugin/skills/uitdaging/ladder.md heeft vijf niveaus met soort en voorbeeld zoals in de brief; SKILL.md verwijst naar de open missies zolang missie 7 niet klaar is, kiest het niveau volgens de ladderregels in missie-formaat.md (na 5 blijft 5, trede loopt door), weigert een zin of combinatie dossier+soort die al in het log staat, voegt een rij toe aan de ladder-tabel en geeft de link t<trede>; ladder.md heeft vijf koppen '## Niveau 1' tot '## Niveau 5'; SKILL.md noemt de kop '## Ladder' in voortgang.md en de regel dat het na niveau 5 bij niveau 5 blijft",
+      "check": "python3 tests/feature.py C07",
+      "passes": false,
+      "status": "open",
+      "reden": "",
+      "pogingen": 0
+    },
+    {
+      "id": "C08",
+      "scenario": "S2",
+      "titel": "Coach in drie standen + uitleg",
+      "acceptatie": "plugin/skills/coach/SKILL.md zet de regel '**Stand:** uitgebreid|kort|uit' in CLAUDE.md en AGENTS.md van de werkmap; plugin/skills/uitleg/SKILL.md legt uit in de vorm één zin, 'Denk eraan als:', voorbeeld uit het profiel, één tip, max 150 woorden, in elke stand; de regel waarschuwen vóór iets onomkeerbaars (versturen, verwijderen, overschrijven) staat in de templates voor elke stand",
+      "check": "python3 tests/feature.py C08",
+      "passes": false,
+      "status": "open",
+      "reden": "",
+      "pogingen": 0
+    },
+    {
+      "id": "C09",
+      "scenario": "S2",
+      "titel": "Voortgangslink volgens de gedeelde fixture",
+      "acceptatie": "elke link die in plugin/ voorkomt, voldoet aan basis, regex_s en regex_k van tests/fixtures/gedeeld/voortgangslink.json (met een voorbeeldcode), en start, missie en uitdaging bevatten de zin zonder_code letterlijk; de hash van de fixture klopt",
+      "check": "python3 tests/feature.py C09",
+      "passes": false,
+      "status": "open",
+      "reden": "",
+      "pogingen": 0
+    },
+    {
+      "id": "C10",
+      "scenario": "S5",
+      "titel": "Updates raken de gebruiker niet",
+      "acceptatie": "start schrijft een template enkel als het bestand ontbreekt; geen skill bevat een instructie om ik/, projecten/, feedback.md, successen.md, voortgang.md of mijn-vaardigheden te overschrijven of te wissen; docs/updates.md beschrijft updaten in ChatGPT (de coach komt via Add a marketplace met BinaryBjorn/debug-coach; updaten via Instellingen > Plugins > Marketplace > Upgrade, daarna Refresh) en in Claude (Check for updates), en zegt dat mijn-vaardigheden nooit door een update geraakt wordt",
+      "check": "python3 tests/feature.py C10",
+      "passes": false,
+      "status": "open",
+      "reden": "",
+      "pogingen": 0
+    },
+    {
+      "id": "C11",
+      "scenario": "S7",
+      "titel": "Zes videoscripts + opnameopdrachten",
+      "acceptatie": "videos/{welkom,klaarzetten,missie-3,missie-5,missie-7,coach-uitzetten}/script.json zijn geldig volgens script.schema.json met platform chatgpt; elke opname.md is een opdracht voor Claude met Computer Use (op de mini, demo-account, enkel nepdata in beeld): ChatGPT-venster vooraan, opname van enkel dat gebied met screencapture -v -R, tijdstip vóór elke klik, start_video_gemeten meten aan de eerste beeldwissel, ruw/opname.mov en ruw/log.json in de vorm van log.schema.json, een stap-id per handeling; .gitignore sluit videos/*/ruw/ en videos/*/uit/ uit",
+      "check": "python3 tests/feature.py C11",
+      "passes": false,
+      "status": "open",
+      "reden": "",
+      "pogingen": 0
+    },
+    {
+      "id": "C12",
+      "scenario": "S1",
+      "titel": "Werkmappakket met mijn-vaardigheden",
+      "acceptatie": "python3 scripts/bouw_werkmap.py maakt dist/debug-coach-werkmap/ met alle templates, een lege lokale plugin .coach/mijn-vaardigheden/ (plugin.json met name mijn-vaardigheden, skills/README.md die uitlegt wat er komt), .agents/plugins/marketplace.json (catalogusnaam mijn-werkmap, plugin mijn-vaardigheden) die naar ./.coach/mijn-vaardigheden wijst, en dist/debug-coach-werkmap.zip; de coach zelf zit niet in het pakket (die komt via GitHub); dist/ staat in .gitignore",
+      "check": "python3 tests/feature.py C12",
+      "passes": false,
+      "status": "open",
+      "reden": "",
+      "pogingen": 0
+    },
+    {
+      "id": "C13",
+      "scenario": "S1",
+      "titel": "README",
+      "acceptatie": "README.md beschrijft installeren in ChatGPT (werkmappakket in OneDrive op altijd op dit apparaat, openen in Work, Plugins > Add > Add a marketplace met BinaryBjorn/debug-coach, debug-coach installeren, mijn-vaardigheden installeren onder Personal, 'start' zeggen) en in Claude (Customize, Plugins, Add marketplace met BinaryBjorn/debug-coach), de werkmap, de coachcode en updates (Upgrade in ChatGPT, Check for updates in Claude); geen slash-commando's",
+      "check": "python3 tests/feature.py C13",
+      "passes": false,
+      "status": "open",
+      "reden": "",
+      "pogingen": 0
+    }
+  ]
+}

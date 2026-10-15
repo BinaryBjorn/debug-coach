@@ -1,0 +1,25 @@
+{
+  "slug": "dc-r2-videopijplijn",
+  "outputtype": "feature",
+  "werkmap": "docs/bouwruns/dc-r2-videopijplijn",
+  "beschermd": [
+    "tests/**",
+    "docs/bouwruns/dc-r2-videopijplijn/bronnen/**"
+  ],
+  "basistest": "python3 tests/feature.py BASIS",
+  "check_timeout": 600,
+  "budget": {
+    "max_uren": 4,
+    "max_sessies": 12,
+    "features_per_sessie": 2,
+    "max_usd_per_sessie": 25,
+    "max_minuten_per_sessie": 60
+  },
+  "modellen": {
+    "bouwer": "opus",
+    "keurder": "opus",
+    "pakket": "sonnet"
+  },
+  "keurrondes": 2,
+  "r6_observe_sessies": 3
+}

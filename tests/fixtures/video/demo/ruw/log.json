@@ -1,0 +1,13 @@
+{
+  "scherm": {"breedte": 1352, "hoogte": 878, "schaal": 2},
+  "gebied": {"x": 0, "y": 30, "breedte": 720, "hoogte": 450},
+  "opname": {"start_commando": 999.71, "start_video_gemeten": 1000.0},
+  "events": [
+    {"t": 1001.0, "stap": "s01", "handeling": "start"},
+    {"t": 1002.0, "stap": "s01", "handeling": "klik", "x": 100, "y": 110},
+    {"t": 1005.0, "stap": "s02", "handeling": "typ", "tekst": "Hallo coach"},
+    {"t": 1007.5, "stap": "s02", "handeling": "typ", "tekst": "Hallo coach"},
+    {"t": 1012.0, "stap": "s03", "handeling": "klik", "x": 800, "y": 500},
+    {"t": 1012.4, "stap": "s03", "handeling": "einde"}
+  ]
+}

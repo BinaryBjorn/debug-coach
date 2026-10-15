@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Kliklog van een opname door Claude Computer Use (videos/<slug>/ruw/log.json); vorm bewezen in proef P5 van 15/10/2026",
+  "type": "object",
+  "required": ["scherm", "gebied", "opname", "events"],
+  "properties": {
+    "scherm": {
+      "type": "object", "required": ["breedte", "hoogte", "schaal"],
+      "properties": {
+        "breedte": {"type": "number", "description": "logische punten van het hoofdscherm"},
+        "hoogte": {"type": "number"},
+        "schaal": {"type": "number", "description": "pixels per punt in de opname (2 op Retina, 1 op de mini)"}
+      }
+    },
+    "gebied": {
+      "type": "object", "required": ["x", "y", "breedte", "hoogte"],
+      "description": "het opgenomen gebied (screencapture -R) in logische punten; de opname is breedte x schaal bij hoogte x schaal pixels",
+      "properties": {"x": {"type": "number"}, "y": {"type": "number"}, "breedte": {"type": "number"}, "hoogte": {"type": "number"}}
+    },
+    "opname": {
+      "type": "object", "required": ["start_commando", "start_video_gemeten"],
+      "properties": {
+        "start_commando": {"type": "number", "description": "epoch-seconden waarop screencapture gestart werd"},
+        "start_video_gemeten": {"type": "number", "description": "epoch-seconden van het eerste beeld, gemeten aan de eerste beeldwissel na een klik (in P5: 0,29 s na het commando)"}
+      }
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object", "required": ["t", "stap", "handeling"],
+        "properties": {
+          "t": {"type": "number", "description": "epoch-seconden vlak vóór de handeling"},
+          "stap": {"type": "string", "pattern": "^s[0-9]{2}$"},
+          "handeling": {"enum": ["klik", "typ", "wacht", "start", "einde"]},
+          "x": {"type": "number", "description": "enkel bij klik: logische schermpunten (niet relatief aan het gebied)"},
+          "y": {"type": "number"},
+          "tekst": {"type": "string", "description": "enkel bij typ"}
+        }
+      }
+    }
+  },
+  "_regels": {
+    "bestanden": "ruwe opname: videos/<slug>/ruw/opname.mov; log: videos/<slug>/ruw/log.json; uitvoer: videos/<slug>/uit/<slug>.mp4 en <slug>.vtt",
+    "tijd": "videotijd van een event = t - opname.start_video_gemeten",
+    "handelingsduur": "per stap: van het eerste tot het laatste event van die stap (in videotijd), plus 0,5 s",
+    "stapduur": "max(duur_s van de stem, handelingsduur); is de stem langer, dan bevriest het laatste kader van de stap",
+    "zoom": "een klik uit het log wint; zonder klik het zoomdoel uit het script; zonder beide geen zoom; pixel in de opname = (x - gebied.x) x schaal, (y - gebied.y) x schaal, begrensd zodat het ingezoomde venster (opnamebreedte / 1,8) binnen de opname blijft",
+    "fps": "de opname mag een andere beeldsnelheid hebben (P5: 120 fps); de uitvoer is altijd 30 fps"
+  }
+}

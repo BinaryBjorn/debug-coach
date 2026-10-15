@@ -1,0 +1,30 @@
+{
+  "name": "Debug Marketing",
+  "slug": "debug-marketing",
+  "colors": {
+    "primary": "#0B1628",
+    "primary_mid": "#1A2D4A",
+    "secondary": "#2C4A7C",
+    "secondary_light": "#3D6098",
+    "accent": "#4A7CC9",
+    "background": "#0B1628",
+    "background_gradient": "linear-gradient(135deg, #0B1628 0%, #1A2D4A 100%)",
+    "background_light": "#F5F5F7",
+    "text": "#FFFFFF",
+    "text_muted": "#B0BEC5",
+    "code_bg": "#0D1B2F",
+    "negative": "#FF6B7A",
+    "positive": "#5CDB7F"
+  },
+  "fonts": {
+    "heading": "Inter",
+    "body": "Inter",
+    "mono": "JetBrains Mono"
+  },
+  "logo": "../../assets/images/BB_Icon_White.svg",
+  "author": {
+    "name": "Bjorn Van den Broeck",
+    "photo": "../../assets/images/bjorn-headshot.png"
+  },
+  "branding_text": "DEBUG.MARKETING"
+}

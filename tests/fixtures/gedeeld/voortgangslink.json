@@ -1,0 +1,25 @@
+{
+  "_over": "Gedeeld formaat tussen de coach (debug-coach, R1) en de site (website-debug-marketing, R3). Byte-gelijk in beide repo's; beide contracten noemen de sha256.",
+  "basis": "https://debug.marketing/coach/v",
+  "parameters": {
+    "s": "de stap: m1 tot m7 voor een missie, t1, t2, ... voor een trede van de ladder (geen bovengrens)",
+    "k": "de coachcode van de gebruiker: precies 8 tekens uit [a-z0-9], gemaakt door de site, getoond op de startplanpagina en in het profiel gezet door de skill start"
+  },
+  "regex_s": "^(m[1-7]|t[1-9][0-9]{0,2})$",
+  "regex_k": "^[a-z0-9]{8}$",
+  "geldig": [
+    "https://debug.marketing/coach/v?s=m1&k=ab12cd34",
+    "https://debug.marketing/coach/v?s=m7&k=zz99zz99",
+    "https://debug.marketing/coach/v?s=t1&k=ab12cd34",
+    "https://debug.marketing/coach/v?s=t12&k=ab12cd34"
+  ],
+  "ongeldig": [
+    "https://debug.marketing/coach/v?s=m8&k=ab12cd34",
+    "https://debug.marketing/coach/v?s=t0&k=ab12cd34",
+    "https://debug.marketing/coach/v?s=m1&k=AB12CD34",
+    "https://debug.marketing/coach/v?s=m1&k=ab12cd3",
+    "https://debug.marketing/coach/v?m=m1&k=ab12cd34",
+    "https://debug.marketing/coach/v?s=m1"
+  ],
+  "zonder_code": "Heeft het profiel geen coachcode ([TODO]), dan geeft de coach geen link maar de zin: 'Vul je coachcode in je profiel in (staat op je startplanpagina), dan kan ik je voortgang doorgeven.'"
+}

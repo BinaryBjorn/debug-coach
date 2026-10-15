@@ -1,0 +1,26 @@
+{
+  "slug": "dc-r1-coach",
+  "outputtype": "feature",
+  "werkmap": "docs/bouwruns/dc-r1-coach",
+  "beschermd": [
+    "tests/**",
+    "docs/bouwruns/dc-r1-coach/bronnen/**",
+    "docs/bouwruns/dc-r2-videopijplijn/**"
+  ],
+  "basistest": "python3 tests/feature.py BASIS",
+  "check_timeout": 300,
+  "budget": {
+    "max_uren": 5,
+    "max_sessies": 16,
+    "features_per_sessie": 2,
+    "max_usd_per_sessie": 25,
+    "max_minuten_per_sessie": 60
+  },
+  "modellen": {
+    "bouwer": "opus",
+    "keurder": "opus",
+    "pakket": "sonnet"
+  },
+  "keurrondes": 2,
+  "r6_observe_sessies": 3
+}

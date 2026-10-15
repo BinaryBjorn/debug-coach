@@ -1,0 +1,10 @@
+{
+  "scherm": {"breedte": 1352, "hoogte": 878, "schaal": 2},
+  "gebied": {"x": 0, "y": 30, "breedte": 805, "hoogte": 720},
+  "opname": {"bestand": "opname.mov", "start_commando": 1792079252.987, "start_video_gemeten": 1792079253.28, "duur": 35.015, "pixels": "1610x1440", "fps": 120},
+  "events": [
+    {"t": 1792079255.031, "stap": "s01", "handeling": "klik New chat", "x": 122.2, "y": 140.9},
+    {"t": 1792079259.222, "stap": "s02", "handeling": "klik invoerveld + typ 'Hallo coach' (niet verstuurd)", "x": 571.5, "y": 402.1},
+    {"t": 1792079263.537, "stap": "s03", "handeling": "klik Plugins (linkerbalk)", "x": 25.6, "y": 275.9}
+  ]
+}
