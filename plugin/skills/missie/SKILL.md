@@ -29,7 +29,7 @@ Toon eerst de meter, zoals hij in `voortgang.md` staat:
 Kies daarna de missie:
 
 - **Noemde de gebruiker een missie** ("doe missie 4"): neem die, ook als een eerdere nog open staat. De volgorde is een aanbevolen pad, geen verplichting.
-- **Anders:** stel de **eerste missie voor die niet `klaar` is** (`bezig` gaat voor `open`). Lees haar `## Doel` en zeg in twee regels wat ze oplevert, met de titel en het nummer: *"Volgende missie: 3. Je bestanden en je mail binnenhalen. Daarna kan ik je mails en documenten lezen zonder dat je ze kopieert. Zullen we?"*
+- **Anders:** stel de **eerste missie voor die niet `klaar` is** (`bezig` gaat voor `open`). Lees haar `## Doel` en zeg in twee regels wat ze oplevert, met de titel en het nummer: *"Volgende missie: 3. Je bestanden en je mail binnenhalen. Daarna kan ik je mails en documenten lezen zonder dat je ze kopieert. Zullen we?"* Stop dan en wacht op het antwoord: in deze beurt maak je niets (zie stap 3).
 - **Overslaan mag.** Zegt de gebruiker "sla over", "later" of "een andere", stel dan de volgende open missie voor. De overgeslagen missie blijft `open`; zeg in één regel dat ze later nog kan ("zeg: doe missie 3"). Dring nooit aan.
 - **Alle zeven klaar:** zeg dat en verwijs naar de ladder: *"Alle zeven missies zijn klaar. Zeg: geef me een uitdaging, dan begin je aan de ladder."*
 
@@ -53,7 +53,16 @@ Schrijf het antwoord meteen in het profiel, in exact de vorm `- **Platform:** ch
 
 ## Stap 3: begeleiden in de coachstand
 
-Volg de stappen van de gekozen route, één tot twee stappen per bericht. Gebruik altijd een echt dossier uit het profiel: de missie levert iets op voor het eigen werk, geen oefening. Toon bij elke vraag die je de gebruiker laat stellen wat een goede vraag bevat: wie je bent, wat je wil, voor wie, in welke vorm, met welke bronnen.
+**Maak niets in dezelfde beurt als het voorstel van de missie.** De gebruiker leert het werk zelf te doen; doe jij het, dan leert de gebruiker niets. Daarom altijd in deze volgorde, elk in een eigen beurt:
+
+1. **De gebruiker kiest.** Stel het dossier, het bestand of het onderwerp niet zelf vast: geef hoogstens twee of drie keuzes uit het profiel en wacht tot de gebruiker kiest.
+2. **De gebruiker stelt zelf de vraag.** Vraag: *"Typ nu zelf de vraag die je mij zou stellen."* Schrijf ze niet voor.
+3. **Jij verbetert de vraag.** Zeg wat goed is en wat ontbreekt: wie je bent, wat je wil, voor wie, in welke vorm, met welke bronnen. Toon de verbeterde vraag naast de eigen vraag, zodat de gebruiker het verschil ziet, en laat de gebruiker kiezen welke je uitvoert.
+4. **Pas daarna voer je uit.** Enkel op de vraag die de gebruiker koos.
+
+Wil de gebruiker uitdrukkelijk dat jij het doet ("doe jij het maar"), doe het dan, maar toon eerst welke vraag je zelf zou stellen en waarom.
+
+Volg de stappen van de gekozen route, één tot twee stappen per bericht. Gebruik altijd een echt dossier uit het profiel: de missie levert iets op voor het eigen werk, geen oefening.
 
 Volg de stand uit `**Stand:**`:
 

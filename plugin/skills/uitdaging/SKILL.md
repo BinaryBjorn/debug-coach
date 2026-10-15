@@ -66,7 +66,9 @@ Trede `T`, niveau `N` (1 tot 5), de datum van vandaag.
 
 ## Stap 4: afronden
 
-Begeleid de uitdaging zoals een missie. Is ze klaar (controleer zelf in de werkmap of in het gesprek wat er moest liggen):
+Begeleid de uitdaging zoals een missie, met dezelfde regel: **maak niets in dezelfde beurt als het voorstel van de uitdaging.** Toon de uitdaging en wacht. De gebruiker kiest het bestand of het onderwerp en stelt zelf de vraag; jij verbetert die vraag (wie, wat, voor wie, vorm, bronnen) en voert pas daarna uit, op de vraag die de gebruiker koos.
+
+Is ze klaar (controleer zelf in de werkmap of in het gesprek wat er moest liggen):
 
 - Zet in die rij de kolom Klaar op `ja`.
 - Vul `successen.md` aan met één regel: `- **DD/MM/YYYY, trede T:** <de vraag die werkte> → <wat eruit kwam>`. Geen inhoud uit mails of documenten.

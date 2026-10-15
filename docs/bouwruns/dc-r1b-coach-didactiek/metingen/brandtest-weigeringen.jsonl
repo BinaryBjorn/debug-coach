@@ -1,0 +1,4 @@
+{"tijd": "2026-10-15T21:41:37", "rol": "brandtest", "reden": "in features.json mag je enkel notitie, passes, pogingen, reden, status aanpassen"}
+{"tijd": "2026-10-15T21:41:37", "rol": "brandtest", "reden": "pushen doet enkel het startscript"}
+{"tijd": "2026-10-15T21:41:37", "rol": "brandtest", "reden": "web enkel via de subagent onderzoeker (die kan de vault niet lezen)"}
+{"tijd": "2026-10-15T21:41:38", "rol": "brandtest", "reden": "curl en wget enkel naar de lokale testserver (localhost of 127.0.0.1)"}
