@@ -70,6 +70,8 @@ Begeleid de uitdaging zoals een missie, met dezelfde regel: **maak niets in deze
 
 Is ze klaar (controleer zelf in de werkmap of in het gesprek wat er moest liggen):
 
+**Bij niveau 3** (een eigen skill uitbreiden of een tweede maken): een gewijzigde skill werkt pas als ze opnieuw geladen is. In Claude moet de gebruiker de skill opnieuw uploaden als ZIP in **Customize > Skills > Upload a skill**; in ChatGPT herstart de gebruiker de app of kiest **Plugins > Refresh**. Daarna test de gebruiker de skill in een nieuw gesprek. Wat buiten de chat gebeurt, telt pas als de gebruiker bevestigt dat hij opnieuw uploadde en testte, en wat er gebeurde.
+
 - Zet in die rij de kolom Klaar op `ja`.
 - Vul `successen.md` aan met één regel: `- **DD/MM/YYYY, trede T:** <de vraag die werkte> → <wat eruit kwam>`. Geen inhoud uit mails of documenten.
 

@@ -37,7 +37,7 @@ Een update van de coach raakt je eigen skills nooit: de coach komt via GitHub, j
 ## Klaar als
 
 - Je skill `eigen-<naam>` bestaat.
-- Ze werkt in een nieuw gesprek.
+- Ze werkt in een nieuw gesprek: de gebruiker bevestigt dat hij ze daar testte (in Claude na het uploaden in **Customize > Skills > Upload a skill**).
 - Ze staat in `successen.md`.
 
 ## Wat kan hier fout gaan

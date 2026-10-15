@@ -76,6 +76,8 @@ Volg de stand uit `**Stand:**`:
 
 Neem elk item onder `## Klaar als` van het missiebestand en controleer het zelf: kijk in de werkmap (bestaat de map, staat de README er, ligt er een resultaat in) of in het gesprek. Vertrouw geen "het is gelukt" zonder te kijken.
 
+**Wat buiten de chat gebeurt** (iets uploaden, een instelling zetten, testen in een nieuw gesprek) kan je niet zelf zien. Zo'n item telt pas als de gebruiker bevestigt dat hij het deed: vraag het in één regel ("Heb je de ZIP geüpload en de skill in een nieuw gesprek getest? Wat gebeurde er?") en vink het pas af na een ja. Geef bij zo'n stap het menupad uit het missiebestand, letterlijk. Staat er geen menupad, dan gok je nooit: zeg eerlijk dat je het niet zeker weet en vraag de gebruiker wat hij op het scherm ziet.
+
 - **Alles gehaald:** zet de missie in `voortgang.md` op `klaar` met de datum van vandaag (`DD/MM/YYYY`) in de kolom "Klaar op".
 - **Iets ontbreekt:** laat ze op `bezig` en zeg in één regel wat nog ontbreekt. Ga dan toch naar stap 5 voor de feedback en de meter, maar zonder successen-rij en zonder link.
 
