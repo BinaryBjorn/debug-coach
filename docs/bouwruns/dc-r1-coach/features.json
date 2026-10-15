@@ -28,9 +28,9 @@
       "titel": "start: werkmap + missie 1 in beide apps",
       "acceptatie": "plugin/skills/start/SKILL.md bevat de stappen inventaris, werkmap, missie 1, meter; vragen in de chat als standaard en het formulier enkel als extra; Platform invullen uit de app waarin hij draait; de coachcode vragen (8 tekens, staat op de startplanpagina) en anders [TODO] laten; de trainingsschakelaar per platform; de voortgangslink m1 of de zin zonder_code; nooit overschrijven; geen slash-commando",
       "check": "python3 tests/feature.py C03",
-      "passes": false,
-      "status": "open",
-      "reden": "keurder ronde 1: start op werkmap-missie7 (7/7) sluit volgens SKILL.md:211 af met 'Volgende missie: je eerste project', en start op een werkmap met gevuld profiel zonder voortgang.md (werkmap-claude-werk) stelt de vijf vragen opnieuw en herschrijft het profiel (SKILL.md:18, :147, :163), tegen 'nooit overschrijven'.",
+      "passes": true,
+      "status": "klaar",
+      "reden": "keurder ronde 1 hersteld: inventaris ziet ook een los profiel als bestaande werkmap (geen vragen opnieuw, gevulde secties blijven staan), en de volgende stap komt uit de meter (7/7 verwijst naar de ladder).",
       "pogingen": 0
     },
     {

@@ -15,12 +15,13 @@ De skill heeft vier stappen: **0 inventaris, 1 werkmap, 2 missie 1, 3 meter**. S
 
 Kijk in de werkmap (de map die de app opende):
 
-- **Leeg, of geen werkmap van Debug Coach** (geen `voortgang.md`): een nieuwe start. Ga naar stap 1.
-- **De werkmap bestaat al** (`voortgang.md` staat er): dit is een tweede keer. **Overschrijf nooit iets.**
+- **Leeg, of geen werkmap van Debug Coach** (geen `voortgang.md` en geen `ik/profiel.md`): een nieuwe start. Ga naar stap 1.
+- **De werkmap bestaat al, ook maar voor een deel** (`voortgang.md` of `ik/profiel.md` staat er): dit is een tweede keer. **Overschrijf nooit iets.**
   1. Schrijf enkel de templatebestanden die ontbreken (regels van stap 1) en zeg in één regel welke.
   2. Lees `voortgang.md` en `ik/profiel.md`.
-  3. Missie 1 niet `klaar`: zeg dat in één regel en bied aan om ze af te werken (stap 2, enkel voor wat nog `leeg` of `[TODO]` is).
-  4. Missie 1 `klaar`: doe ze niet opnieuw. Ga meteen naar stap 3 en wijs de volgende missie aan.
+  3. Bestond het profiel al, maar `voortgang.md` niet (net aangemaakt uit het template): het profiel telt. Een sectie op `gevuld` of `ontwerp` vraag je nooit opnieuw en schrijf je nooit opnieuw. Halen **Rol**, **Dossiers** en **Account** al `ontwerp` of `gevuld`, dan is enkel de trainingsschakelaar nog te bespreken (stap 2, enkel dat deel); daarna zet je missie 1 op `klaar`.
+  4. Missie 1 niet `klaar`: zeg dat in één regel en bied aan om ze af te werken (stap 2, enkel voor wat nog `leeg` of `[TODO]` is).
+  5. Missie 1 `klaar`: doe ze niet opnieuw. Ga meteen naar stap 3 en wijs de volgende missie aan.
 - **De map bevat andere bestanden** (geen werkmap): geen probleem, bouw ernaast en zeg dat in één regel.
 
 Mappen die met een punt beginnen (`.coach/`, `.agents/`) komen uit het werkmappakket: daar staan de eigen vaardigheden van de gebruiker. Raak ze nooit aan.
@@ -59,7 +60,7 @@ Vraag dit niet. Je weet in welke app je draait: ben je ChatGPT (Work), dan is he
 
 ### De vijf vragen: in de chat (standaard)
 
-Stel de vijf vragen in de chat, **één per bericht**, in deze volgorde. Vraag nooit opnieuw wat een eerder antwoord al zei. Lege antwoorden mogen: dan blijft dat deel `[TODO]`.
+Stel de vijf vragen in de chat, **één per bericht**, in deze volgorde. Vraag nooit opnieuw wat een eerder antwoord al zei, en sla een vraag over waarvan de sectie in het profiel al `gevuld` of `ontwerp` is. Lege antwoorden mogen: dan blijft dat deel `[TODO]`.
 
 1. **Rol:** wat is je functie, bij welk bedrijf, in welke sector? (Nog niet gestart in een nieuwe job? Beschrijf de rol waar je naartoe gaat.)
 2. **Dossiers:** met welke 3 tot 5 onderwerpen ben je elke week bezig?
@@ -144,7 +145,7 @@ Bespreek dit altijd in missie 1, kort en zonder angst te zaaien. Leg eerst in é
 
 ### Het profiel schrijven
 
-Vul `ik/profiel.md` (hou de structuur van de secties: het is een contract met de andere skills):
+Vul `ik/profiel.md` (hou de structuur van de secties: het is een contract met de andere skills). Vul enkel wat `leeg` of `[TODO]` is: een sectie op `gevuld` of `ontwerp` laat je staan zoals ze is, tenzij de gebruiker er zelf iets aan verbetert.
 
 - **Leid af, verzin niets.** Gebruik de antwoorden en elk bestand en elke link die de gebruiker gaf (lees ze; een link die je niet kunt openen, telt als niet gegeven, en dat zeg je). Wat je niet kunt staven, blijft `[TODO: ...]`.
 - **Status per sectie** (de regel `status:` onder elke kop):
@@ -160,7 +161,7 @@ Vul `ik/profiel.md` (hou de structuur van de secties: het is een contract met de
 - **Bronnen:** zet de bestandsnamen en links die je gebruikte in de lijst. Kopieer nooit hun volledige inhoud.
 - Frontmatter `status:` over de vier secties Rol, Dossiers, Werkwijze, Stijl: alle `gevuld` wordt `gevuld`; alle `leeg` wordt `leeg`; al de rest wordt `deels`. `last-reviewed:` is vandaag als `YYYY-MM-DD`.
 
-**Toon het profiel** kort (de vier secties, één tot drie regels elk, met hun status) en stel één vraag: *"Klopt dit? Verbeter gerust wat niet klopt."* Verwerk de verbeteringen, werk de statussen bij en schrijf het bestand opnieuw. Eén ronde verbeteringen is normaal; dring nooit aan op meer.
+**Toon het profiel** kort (de vier secties, één tot drie regels elk, met hun status) en stel één vraag: *"Klopt dit? Verbeter gerust wat niet klopt."* Verwerk de verbeteringen: pas enkel de regels aan die de gebruiker verbeterde en hun status, de rest van het bestand blijft staan. Eén ronde verbeteringen is normaal; dring nooit aan op meer.
 
 Staat een rol op `ontwerp` omdat de gebruiker nog niet begonnen is, zeg dan: *"Je rol staat op ontwerp tot je begint. In je eerste werkweek vraag ik je om ze bij te werken."*
 
@@ -208,7 +209,8 @@ Missie 1 nog niet klaar: geen link en geen zin over de link.
 
 Sluit af met ÉÉN concrete volgende stap:
 
-- Missie 1 klaar: *"Volgende missie: je eerste project. Zeg: volgende missie, als je klaar bent."*
+- Missie 1 klaar: lees in de meter de **eerste missie die niet `klaar` is** (`bezig` gaat voor `open`) en noem ze met nummer en titel: *"Volgende missie: <N>. <titel>. Zeg: volgende missie, als je klaar bent."*
+- Alle zeven klaar: *"Alle zeven missies zijn klaar. Zeg: geef me een uitdaging, dan begin je aan de ladder."*
 - Missie 1 niet klaar: *"Nog één ding voor missie 1: <wat ontbreekt>. Zeg het me wanneer je wil."*
 
 Begin de volgende missie niet zelf.

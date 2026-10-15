@@ -33,3 +33,7 @@
 - C02 terug op klaar: `templates/ik/profiel.md` is app-neutraal ("De coach leest dit", "hoe de AI voor jou schrijft"). Het pakket in `dist/` is opnieuw gebouwd en nagekeken.
 - C01 terug op geblokkeerd met reden: enkel het wissen van het oude root-manifest ontbreekt, en dat weigert de hook. Uitweg buiten de run: `git rm` van dat bestand (zie roadblocks.md).
 - Tests: C02 en BASIS groen, C01 1 van 2 groen. De andere keurbevindingen (C03 enz.) zijn voor een volgende sessie.
+
+## Sessie 8 (15/10/2026, keurder ronde 1)
+- C03 terug op klaar: de inventaris van start ziet ook een los profiel als bestaande werkmap (geen vragen opnieuw, gevulde secties blijven staan, enkel de trainingsschakelaar nog), het profiel wordt enkel aangevuld waar het leeg of [TODO] is, en de laatste stap noemt de eerste open missie uit de meter of bij 7/7 de ladder. Beslissing 20.
+- Tests: C03 en BASIS groen. Nagekeken tegen de fixtures werkmap-claude-werk en werkmap-missie7. dist/ niet opnieuw gebouwd (staat in .gitignore; scripts/bouw_werkmap.py neemt enkel de templates mee).
