@@ -127,8 +127,8 @@
       "titel": "Werkmappakket met mijn-vaardigheden",
       "acceptatie": "python3 scripts/bouw_werkmap.py maakt dist/debug-coach-werkmap/ met alle templates, een lege lokale plugin .coach/mijn-vaardigheden/ (plugin.json met name mijn-vaardigheden, skills/README.md die uitlegt wat er komt), .agents/plugins/marketplace.json (catalogusnaam mijn-werkmap, plugin mijn-vaardigheden) die naar ./.coach/mijn-vaardigheden wijst, en dist/debug-coach-werkmap.zip; de coach zelf zit niet in het pakket (die komt via GitHub); dist/ staat in .gitignore",
       "check": "python3 tests/feature.py C12",
-      "passes": false,
-      "status": "open",
+      "passes": true,
+      "status": "klaar",
       "reden": "",
       "pogingen": 0
     },
