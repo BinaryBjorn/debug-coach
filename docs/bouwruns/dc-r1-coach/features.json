@@ -7,9 +7,9 @@
       "acceptatie": "plugin/plugin.json (portable schema-URL, name debug-coach, version, description) en plugin/.claude-plugin/plugin.json hebben dezelfde name, version en description; .claude-plugin/marketplace.json in de root wijst met source ./plugin naar de plugin; de oude skills/, missies/ en .claude-plugin/plugin.json in de root zijn verhuisd naar plugin/",
       "check": "python3 tests/feature.py C01",
       "passes": false,
-      "status": "open",
-      "reden": "",
-      "pogingen": 0
+      "status": "geblokkeerd",
+      "reden": "Alles gebouwd behalve het verwijderen van de oude root/.claude-plugin/plugin.json: de PreToolUse-hook weigert elk schrijfcommando met '.claude' in het pad (ook .claude-plugin, geen beschermd pad volgens het contract), en geen andere tool kan een bestand wissen. Uitweg: 'git rm .claude-plugin/plugin.json' buiten de run, of de hook laten matchen op '.claude/' in plaats van '.claude'. Daarna slaagt C01 (enkel die assert faalt nog). Zie roadblocks.md.",
+      "pogingen": 2
     },
     {
       "id": "C02",
@@ -17,8 +17,8 @@
       "titel": "Werkmap-templates compleet",
       "acceptatie": "plugin/skills/start/templates bevat CLAUDE.md en AGENTS.md (dezelfde coachregels en standregel), ik/profiel.md met de vier werkwijzeregels uit missie-formaat.md (Platform, Account, Coachcode, Tools op [TODO]), voortgang.md met 7 missies en een lege ladder-tabel in het gedeelde formaat, feedback.md (kolommen missie, datum, onduidelijk, vastgelopen, wat de coach zag), successen.md, projecten/README.md; voortgang.md heeft per missie een rij die begint met '| N. ' (N = 1 tot 7)",
       "check": "python3 tests/feature.py C02",
-      "passes": false,
-      "status": "open",
+      "passes": true,
+      "status": "klaar",
       "reden": "",
       "pogingen": 0
     },

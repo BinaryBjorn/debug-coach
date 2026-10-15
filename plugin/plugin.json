@@ -1,0 +1,6 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "debug-coach",
+  "version": "0.2.0",
+  "description": "Debug Coach: leer werken met AI op je eigen werk, via zeven missies en een coach die uitlegt tot je hem niet meer nodig hebt. Zeg \"start\": de coach zet je werkmap klaar en leert jou kennen (missie 1)."
+}

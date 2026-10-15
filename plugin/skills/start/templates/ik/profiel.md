@@ -22,8 +22,12 @@ status: leeg
 
 status: leeg
 
-- **Tools:** [TODO: bv. Outlook, OneDrive, Excel, PowerPoint, Teams]
-- **Account:** [TODO: werk of persoonlijk]
+Platform: `chatgpt` of `claude`. Account: `werk` of `persoonlijk`. Coachcode: de 8 tekens op je startplanpagina. Tools: bv. Outlook, OneDrive, Excel, PowerPoint, Teams.
+
+- **Platform:** [TODO]
+- **Account:** [TODO]
+- **Coachcode:** [TODO]
+- **Tools:** [TODO]
 
 ## Stijl
 
