@@ -6,8 +6,8 @@
       "titel": "Renderplan uit script en log",
       "acceptatie": "videos/maak.py <map> --plan-only schrijft uit/plan.json met totaal en per stap id, bron_begin (videotijd = t - opname.start_video_gemeten), uit_begin, uit_einde, handelingsduur, stapduur, bevriezen en zoomdoel in pixels van de opname ((x - gebied.x) x schaal, begrensd), volgens de rekenregels in log.schema.json, uit script.json en ruw/log.json; de opname mag een andere beeldsnelheid hebben (bv. 120 fps)",
       "check": "python3 tests/feature.py V01",
-      "passes": false,
-      "status": "open",
+      "passes": true,
+      "status": "klaar",
       "reden": "",
       "pogingen": 0
     },
@@ -17,8 +17,8 @@
       "titel": "Achtergrond, kader en afgeronde hoeken",
       "acceptatie": "Python maakt achtergrond (verloop #0B1628 naar #1A2D4A), masker met 24 px afgeronde hoeken en klikcirkel (#4A7CC9) als geldige PNG zonder pakketten; de kleuren staan als constanten in videos/; de video is 1920x1080 met het scherm geschaald zodat het in 84 procent van breedte en hoogte past, gecentreerd",
       "check": "python3 tests/feature.py V02",
-      "passes": false,
-      "status": "open",
+      "passes": true,
+      "status": "klaar",
       "reden": "",
       "pogingen": 0
     },

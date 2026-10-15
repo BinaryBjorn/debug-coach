@@ -1,1 +1,3 @@
 %% Per sessie twee à vier regels. Dit is de overdracht naar de volgende, frisse sessie. %%
+
+**Sessie 1 (V01, V02 klaar).** `videos/maak.py` schrijft `uit/plan.json` volgens de rekenregels (ook bron_einde, opname-info met fps, kader), maakt zonder `--plan-only` de PNG's (`videos/beeld.py`, kleuren in `videos/huisstijl.py`) en rendert een basisvideo: per stap trim + bevriezen (tpad), concat, scherm op 84% met afgeronde hoeken op het verloop, 30 fps (getest met een opname op 120 fps). Nog geen zoom, cirkel-overlay, audio of ondertitels: dat is V03, V05-V07 (`--stem` wordt al aanvaard maar nog niet gebruikt). Checks V01, V02 en BASIS groen. Let op: het hook weigert elk schrijfcommando met het woord `tests` erin (ook `testsrc2`); gebruik voor eigen proeven `smptehdbars`.
