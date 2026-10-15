@@ -1,0 +1,122 @@
+{
+  "getekend_op": "2026-10-15T21:41:11",
+  "commit": "01db67d670d712d99064507ec31b8f21cb7b3608",
+  "beschermd": [
+    "tests/**",
+    "docs/bouwruns/dc-r1b-coach-didactiek/bronnen/**",
+    "docs/bouwruns/dc-r1-coach/bronnen/**",
+    "docs/bouwruns/dc-r1b-coach-didactiek/contract.md",
+    "docs/bouwruns/dc-r1b-coach-didactiek/run.json",
+    "docs/bouwruns/dc-r1b-coach-didactiek/testplan.md",
+    "docs/bouwruns/dc-r1b-coach-didactiek/getekend.json",
+    "Resources/operator/runtime/bouwrun/**",
+    "Skills/bouwrun/**",
+    ".claude/**",
+    ".bouwrun/**"
+  ],
+  "hashes": {
+    "docs/bouwruns/dc-r1-coach/bronnen/leervragen.md": "98935a2d76a72476a64f4e4ab1aabc58d2669b7f28d20642fcb6ef26ace7775c",
+    "docs/bouwruns/dc-r1-coach/bronnen/missies-brief.md": "6fc3cb68d7e4920e73d3541fc6da9fca74959b0bfec553095242395f6f4c37b5",
+    "docs/bouwruns/dc-r1-coach/bronnen/platformfeiten.md": "a7e223ad5ca35ff3549da85ec05f7b91f3b2331f52a90cc18415022f1a065eef",
+    "docs/bouwruns/dc-r1-coach/bronnen/proef-p5/VERSLAG.md": "8e07148f874feb8a3bbc4659610c52cdd3c31896de2dbe6f65f596a8b0fdd708",
+    "docs/bouwruns/dc-r1-coach/bronnen/proef-p5/log.json": "37e53ad77f5bf5b3d632bb230083623cd743d1d417bccbf70eae134188e0bf84",
+    "docs/bouwruns/dc-r1-coach/bronnen/proeven.md": "c33f80f6b90a9a2b7100520c21480900fb2c139c20d1c91e19dc5427984b1374",
+    "docs/bouwruns/dc-r1-coach/bronnen/projectcoach/auto-memory-guide.md": "1053584d9647691a63755fcffe0e64e7030071ab8e4a305d7a6fbcba6a948e3c",
+    "docs/bouwruns/dc-r1-coach/bronnen/projectcoach/coaching-style.md": "78cdee60bebe28988c3d65f8059a355c4ab3e640cb217606426c11167c333b95",
+    "docs/bouwruns/dc-r1-coach/bronnen/projectcoach/context-window-guide.md": "32f0dbc225021552e12a74168e76f4bce29a6fd004a288afab518330f48eff4b",
+    "docs/bouwruns/dc-r1-coach/bronnen/projectcoach/delegation-mindset.md": "2a902eeecdef066f37890de5c21d0662b3ad1d846d8dd3aa4f2ce882bb134ab4",
+    "docs/bouwruns/dc-r1-coach/bronnen/projectcoach/model-selection.md": "80aade1f3474f1279ee7639b93a33f40af372115af2bcec54aaf1137fe343a1b",
+    "docs/bouwruns/dc-r1b-coach-didactiek/bronnen/gesimuleerde-beginner.md": "b72069f0a86119df66b7b93ed9dc7fe0ec146494c6bf910b0e87d0847aac1074",
+    "docs/bouwruns/dc-r1b-coach-didactiek/contract.md": "e33e8d808fde396e5c632e1e032f7f2f24706236a6893e71da92f3120c4274f3",
+    "docs/bouwruns/dc-r1b-coach-didactiek/run.json": "3a6b66eec39f52b8d36c6068ee1d95352e5bf2313dd669ef4de9bebe9b6e623a",
+    "docs/bouwruns/dc-r1b-coach-didactiek/testplan.md": "7fa7e4185599b89b571ec7cccc4331e0812130c6e83b71760c8cdf161ce349da",
+    "tests/feature.py": "abe6910047deb0d407c683f968687f4381e5a69eadf2d8ba9b02299939ac4ea3",
+    "tests/fixtures/gedeeld/log.schema.json": "79c7fdafcf68659fd8517e83734a582779b257de535b067eb546285f87d84215",
+    "tests/fixtures/gedeeld/missie-formaat.md": "33a99f04301a8140ab879da572f145bf428dc18c5298e198b69eb56de690c74e",
+    "tests/fixtures/gedeeld/script.schema.json": "219c82fb7edec9c9406d837731ff238006dec8671bb53fa3300422d4e64fdd79",
+    "tests/fixtures/gedeeld/voortgangslink.json": "74baa8deea4785ae5792af26f864304bc607b4390e9bda75dbeb543eb08900b2",
+    "tests/fixtures/video/demo/ruw/log.json": "bafd7e8143e8dff59040a77b16c5452ddd07b8abbb542d5c3be013d6a7d9a5e6",
+    "tests/fixtures/video/demo/script.json": "27c95681d97d1a376851c8ce29402a38139a24321213de80a9fe10bb5aa88c4a",
+    "tests/fixtures/werkmap-claude-werk/ik/profiel.md": "8201265581726bdb7470116a09de6fb68caed7c2cb0485282267d7d39a57bcbf",
+    "tests/fixtures/werkmap-leeg/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tests/fixtures/werkmap-missie7/feedback.md": "7543157f11f4f113b7ee8c7392b7dd591f4130d96fc29c89125300760fc5f273",
+    "tests/fixtures/werkmap-missie7/ik/profiel.md": "a6284a3f771c8fcc6bc026e3d6476bc6d66a331397d6fb29d0d6ef2f2cfdd671",
+    "tests/fixtures/werkmap-missie7/projecten/beurs-installatie-2027/README.md": "b217b3f4e471cfd267293ed9396b493df1ae5100ab6670ff8e5bab8bd154b11e",
+    "tests/fixtures/werkmap-missie7/projecten/klantenmail-nieuwsbrief/README.md": "3d3aad49011b8d0ee03d888d28e8822d19c44ccc7cb88b562353f0423fd1a71e",
+    "tests/fixtures/werkmap-missie7/projecten/offertes-q1/README.md": "2f1e7d62b9fe34ae5016258737246014d7485674ffe1e16045982389f16f7331",
+    "tests/fixtures/werkmap-missie7/successen.md": "c72a8367d7388bbf6d40e8f73ffdf42d68ecac5ba59e6e0affe8884d55113d5b",
+    "tests/fixtures/werkmap-missie7/voortgang.md": "952952a5443b1c9b99e258067a93236a11bfd4ea4244610d3fd06c0dc8085382",
+    "tests/fixtures/werkmap-vreemd/lijst.csv": "d1781735361ab10371554342eaff74a98082b0fb91c58b654bfafdcc198e7e11",
+    "tests/fixtures/werkmap-vreemd/notities.txt": "308a7fe5c0a95ce885952f5cae95a74b9e4c2935b9849110a6e914bd19143b58",
+    "tests/gedeeld.sha256": "d00340c28f1d3d761da3f96163e6f3a140dd66fcef5b2687eba8f219dccbc577",
+    "tests/regressie.py": "c7c7f2d37106ca2f30c2fe4a201962936dec0f15694e8d9845678f3469700e5b",
+    "tests/test_coach.py": "f6f146e2549bde69f69378707df2a5f00b4c2fbbe71dcb25f325872cb12e6b7e",
+    "tests/test_didactiek.py": "49d03e305ac9c4dc42c8116bc82320a328e7fa31f761ba94e0481fb5e2757679",
+    "tests/test_video.py": "207b61f097baa44294616cf6efae619effb06407528ae9eac2d63c354c3a753e"
+  },
+  "features": [
+    {
+      "id": "D01",
+      "scenario": "S1'",
+      "titel": "Vers werkmappakket = nieuwe start",
+      "acceptatie": "start/SKILL.md: staan alle missies in voortgang.md op open en het profiel op status: leeg, dan is het een nieuwe start (welkom, tabel van de werkmap, uitleg projectbrein en context), ook als alle bestanden al bestaan; na missie 1 altijd de meter",
+      "check": "python3 tests/feature.py D01"
+    },
+    {
+      "id": "D02",
+      "scenario": "S2'",
+      "titel": "De gebruiker kiest en vraagt zelf",
+      "acceptatie": "missie/SKILL.md bevat de regel 'Maak niets in dezelfde beurt als het voorstel van de missie' en beschrijft: de gebruiker kiest en stelt zelf de vraag, de coach verbetert de vraag (wie, wat, voor wie, vorm, bronnen) en voert pas daarna uit; uitdaging/SKILL.md volgt dezelfde regel",
+      "check": "python3 tests/feature.py D02"
+    },
+    {
+      "id": "D03",
+      "scenario": "S2'",
+      "titel": "Jij of de coach per stap",
+      "acceptatie": "in alle zeven missies begint elke genummerde stap onder ## Route ChatGPT en ## Route Claude met **Jij:** of **De coach:**, en elke route heeft minstens één **Jij:**-stap",
+      "check": "python3 tests/feature.py D03"
+    },
+    {
+      "id": "D04",
+      "scenario": "S3'",
+      "titel": "Klaar als echt controleren",
+      "acceptatie": "missie/SKILL.md: wat buiten de chat gebeurt telt pas als de gebruiker bevestigt dat hij het deed, en de coach gokt nooit een menupad; missie-07.md bevat 'Customize > Skills > Upload a skill' en het testen in een nieuw gesprek; uitdaging/SKILL.md zegt bij niveau 3 dat een gewijzigde skill opnieuw geüpload en getest moet worden",
+      "check": "python3 tests/feature.py D04"
+    },
+    {
+      "id": "D05",
+      "scenario": "S4'",
+      "titel": "Feedback letterlijk",
+      "acceptatie": "missie/SKILL.md en start/SKILL.md: de twee vragen 'Wat was onduidelijk?' en 'Waar liep je vast?' stellen, enkel het letterlijke antwoord van de gebruiker schrijven, de rij pas in de beurt na het antwoord, nooit verzinnen",
+      "check": "python3 tests/feature.py D05"
+    },
+    {
+      "id": "D06",
+      "scenario": "S2''",
+      "titel": "Ongevraagd uitleggen",
+      "acceptatie": "missie/SKILL.md: in de stand uitgebreid per missie minstens één begrip uit ## Begrippen ongevraagd uitleggen met 'Denk eraan als:'; in de stand kort één zin per nieuw begrip",
+      "check": "python3 tests/feature.py D06"
+    },
+    {
+      "id": "D07",
+      "scenario": "S5'",
+      "titel": "Link als gewone tekst",
+      "acceptatie": "nergens in plugin/ staat een voortgangslink tussen backticks; start, missie en uitdaging zeggen dat de link als gewone tekst gegeven wordt",
+      "check": "python3 tests/feature.py D07"
+    },
+    {
+      "id": "D08",
+      "scenario": "S5'",
+      "titel": "Eerst vragen, geen technische waarden",
+      "acceptatie": "elke SKILL.md die verwijderen, overschrijven of vervangen noemt, bevat 'vraag eerst'; de templates CLAUDE.md en AGENTS.md bevatten de regel dat de coach nooit technische waarden of bestandsregels toont aan de gebruiker",
+      "check": "python3 tests/feature.py D08"
+    },
+    {
+      "id": "D09",
+      "scenario": "S5'",
+      "titel": "Missie 3: mail kopiëren en plakken",
+      "acceptatie": "missie-03.md legt onder beide routes uit hoe je de tekst van een mail kopieert en in de projectmap plakt",
+      "check": "python3 tests/feature.py D09"
+    }
+  ]
+}
