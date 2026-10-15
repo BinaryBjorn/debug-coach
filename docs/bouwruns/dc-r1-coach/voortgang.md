@@ -24,3 +24,7 @@
 - C12 klaar: `scripts/bouw_werkmap.py` maakt `dist/debug-coach-werkmap/` (templates, lege plugin `.coach/mijn-vaardigheden/` met plugin.json en skills/README.md, `.agents/plugins/marketplace.json` catalogus `mijn-werkmap`) en de zip; de coach zit er niet in. `dist/` staat in `.gitignore`. Beslissing 16.
 - C11 klaar: zes `videos/<slug>/script.json` (platform chatgpt) en `opname.md` (opdracht voor Claude met Computer Use: demo-account, nepdata, venster vooraan, `screencapture -v -V -R`, tijdstip vóór elke klik, `start_video_gemeten` aan de eerste beeldwissel, `ruw/log.json` volgens log.schema.json, stappentabel met wat te loggen). `videos/*/ruw/` en `videos/*/uit/` in `.gitignore`. Beslissingen 17 en 18.
 - Tests: C11, C12 en BASIS groen. Nog open voor latere sessies: C13 (README), C06 en C09 afvinken, C01 geblokkeerd.
+
+## Sessie 6 (15/10/2026)
+- C13 klaar: `README.md` herschreven zonder slash-commando's: installeren in ChatGPT (pakket in OneDrive op Altijd op dit apparaat, Work, Plugins > Add > Add a marketplace `BinaryBjorn/debug-coach`, debug-coach en mijn-vaardigheden onder Personal, "start") en in Claude (Customize > Plugins > Add marketplace), de werkmap, de coachcode, wat je zegt, updates (Upgrade + Refresh, Check for updates). Beslissing 19.
+- Tests: C13 en BASIS groen. Nog open: C06 en C09 afvinken (slagen al), C01 geblokkeerd (V1).

@@ -138,8 +138,8 @@
       "titel": "README",
       "acceptatie": "README.md beschrijft installeren in ChatGPT (werkmappakket in OneDrive op altijd op dit apparaat, openen in Work, Plugins > Add > Add a marketplace met BinaryBjorn/debug-coach, debug-coach installeren, mijn-vaardigheden installeren onder Personal, 'start' zeggen) en in Claude (Customize, Plugins, Add marketplace met BinaryBjorn/debug-coach), de werkmap, de coachcode en updates (Upgrade in ChatGPT, Check for updates in Claude); geen slash-commando's",
       "check": "python3 tests/feature.py C13",
-      "passes": false,
-      "status": "open",
+      "passes": true,
+      "status": "klaar",
       "reden": "",
       "pogingen": 0
     }
