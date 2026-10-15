@@ -14,3 +14,8 @@
 - C05 klaar: `plugin/skills/missie/SKILL.md` met meter, volgende open missie (overslaan mag), route uit Platform en Account (enkel vragen bij [TODO]), coachstand, Klaar als zelf controleren, één regel in successen.md en één rij in feedback.md, één keer een lagere stand (genoteerd in de feedbackrij), link m<N> of de zin zonder_code. Beslissingen 10 en 11.
 - C07 klaar: `plugin/skills/uitdaging/ladder.md` (vijf niveaus met soort, varianten, voorbeeld) en `SKILL.md` (poort missie 7, niveau +1 tot 5 en daarna 5, trede loopt door, geen dubbele zin of dossier+variant, rij in `## Ladder` met Klaar nee, link t<trede> bij klaar). Beslissingen 12 en 13.
 - Tests: C05, C07, C09 en BASIS groen; C10 faalt nog enkel op het ontbrekende `docs/updates.md` (eigen feature). Volgende: C06 afvinken, dan C08 (skills coach en uitleg) en C10.
+
+## Sessie 4 (15/10/2026)
+- C08 klaar: nieuwe skills `coach` (stand uitgebreid, kort of uit, enkel de regel `**Stand:**` in beide projectbreinen) en `uitleg` (één zin, Denk eraan als, voorbeeld uit het profiel, één tip, max 150 woorden, in elke stand). Templates: uitlegvorm geldt nu in elke stand, plus de vaste regel "waarschuw vóór iets onomkeerbaars, ook in uit". Beslissingen 14 en 15.
+- C10 klaar: `docs/updates.md` (ChatGPT: Add a marketplace met `BinaryBjorn/debug-coach`, Instellingen > Plugins > Marketplace > Upgrade, daarna Refresh; Claude: Check for updates; mijn-vaardigheden en de werkmap nooit geraakt). De skills bevatten geen instructie om werkmapbestanden te overschrijven of te wissen; start schrijft enkel wat ontbreekt.
+- Tests: C08, C10 en BASIS groen. Nog rood in de volledige suite: C01 (geblokkeerd), C11 tot C13 en de V-reeks (andere features/sessies). C06 en C09 slagen maar zijn nog niet afgevinkt.

@@ -105,8 +105,8 @@
       "titel": "Updates raken de gebruiker niet",
       "acceptatie": "start schrijft een template enkel als het bestand ontbreekt; geen skill bevat een instructie om ik/, projecten/, feedback.md, successen.md, voortgang.md of mijn-vaardigheden te overschrijven of te wissen; docs/updates.md beschrijft updaten in ChatGPT (de coach komt via Add a marketplace met BinaryBjorn/debug-coach; updaten via Instellingen > Plugins > Marketplace > Upgrade, daarna Refresh) en in Claude (Check for updates), en zegt dat mijn-vaardigheden nooit door een update geraakt wordt",
       "check": "python3 tests/feature.py C10",
-      "passes": false,
-      "status": "open",
+      "passes": true,
+      "status": "klaar",
       "reden": "",
       "pogingen": 0
     },
