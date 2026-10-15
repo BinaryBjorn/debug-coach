@@ -1,0 +1,44 @@
+{
+  "slug": "coach-uitzetten",
+  "titel": "De coach uitzetten",
+  "platform": "chatgpt",
+  "app": "ChatGPT desktop (Work)",
+  "stappen": [
+    {
+      "id": "s01",
+      "handeling": "Klik in het invoerveld, typ: hoe staat de coach? en verstuur",
+      "tekst": "Hoeveel uitleg de coach geeft, kies je zelf. Vraag: hoe staat de coach?",
+      "duur_s": 6
+    },
+    {
+      "id": "s02",
+      "handeling": "Wacht tot het antwoord er staat",
+      "tekst": "Er zijn drie standen: uitgebreid, kort en uit.",
+      "duur_s": 4
+    },
+    {
+      "id": "s03",
+      "handeling": "Typ: korter, en verstuur",
+      "tekst": "Wil je minder uitleg, zeg dan: korter. Dan legt de coach enkel nieuwe begrippen uit, in één zin.",
+      "duur_s": 7
+    },
+    {
+      "id": "s04",
+      "handeling": "Typ: zet de coach uit, en verstuur",
+      "tekst": "Zeg: zet de coach uit. Dan doet hij het werk zonder uitleg, tenzij je erom vraagt.",
+      "duur_s": 7
+    },
+    {
+      "id": "s05",
+      "handeling": "Wacht tot het antwoord er staat",
+      "tekst": "Ook in de stand uit waarschuwt de coach altijd vóór iets wat je niet kan terugdraaien, zoals versturen of verwijderen.",
+      "duur_s": 8
+    },
+    {
+      "id": "s06",
+      "handeling": "Typ: zet de coach terug aan, en verstuur",
+      "tekst": "Wil je terug meer uitleg, zeg dan: zet de coach terug aan.",
+      "duur_s": 5
+    }
+  ]
+}

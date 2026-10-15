@@ -1,0 +1,44 @@
+{
+  "slug": "missie-3",
+  "titel": "Missie 3: je bestanden en je mail binnenhalen",
+  "platform": "chatgpt",
+  "app": "ChatGPT desktop (Work)",
+  "stappen": [
+    {
+      "id": "s01",
+      "handeling": "Klik in het invoerveld, typ: volgende missie, en verstuur",
+      "tekst": "Zeg: volgende missie. Missie 3 gaat over je bestanden en je mail.",
+      "duur_s": 5
+    },
+    {
+      "id": "s02",
+      "handeling": "Wacht tot de coach de missie uitlegt",
+      "tekst": "Zet je werkdocumenten in OneDrive op altijd op dit apparaat bewaren, en zet wat je nodig hebt in je werkmap.",
+      "duur_s": 8
+    },
+    {
+      "id": "s03",
+      "handeling": "Typ: maak een bronnenlijst, wat staat waar en wat kan jij nu lezen? en verstuur",
+      "tekst": "Vraag Work een bronnenlijst: wat staat waar, en wat kan de AI nu lezen.",
+      "duur_s": 7
+    },
+    {
+      "id": "s04",
+      "handeling": "Wacht tot de bronnenlijst er staat",
+      "tekst": "Work kijkt in je werkmap en zet alles op een rij.",
+      "duur_s": 5
+    },
+    {
+      "id": "s05",
+      "handeling": "Typ een vraag om een samenvatting van één document (voor wie, hoe lang, wat erin moet) en verstuur",
+      "tekst": "Vraag dan een samenvatting van één echt document. Zeg voor wie ze is, hoe lang, en wat er zeker in moet.",
+      "duur_s": 9
+    },
+    {
+      "id": "s06",
+      "handeling": "Wacht tot de samenvatting er staat",
+      "tekst": "Een mail kan je als bestand bewaren in je projectmap, of je plakt de tekst in de chat.",
+      "duur_s": 7
+    }
+  ]
+}

@@ -19,3 +19,8 @@
 - C08 klaar: nieuwe skills `coach` (stand uitgebreid, kort of uit, enkel de regel `**Stand:**` in beide projectbreinen) en `uitleg` (één zin, Denk eraan als, voorbeeld uit het profiel, één tip, max 150 woorden, in elke stand). Templates: uitlegvorm geldt nu in elke stand, plus de vaste regel "waarschuw vóór iets onomkeerbaars, ook in uit". Beslissingen 14 en 15.
 - C10 klaar: `docs/updates.md` (ChatGPT: Add a marketplace met `BinaryBjorn/debug-coach`, Instellingen > Plugins > Marketplace > Upgrade, daarna Refresh; Claude: Check for updates; mijn-vaardigheden en de werkmap nooit geraakt). De skills bevatten geen instructie om werkmapbestanden te overschrijven of te wissen; start schrijft enkel wat ontbreekt.
 - Tests: C08, C10 en BASIS groen. Nog rood in de volledige suite: C01 (geblokkeerd), C11 tot C13 en de V-reeks (andere features/sessies). C06 en C09 slagen maar zijn nog niet afgevinkt.
+
+## Sessie 5 (15/10/2026)
+- C12 klaar: `scripts/bouw_werkmap.py` maakt `dist/debug-coach-werkmap/` (templates, lege plugin `.coach/mijn-vaardigheden/` met plugin.json en skills/README.md, `.agents/plugins/marketplace.json` catalogus `mijn-werkmap`) en de zip; de coach zit er niet in. `dist/` staat in `.gitignore`. Beslissing 16.
+- C11 klaar: zes `videos/<slug>/script.json` (platform chatgpt) en `opname.md` (opdracht voor Claude met Computer Use: demo-account, nepdata, venster vooraan, `screencapture -v -V -R`, tijdstip vóór elke klik, `start_video_gemeten` aan de eerste beeldwissel, `ruw/log.json` volgens log.schema.json, stappentabel met wat te loggen). `videos/*/ruw/` en `videos/*/uit/` in `.gitignore`. Beslissingen 17 en 18.
+- Tests: C11, C12 en BASIS groen. Nog open voor latere sessies: C13 (README), C06 en C09 afvinken, C01 geblokkeerd.

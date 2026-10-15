@@ -1,0 +1,44 @@
+{
+  "slug": "missie-7",
+  "titel": "Missie 7: je eigen vaardigheid",
+  "platform": "chatgpt",
+  "app": "ChatGPT desktop (Work)",
+  "stappen": [
+    {
+      "id": "s01",
+      "handeling": "Klik in het invoerveld, typ: volgende missie, en verstuur",
+      "tekst": "Zeg: volgende missie. In missie 7 maak je je eigen vaardigheid.",
+      "duur_s": 5
+    },
+    {
+      "id": "s02",
+      "handeling": "Typ: ik vraag elke week een weekoverzicht van mijn projecten, maak daar een vaardigheid van, en verstuur",
+      "tekst": "Kies iets wat je elke week opnieuw vraagt, en vertel het de coach.",
+      "duur_s": 6
+    },
+    {
+      "id": "s03",
+      "handeling": "Wacht tot de coach de vaardigheid in mijn-vaardigheden heeft geschreven",
+      "tekst": "De coach schrijft de vaardigheid in mijn-vaardigheden, in je werkmap: wanneer ze gebruikt wordt, wat ze doet, in welke vorm.",
+      "duur_s": 9
+    },
+    {
+      "id": "s04",
+      "handeling": "Klik in de zijbalk op Plugins en daarna op Refresh",
+      "tekst": "Ga naar Plugins en klik op Refresh. Of herstart de app.",
+      "duur_s": 5
+    },
+    {
+      "id": "s05",
+      "handeling": "Open een nieuw gesprek, typ: @mijn-vaardigheden maak mijn weekoverzicht, en verstuur",
+      "tekst": "Test in een nieuw gesprek: typ apenstaartje mijn-vaardigheden, of vraag het gewoon.",
+      "duur_s": 7
+    },
+    {
+      "id": "s06",
+      "handeling": "Wacht tot het weekoverzicht er staat",
+      "tekst": "Werkt het, dan zet de coach je vaardigheid in successen. Een update van de coach raakt ze nooit.",
+      "duur_s": 7
+    }
+  ]
+}

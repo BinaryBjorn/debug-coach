@@ -116,8 +116,8 @@
       "titel": "Zes videoscripts + opnameopdrachten",
       "acceptatie": "videos/{welkom,klaarzetten,missie-3,missie-5,missie-7,coach-uitzetten}/script.json zijn geldig volgens script.schema.json met platform chatgpt; elke opname.md is een opdracht voor Claude met Computer Use (op de mini, demo-account, enkel nepdata in beeld): ChatGPT-venster vooraan, opname van enkel dat gebied met screencapture -v -R, tijdstip vóór elke klik, start_video_gemeten meten aan de eerste beeldwissel, ruw/opname.mov en ruw/log.json in de vorm van log.schema.json, een stap-id per handeling; .gitignore sluit videos/*/ruw/ en videos/*/uit/ uit",
       "check": "python3 tests/feature.py C11",
-      "passes": false,
-      "status": "open",
+      "passes": true,
+      "status": "klaar",
       "reden": "",
       "pogingen": 0
     },
