@@ -17,7 +17,12 @@ Een overzicht `projecten/<dossier>/bronnenlijst.md` van wat de AI nu kan lezen, 
 1. **Jij:** Zeg: volgende missie.
 2. **Jij:** Zet in OneDrive de map met je werkdocumenten op **altijd op dit apparaat bewaren**, zodat de bestanden echt op je computer staan.
 3. **Jij:** Zet de bestanden die je nodig hebt in je werkmap of in de projectmap van missie 2.
-4. **Jij:** Mails: bewaar een mail als bestand in de projectmap, of plak de tekst in de chat.
+4. **Jij:** Mails: haal de tekst van een mail zo in je projectmap:
+   - Open de mail en klik in de tekst van de mail.
+   - Selecteer alles met Ctrl+A (Mac: Cmd+A) en kopieer met Ctrl+C (Mac: Cmd+C).
+   - Open Kladblok (Mac: TextEdit) en plak met Ctrl+V (Mac: Cmd+V).
+   - Bewaar het bestand in je projectmap, met het onderwerp van de mail als naam.
+   - Snel nodig? Plak de tekst dan gewoon in de chat.
 5. **De coach:** laat Work de bronnenlijst maken: wat staat waar, en wat kan de AI nu lezen.
 6. **Jij:** Kies één echt document en stel zelf de vraag voor een samenvatting.
 7. **De coach:** verbetert je vraag: voor wie de samenvatting is, hoe lang, en wat je er zeker in wil. Pas daarna maakt hij ze.
@@ -32,7 +37,12 @@ Een overzicht `projecten/<dossier>/bronnenlijst.md` van wat de AI nu kan lezen, 
 1. **Jij:** Zeg: volgende missie.
 2. **Jij:** Zet in OneDrive de map met je werkdocumenten op **altijd op dit apparaat bewaren**.
 3. **Jij:** Zet de bestanden die je nodig hebt in je werkmap of in de projectmap.
-4. **Jij:** Mails: bewaar een mail als bestand in de projectmap, of plak de tekst in de chat.
+4. **Jij:** Mails: haal de tekst van een mail zo in je projectmap:
+   - Open de mail en klik in de tekst van de mail.
+   - Selecteer alles met Ctrl+A (Mac: Cmd+A) en kopieer met Ctrl+C (Mac: Cmd+C).
+   - Open Kladblok (Mac: TextEdit) en plak met Ctrl+V (Mac: Cmd+V).
+   - Bewaar het bestand in je projectmap, met het onderwerp van de mail als naam.
+   - Snel nodig? Plak de tekst dan gewoon in de chat.
 5. **De coach:** laat Cowork de bronnenlijst maken.
 6. **Jij:** Kies één echt document en stel zelf de vraag voor een samenvatting.
 7. **De coach:** verbetert je vraag (voor wie, hoe lang, wat er zeker in moet) en maakt pas daarna de samenvatting.
