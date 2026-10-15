@@ -7,8 +7,8 @@
       "acceptatie": "plugin/plugin.json (portable schema-URL, name debug-coach, version, description) en plugin/.claude-plugin/plugin.json hebben dezelfde name, version en description; .claude-plugin/marketplace.json in de root wijst met source ./plugin naar de plugin; de oude skills/, missies/ en .claude-plugin/plugin.json in de root zijn verhuisd naar plugin/",
       "check": "python3 tests/feature.py C01",
       "passes": false,
-      "status": "geblokkeerd",
-      "reden": "enkel tests/test_coach.py:178 faalt: het oude root-manifest .claude-plugin/plugin.json (v0.1.0) moet weg, maar de run-hook weigert elk schrijf- of wiscommando met '.claude' in het pad (bevestigd door de keurder in ronde 1). Uitweg buiten de run: git rm .claude-plugin/plugin.json && git commit; daarna slaagt C01 (de rest is nagekeken en klopt). Zie roadblocks.md en V1.",
+      "status": "open",
+      "reden": "keurder ronde 2: python3 tests/feature.py C01 faalt nog op tests/test_coach.py:178 omdat .claude-plugin/plugin.json (oud, v0.1.0) in de root staat; terecht geblokkeerd door de hook op '.claude', binnen de run niet op te lossen; uitweg buiten de run: git rm .claude-plugin/plugin.json; de rest van C01 klopt.",
       "pogingen": 2
     },
     {
