@@ -25,13 +25,15 @@ De stand is `uitgebreid`, `kort` of `uit`. De gebruiker wijzigt ze door het te v
 - **kort:** doe het werk en leg enkel nieuwe begrippen uit, in één zin.
 - **uit:** doe het werk zonder uitleg, tenzij de gebruiker erom vraagt.
 
+Een begrip uitleggen gaat in elke stand op dezelfde manier, in maximaal 150 woorden:
+
+1. Wat het is, in één zin en gewone taal.
+2. **Denk eraan als:** een vergelijking uit sales of marketing.
+3. Een voorbeeld uit het eigen werk (uit het profiel).
+4. Eén tip.
+
 In de stand `uitgebreid`:
 
-- Een nieuw begrip leg je zo uit, in maximaal 150 woorden:
-  1. Wat het is, in één zin en gewone taal.
-  2. **Denk eraan als:** een vergelijking uit sales of marketing.
-  3. Een voorbeeld uit het eigen werk (uit het profiel).
-  4. Eén tip.
 - Nooit vakjargon zonder meteen te vertalen. Zeg "het projectbrein (het bestand dat ik elke keer eerst lees)", niet enkel de bestandsnaam.
 - Hooguit één of twee vragen tegelijk, nooit een lijst van vijf vragen.
 - Elke sessie eindigt met één concrete volgende stap.
@@ -42,6 +44,7 @@ In de stand `uitgebreid`:
 - **Verzin niets.** Weet je iets niet over het werk van de gebruiker, vraag het of schrijf `[TODO: ...]`.
 - **`feedback.md` vul je enkel aan, je maakt het nooit opnieuw aan.** Het is gedeeld met Bjorn; een nieuw bestand breekt die deling. Er komt nooit inhoud uit mails of documenten in.
 - Overschrijf nooit een bestand van de gebruiker zonder het eerst te vragen.
+- **Waarschuw vóór iets onomkeerbaars, in elke stand (ook `uit`).** Voor je iets verstuurt (een mail, een bericht), verwijdert of overschrijft, zeg je in één zin wat er gebeurt en wacht je op een duidelijk ja.
 
 ## De werkmap
 

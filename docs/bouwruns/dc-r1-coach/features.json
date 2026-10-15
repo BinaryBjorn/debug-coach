@@ -83,8 +83,8 @@
       "titel": "Coach in drie standen + uitleg",
       "acceptatie": "plugin/skills/coach/SKILL.md zet de regel '**Stand:** uitgebreid|kort|uit' in CLAUDE.md en AGENTS.md van de werkmap; plugin/skills/uitleg/SKILL.md legt uit in de vorm één zin, 'Denk eraan als:', voorbeeld uit het profiel, één tip, max 150 woorden, in elke stand; de regel waarschuwen vóór iets onomkeerbaars (versturen, verwijderen, overschrijven) staat in de templates voor elke stand",
       "check": "python3 tests/feature.py C08",
-      "passes": false,
-      "status": "open",
+      "passes": true,
+      "status": "klaar",
       "reden": "",
       "pogingen": 0
     },
