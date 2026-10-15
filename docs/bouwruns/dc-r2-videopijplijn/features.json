@@ -61,8 +61,8 @@
       "titel": "Eindvideo",
       "acceptatie": "uit/<slug>.mp4 is h264 + aac, 1920x1080, 30 fps, afspeelbaar volgens ffprobe",
       "check": "python3 tests/feature.py V06",
-      "passes": false,
-      "status": "open",
+      "passes": true,
+      "status": "klaar",
       "reden": "",
       "pogingen": 0
     },
@@ -72,8 +72,8 @@
       "titel": "Stem: test en openai",
       "acceptatie": "provider test maakt uit/stem/<id>.wav van exact duur_s; videos/stem.py heeft openai_aanvraag(tekst, sleutel) die url https://api.openai.com/v1/audio/speech, Authorization Bearer <sleutel>, model gpt-4o-mini-tts en voice cedar teruggeeft zonder te versturen; de sleutel komt enkel uit OPENAI_API_KEY; zonder sleutel met --stem openai valt de pijplijn terug op test en meldt 'stem ontbreekt' in één regel, en de video wordt toch gemaakt",
       "check": "python3 tests/feature.py V07",
-      "passes": false,
-      "status": "open",
+      "passes": true,
+      "status": "klaar",
       "reden": "",
       "pogingen": 0
     },

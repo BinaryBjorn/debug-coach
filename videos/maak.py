@@ -12,6 +12,7 @@ import subprocess
 import sys
 
 import beeld
+import stem
 from huisstijl import BREEDTE, FPS, HOEKSTRAAL, HOOGTE, KADER, ZOOM
 
 CIRKEL_DIAMETER = 72
@@ -254,16 +255,24 @@ def render(plan, map_, uit, slug):
                      % (vorige, x - CIRKEL_DIAMETER // 2, y - CIRKEL_DIAMETER // 2, t, tot, i))
         vorige = "c%d" % i
     delen.append("[%s]format=yuv420p[v]" % vorige)
+    # stem per stap vanaf het begin van de stap, aangevuld met stilte tot de stapduur (inputs 5 en verder)
+    for i, st in enumerate(plan["stappen"]):
+        delen.append("[%d:a]aformat=sample_rates=48000:channel_layouts=stereo,apad=whole_dur=%.3f,"
+                     "atrim=duration=%.3f,asetpts=PTS-STARTPTS[a%d]" % (5 + i, st["stapduur"], st["stapduur"], i))
+    delen.append("%sconcat=n=%d:v=0:a=1[a]" % ("".join("[a%d]" % i for i in range(n)), n))
     args = ["ffmpeg", "-v", "error", "-y",
             "-i", str(map_ / "ruw" / "opname.mov"),
             "-loop", "1", "-framerate", str(FPS), "-i", str(uit / "achtergrond.png"),
             "-loop", "1", "-framerate", str(FPS), "-i", str(uit / "masker.png"),
             "-loop", "1", "-framerate", str(FPS), "-i", str(uit / "cirkel.png"),
-            "-i", str(uit / (slug + ".vtt")),
-            "-filter_complex", ";".join(delen), "-map", "[v]", "-map", "4:s",
-            "-t", "%.3f" % plan["totaal"], "-r", str(FPS),
-            "-c:v", "libx264", "-pix_fmt", "yuv420p", "-c:s", "mov_text", "-movflags", "+faststart",
-            str(uit / (slug + ".mp4"))]
+            "-i", str(uit / (slug + ".vtt"))]
+    for st in plan["stappen"]:
+        args += ["-i", str(uit / "stem" / (st["id"] + ".wav"))]
+    args += ["-filter_complex", ";".join(delen), "-map", "[v]", "-map", "[a]", "-map", "4:s",
+             "-t", "%.3f" % plan["totaal"], "-r", str(FPS),
+             "-c:v", "libx264", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k",
+             "-c:s", "mov_text", "-movflags", "+faststart",
+             str(uit / (slug + ".mp4"))]
     r = subprocess.run(args, capture_output=True, text=True)
     if r.returncode != 0:
         raise SystemExit("ffmpeg faalde: " + r.stderr[-1500:])
@@ -283,6 +292,11 @@ def main(argv=None):
     uit = map_ / "uit"
     uit.mkdir(parents=True, exist_ok=True)
 
+    if not a.plan_only:
+        # de stem bepaalt de stapduur: met de echte stem telt de gemeten duur, niet de schatting uit het script
+        duren = stem.maak_stemmen(script["stappen"], uit / "stem", a.stem)
+        for st in script["stappen"]:
+            st["duur_s"] = round(duren[st["id"]], 3)
     plan = maak_plan(script, log, opname_info(map_ / "ruw" / "opname.mov"))
     (uit / "plan.json").write_text(json.dumps(plan, indent=2, ensure_ascii=False) + "\n")
     print("plan: %s (%d stappen, %.1f s)" % (uit / "plan.json", len(plan["stappen"]), plan["totaal"]))
