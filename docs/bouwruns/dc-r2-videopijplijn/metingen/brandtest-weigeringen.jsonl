@@ -1,0 +1,5 @@
+{"tijd": "2026-10-15T19:05:59", "rol": "brandtest", "reden": "beschermd sinds het tekenen: docs/bouwruns/dc-r2-videopijplijn/bronnen/brand.json (tests, contract en de bouwrun zelf blijven onaangeroerd; lijkt een test fout, zet de feature op twijfel met reden en noteer het in vragen.md)"}
+{"tijd": "2026-10-15T19:06:00", "rol": "brandtest", "reden": "in features.json mag je enkel notitie, passes, pogingen, reden, status aanpassen"}
+{"tijd": "2026-10-15T19:06:01", "rol": "brandtest", "reden": "pushen doet enkel het startscript"}
+{"tijd": "2026-10-15T19:06:01", "rol": "brandtest", "reden": "web enkel via de subagent onderzoeker (die kan de vault niet lezen)"}
+{"tijd": "2026-10-15T19:06:01", "rol": "brandtest", "reden": "curl en wget enkel naar de lokale testserver (localhost of 127.0.0.1)"}

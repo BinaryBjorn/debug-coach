@@ -1,0 +1,101 @@
+{
+  "getekend_op": "2026-10-15T19:05:44",
+  "commit": "8de895bbe7d25a2d85c663c7dcb8e51a56399b36",
+  "beschermd": [
+    "tests/**",
+    "docs/bouwruns/dc-r2-videopijplijn/bronnen/**",
+    "docs/bouwruns/dc-r2-videopijplijn/contract.md",
+    "docs/bouwruns/dc-r2-videopijplijn/run.json",
+    "docs/bouwruns/dc-r2-videopijplijn/testplan.md",
+    "docs/bouwruns/dc-r2-videopijplijn/getekend.json",
+    "Resources/operator/runtime/bouwrun/**",
+    "Skills/bouwrun/**",
+    ".claude/**",
+    ".bouwrun/**"
+  ],
+  "hashes": {
+    "docs/bouwruns/dc-r2-videopijplijn/bronnen/brand.json": "4adc80c6c0384e370409c528531e47cf89c0866d25cc4ccf8583492b3a0ba140",
+    "docs/bouwruns/dc-r2-videopijplijn/contract.md": "34241b24cfec8ccb12fc5e33af86973a7518a0878d636b473bc2cc30c101178d",
+    "docs/bouwruns/dc-r2-videopijplijn/run.json": "e5131e57c37affb44f2417bfe3695be2e442b58b2ad4d9b177190bbf1a53abba",
+    "docs/bouwruns/dc-r2-videopijplijn/testplan.md": "026a5d06142fac339df6dc6663545c3dd166ffb50e458dcf5d07bc166435288c",
+    "tests/feature.py": "abe6910047deb0d407c683f968687f4381e5a69eadf2d8ba9b02299939ac4ea3",
+    "tests/fixtures/gedeeld/log.schema.json": "79c7fdafcf68659fd8517e83734a582779b257de535b067eb546285f87d84215",
+    "tests/fixtures/gedeeld/missie-formaat.md": "33a99f04301a8140ab879da572f145bf428dc18c5298e198b69eb56de690c74e",
+    "tests/fixtures/gedeeld/script.schema.json": "219c82fb7edec9c9406d837731ff238006dec8671bb53fa3300422d4e64fdd79",
+    "tests/fixtures/gedeeld/voortgangslink.json": "74baa8deea4785ae5792af26f864304bc607b4390e9bda75dbeb543eb08900b2",
+    "tests/fixtures/video/demo/ruw/log.json": "bafd7e8143e8dff59040a77b16c5452ddd07b8abbb542d5c3be013d6a7d9a5e6",
+    "tests/fixtures/video/demo/script.json": "27c95681d97d1a376851c8ce29402a38139a24321213de80a9fe10bb5aa88c4a",
+    "tests/fixtures/werkmap-claude-werk/ik/profiel.md": "8201265581726bdb7470116a09de6fb68caed7c2cb0485282267d7d39a57bcbf",
+    "tests/fixtures/werkmap-leeg/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tests/fixtures/werkmap-missie7/feedback.md": "7543157f11f4f113b7ee8c7392b7dd591f4130d96fc29c89125300760fc5f273",
+    "tests/fixtures/werkmap-missie7/ik/profiel.md": "a6284a3f771c8fcc6bc026e3d6476bc6d66a331397d6fb29d0d6ef2f2cfdd671",
+    "tests/fixtures/werkmap-missie7/projecten/beurs-installatie-2027/README.md": "b217b3f4e471cfd267293ed9396b493df1ae5100ab6670ff8e5bab8bd154b11e",
+    "tests/fixtures/werkmap-missie7/projecten/klantenmail-nieuwsbrief/README.md": "3d3aad49011b8d0ee03d888d28e8822d19c44ccc7cb88b562353f0423fd1a71e",
+    "tests/fixtures/werkmap-missie7/projecten/offertes-q1/README.md": "2f1e7d62b9fe34ae5016258737246014d7485674ffe1e16045982389f16f7331",
+    "tests/fixtures/werkmap-missie7/successen.md": "c72a8367d7388bbf6d40e8f73ffdf42d68ecac5ba59e6e0affe8884d55113d5b",
+    "tests/fixtures/werkmap-missie7/voortgang.md": "952952a5443b1c9b99e258067a93236a11bfd4ea4244610d3fd06c0dc8085382",
+    "tests/fixtures/werkmap-vreemd/lijst.csv": "d1781735361ab10371554342eaff74a98082b0fb91c58b654bfafdcc198e7e11",
+    "tests/fixtures/werkmap-vreemd/notities.txt": "308a7fe5c0a95ce885952f5cae95a74b9e4c2935b9849110a6e914bd19143b58",
+    "tests/gedeeld.sha256": "d00340c28f1d3d761da3f96163e6f3a140dd66fcef5b2687eba8f219dccbc577",
+    "tests/test_coach.py": "f6f146e2549bde69f69378707df2a5f00b4c2fbbe71dcb25f325872cb12e6b7e",
+    "tests/test_video.py": "207b61f097baa44294616cf6efae619effb06407528ae9eac2d63c354c3a753e"
+  },
+  "features": [
+    {
+      "id": "V01",
+      "scenario": "S7a",
+      "titel": "Renderplan uit script en log",
+      "acceptatie": "videos/maak.py <map> --plan-only schrijft uit/plan.json met totaal en per stap id, bron_begin (videotijd = t - opname.start_video_gemeten), uit_begin, uit_einde, handelingsduur, stapduur, bevriezen en zoomdoel in pixels van de opname ((x - gebied.x) x schaal, begrensd), volgens de rekenregels in log.schema.json, uit script.json en ruw/log.json; de opname mag een andere beeldsnelheid hebben (bv. 120 fps)",
+      "check": "python3 tests/feature.py V01"
+    },
+    {
+      "id": "V02",
+      "scenario": "S7a",
+      "titel": "Achtergrond, kader en afgeronde hoeken",
+      "acceptatie": "Python maakt achtergrond (verloop #0B1628 naar #1A2D4A), masker met 24 px afgeronde hoeken en klikcirkel (#4A7CC9) als geldige PNG zonder pakketten; de kleuren staan als constanten in videos/; de video is 1920x1080 met het scherm geschaald zodat het in 84 procent van breedte en hoogte past, gecentreerd",
+      "check": "python3 tests/feature.py V02"
+    },
+    {
+      "id": "V03",
+      "scenario": "S7a",
+      "titel": "Inzoomen en klikcirkel",
+      "acceptatie": "elke stap met een zoomdoel heeft in plan.json zoomfactor 1.8; elke stap met een klik heeft cirkel [x, y, t] in uitvoercoördinaten (binnen 1920x1080) met t binnen de stap; tussen de kliks 1x; de keurder bekijkt kaders rond een klik",
+      "check": "python3 tests/feature.py V03"
+    },
+    {
+      "id": "V04",
+      "scenario": "S7b",
+      "titel": "Timing per stap",
+      "acceptatie": "duur van de eindvideo = som van de stapduren volgens de rekenregels (marge 0,5 s); een stap met duur_s groter dan de handelingsduur bevriest het laatste kader; beeld tussen de stappen is weggeknipt",
+      "check": "python3 tests/feature.py V04"
+    },
+    {
+      "id": "V05",
+      "scenario": "S7a",
+      "titel": "Ondertitels",
+      "acceptatie": "uit/<slug>.vtt heeft één cue per stap met de gesproken tekst en de tijden uit het plan; de mp4 heeft een mov_text-spoor met dezelfde cues",
+      "check": "python3 tests/feature.py V05"
+    },
+    {
+      "id": "V06",
+      "scenario": "S7a",
+      "titel": "Eindvideo",
+      "acceptatie": "uit/<slug>.mp4 is h264 + aac, 1920x1080, 30 fps, afspeelbaar volgens ffprobe",
+      "check": "python3 tests/feature.py V06"
+    },
+    {
+      "id": "V07",
+      "scenario": "S7c",
+      "titel": "Stem: test en openai",
+      "acceptatie": "provider test maakt uit/stem/<id>.wav van exact duur_s; videos/stem.py heeft openai_aanvraag(tekst, sleutel) die url https://api.openai.com/v1/audio/speech, Authorization Bearer <sleutel>, model gpt-4o-mini-tts en voice cedar teruggeeft zonder te versturen; de sleutel komt enkel uit OPENAI_API_KEY; zonder sleutel met --stem openai valt de pijplijn terug op test en meldt 'stem ontbreekt' in één regel, en de video wordt toch gemaakt",
+      "check": "python3 tests/feature.py V07"
+    },
+    {
+      "id": "V08",
+      "scenario": "S7a",
+      "titel": "Handleiding",
+      "acceptatie": "videos/README.md beschrijft de keten: script.json, opname door Claude met Computer Use op de mini (opname.md), ruw/opname.mov en ruw/log.json, python3 videos/maak.py, nakijken, uit/ en waar de video daarna heen gaat, en de omgevingsvariabele OPENAI_API_KEY",
+      "check": "python3 tests/feature.py V08"
+    }
+  ]
+}
