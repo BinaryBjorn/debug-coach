@@ -1,0 +1,12 @@
+{
+  "slug": "dc-r1b-coach-didactiek",
+  "outputtype": "feature",
+  "werkmap": "docs/bouwruns/dc-r1b-coach-didactiek",
+  "beschermd": ["tests/**", "docs/bouwruns/dc-r1b-coach-didactiek/bronnen/**", "docs/bouwruns/dc-r1-coach/bronnen/**"],
+  "basistest": "python3 tests/regressie.py",
+  "check_timeout": 900,
+  "budget": {"max_uren": 3, "max_sessies": 10, "features_per_sessie": 2, "max_usd_per_sessie": 25, "max_minuten_per_sessie": 60},
+  "modellen": {"bouwer": "opus", "keurder": "opus", "pakket": "sonnet"},
+  "keurrondes": 2,
+  "r6_observe_sessies": 2
+}
