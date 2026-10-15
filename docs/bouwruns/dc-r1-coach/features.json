@@ -72,8 +72,8 @@
       "titel": "De uitdagingenladder",
       "acceptatie": "plugin/skills/uitdaging/ladder.md heeft vijf niveaus met soort en voorbeeld zoals in de brief; SKILL.md verwijst naar de open missies zolang missie 7 niet klaar is, kiest het niveau volgens de ladderregels in missie-formaat.md (na 5 blijft 5, trede loopt door), weigert een zin of combinatie dossier+soort die al in het log staat, voegt een rij toe aan de ladder-tabel en geeft de link t<trede>; ladder.md heeft vijf koppen '## Niveau 1' tot '## Niveau 5'; SKILL.md noemt de kop '## Ladder' in voortgang.md en de regel dat het na niveau 5 bij niveau 5 blijft",
       "check": "python3 tests/feature.py C07",
-      "passes": false,
-      "status": "open",
+      "passes": true,
+      "status": "klaar",
       "reden": "",
       "pogingen": 0
     },

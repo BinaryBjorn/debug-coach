@@ -9,3 +9,8 @@
 - C03 klaar: `plugin/skills/start/SKILL.md` is herschreven in het Nederlands (inventaris, werkmap met AGENTS.md, missie 1 met vragen in de chat als standaard en het formulier als extra in Cowork, Platform uit de app, coachcode van 8 tekens of [TODO], trainingsschakelaar per platform, link m1 of de zin zonder_code, meter, "zeg: volgende missie").
 - C04 klaar: missie-01 tot missie-07 volgen het gedeelde formaat (frontmatter, zeven koppen, foutsubkoppen met minstens 3 ChatGPT- en 3 Claude-items, begrippen met "Denk eraan als"). C06 slaagt daardoor ook al, maar is nog niet afgevinkt.
 - Tests: C03, C04, C06 en BASIS groen. Volgende: C05 (skill missie), daarna C06 afvinken na een eigen check.
+
+## Sessie 3 (15/10/2026)
+- C05 klaar: `plugin/skills/missie/SKILL.md` met meter, volgende open missie (overslaan mag), route uit Platform en Account (enkel vragen bij [TODO]), coachstand, Klaar als zelf controleren, één regel in successen.md en één rij in feedback.md, één keer een lagere stand (genoteerd in de feedbackrij), link m<N> of de zin zonder_code. Beslissingen 10 en 11.
+- C07 klaar: `plugin/skills/uitdaging/ladder.md` (vijf niveaus met soort, varianten, voorbeeld) en `SKILL.md` (poort missie 7, niveau +1 tot 5 en daarna 5, trede loopt door, geen dubbele zin of dossier+variant, rij in `## Ladder` met Klaar nee, link t<trede> bij klaar). Beslissingen 12 en 13.
+- Tests: C05, C07, C09 en BASIS groen; C10 faalt nog enkel op het ontbrekende `docs/updates.md` (eigen feature). Volgende: C06 afvinken, dan C08 (skills coach en uitleg) en C10.
