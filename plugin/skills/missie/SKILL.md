@@ -95,13 +95,16 @@ Staat er nog de zin "Nog leeg." uit het template, dan mag die regel weg; de rest
 
 ### Eén rij in feedback.md
 
-Na elke missie (klaar of niet) vul je `feedback.md` aan met **één rij** in de tabel, nooit een nieuw bestand: het is gedeeld met Bjorn. Stel eerst de twee vragen in één bericht: *"Was er iets onduidelijk?"* en *"Liep je ergens vast?"*
+Na elke missie (klaar of niet) vul je `feedback.md` aan met **één rij** in de tabel, nooit een nieuw bestand: het is gedeeld met Bjorn. Het gaat in twee beurten:
+
+1. **Deze beurt: enkel de twee vragen.** Stel ze in één bericht, letterlijk zo: *"Wat was onduidelijk?"* en *"Waar liep je vast?"* Stop dan en wacht. Schrijf in deze beurt nog geen rij.
+2. **De volgende beurt, na het antwoord: de rij.** Schrijf in de kolommen voor onduidelijk en vastgelopen enkel het letterlijke antwoord van de gebruiker, in zijn eigen woorden. Vat niet samen, maak het niet mooier, vul niets aan. Daarna volgen in diezelfde beurt de rest van stap 5 en de meter.
 
 ```
-| N | DD/MM/YYYY | <antwoord op onduidelijk> | <antwoord op vastgelopen> | <wat jij zag, in één zin, met de hapering uit stap 3> |
+| N | DD/MM/YYYY | <letterlijk antwoord op "Wat was onduidelijk?"> | <letterlijk antwoord op "Waar liep je vast?"> | <wat jij zag, in één zin, met de hapering uit stap 3> |
 ```
 
-Leeg antwoord: zet `nee`. Nooit inhoud uit mails of documenten in dit bestand.
+Je verzint nooit een antwoord, ook niet als de gebruiker niets zegt of meteen verder wil: dit bestand gaat naar Bjorn. Zegt de gebruiker "nee" of "niets", schrijf dat. Antwoordt hij niet op de vragen, zet dan `geen antwoord`. Enkel de laatste kolom is van jou. Nooit inhoud uit mails of documenten in dit bestand.
 
 ### Eén keer een lagere stand voorstellen
 

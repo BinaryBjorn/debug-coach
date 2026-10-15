@@ -175,7 +175,7 @@ Controleer "Klaar als" uit het missiebestand: **Rol**, **Dossiers** en **Account
 - Gehaald: zet missie 1 in `voortgang.md` op `klaar` met de datum van vandaag (`DD/MM/YYYY`) in de kolom "Klaar op".
 - Niet gehaald: zet ze op `bezig` en zeg in één regel wat nog ontbreekt.
 
-Schrijf na de missie één rij in `feedback.md` (vul aan, maak het bestand nooit opnieuw aan): missie `1`, de datum, en twee korte vragen aan de gebruiker (*"Was er iets onduidelijk?"* en *"Liep je ergens vast?"*), plus in de laatste kolom in één zin wat jij zag. Nooit inhoud uit mails of documenten in dit bestand.
+Na de missie komt één rij in `feedback.md` (vul aan, maak het bestand nooit opnieuw aan), in twee beurten. Stel eerst in één bericht de twee vragen, letterlijk zo: *"Wat was onduidelijk?"* en *"Waar liep je vast?"* Stop en wacht: in deze beurt schrijf je nog geen rij. Schrijf de rij pas in de volgende beurt, na het antwoord: missie `1`, de datum, in de twee kolommen enkel het letterlijke antwoord van de gebruiker (niet samengevat, niet aangevuld), en in de laatste kolom in één zin wat jij zag. Daarna, in diezelfde beurt, de meter van stap 3. Je verzint nooit een antwoord: dit bestand gaat naar Bjorn. Antwoordt de gebruiker niet op de vragen, zet dan `geen antwoord`. Nooit inhoud uit mails of documenten in dit bestand.
 
 ## Stap 3: de voortgangsmeter (vast slot, elke keer)
 
