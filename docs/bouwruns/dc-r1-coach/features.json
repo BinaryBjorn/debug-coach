@@ -7,8 +7,8 @@
       "acceptatie": "plugin/plugin.json (portable schema-URL, name debug-coach, version, description) en plugin/.claude-plugin/plugin.json hebben dezelfde name, version en description; .claude-plugin/marketplace.json in de root wijst met source ./plugin naar de plugin; de oude skills/, missies/ en .claude-plugin/plugin.json in de root zijn verhuisd naar plugin/",
       "check": "python3 tests/feature.py C01",
       "passes": false,
-      "status": "geblokkeerd",
-      "reden": "Alles gebouwd behalve het verwijderen van de oude root/.claude-plugin/plugin.json: de PreToolUse-hook weigert elk schrijfcommando met '.claude' in het pad (ook .claude-plugin, geen beschermd pad volgens het contract), en geen andere tool kan een bestand wissen. Uitweg: 'git rm .claude-plugin/plugin.json' buiten de run, of de hook laten matchen op '.claude/' in plaats van '.claude'. Daarna slaagt C01 (enkel die assert faalt nog). Zie roadblocks.md.",
+      "status": "open",
+      "reden": "keurder ronde 1: python3 tests/feature.py C01 faalt op tests/test_coach.py:178 omdat .claude-plugin/plugin.json (oud, v0.1.0) nog in de root staat; terecht geblokkeerd door de hook op '.claude', uitweg buiten de run: git rm .claude-plugin/plugin.json; de rest van C01 klopt.",
       "pogingen": 2
     },
     {
@@ -17,9 +17,9 @@
       "titel": "Werkmap-templates compleet",
       "acceptatie": "plugin/skills/start/templates bevat CLAUDE.md en AGENTS.md (dezelfde coachregels en standregel), ik/profiel.md met de vier werkwijzeregels uit missie-formaat.md (Platform, Account, Coachcode, Tools op [TODO]), voortgang.md met 7 missies en een lege ladder-tabel in het gedeelde formaat, feedback.md (kolommen missie, datum, onduidelijk, vastgelopen, wat de coach zag), successen.md, projecten/README.md; voortgang.md heeft per missie een rij die begint met '| N. ' (N = 1 tot 7)",
       "check": "python3 tests/feature.py C02",
-      "passes": true,
-      "status": "klaar",
-      "reden": "",
+      "passes": false,
+      "status": "open",
+      "reden": "keurder ronde 1: plugin/skills/start/templates/ik/profiel.md:7 ('Claude leest dit elke keer') en :36 ('hoe Claude voor jou schrijft') staan ook in het ChatGPT-werkmappakket (dist/debug-coach-werkmap/ik/profiel.md) en noemen de verkeerde app; maak ze app-neutraal ('de coach' of 'de AI').",
       "pogingen": 0
     },
     {
@@ -28,9 +28,9 @@
       "titel": "start: werkmap + missie 1 in beide apps",
       "acceptatie": "plugin/skills/start/SKILL.md bevat de stappen inventaris, werkmap, missie 1, meter; vragen in de chat als standaard en het formulier enkel als extra; Platform invullen uit de app waarin hij draait; de coachcode vragen (8 tekens, staat op de startplanpagina) en anders [TODO] laten; de trainingsschakelaar per platform; de voortgangslink m1 of de zin zonder_code; nooit overschrijven; geen slash-commando",
       "check": "python3 tests/feature.py C03",
-      "passes": true,
-      "status": "klaar",
-      "reden": "",
+      "passes": false,
+      "status": "open",
+      "reden": "keurder ronde 1: start op werkmap-missie7 (7/7) sluit volgens SKILL.md:211 af met 'Volgende missie: je eerste project', en start op een werkmap met gevuld profiel zonder voortgang.md (werkmap-claude-werk) stelt de vijf vragen opnieuw en herschrijft het profiel (SKILL.md:18, :147, :163), tegen 'nooit overschrijven'.",
       "pogingen": 0
     },
     {
