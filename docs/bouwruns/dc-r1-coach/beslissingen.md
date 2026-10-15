@@ -11,3 +11,5 @@
 | 7 | Missie 1 krijgt geen aparte kop "Paden": het pad "nog niet gestart" staat onder `## Resultaat` | Het gedeelde formaat laat enkel de zeven koppen toe; de site ontleedt het | Een achtste kop | ja |
 | 8 | Missie 2 Route Claude zegt "Claude kent ook projecten" zonder menupad | De brief zegt het (K1), platformfeiten geeft geen detail | De zin weglaten | ja |
 | 9 | Missie 7 ChatGPT test met `@mijn-vaardigheden`; Claude via ZIP uit `projecten/eigen-skills/` | Zo staat het in de brief (C3, K7) | Eén route voor beide | ja |
+| 10 | `successen.md` krijgt per klare missie één lijstregel `- **datum, missie N:** vraag → resultaat`, geen tabel; de zin "Nog leeg." mag weg | Het template heeft geen tabel en een lijst leest makkelijker voor een beginner | Een tabel met kop in het template | ja |
+| 11 | De lagere stand wordt één keer in heel de werkmap voorgesteld; de coach noteert "lagere stand voorgesteld" in de feedbackrij en kijkt daar of het al gebeurde | Zo is "één keer" na te gaan zonder extra bestand | Eén keer per missie, of een vlag in het profiel | ja |

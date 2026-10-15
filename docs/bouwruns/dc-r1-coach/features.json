@@ -50,8 +50,8 @@
       "titel": "missie: begeleiden, route, afronden",
       "acceptatie": "plugin/skills/missie/SKILL.md: meter tonen, volgende open missie voorstellen en overslaan toelaten, route uit Platform en Account (enkel vragen bij [TODO]), coachstand volgen, Klaar als controleren, één rij successen en één rij feedback aanvullen, één keer een lagere stand voorstellen, de voortgangslink m<N> of de zin zonder_code; geen slash-commando",
       "check": "python3 tests/feature.py C05",
-      "passes": false,
-      "status": "open",
+      "passes": true,
+      "status": "klaar",
       "reden": "",
       "pogingen": 0
     },
