@@ -1,0 +1,23 @@
+{
+  "ronde": 2,
+  "features": [
+    {"id": "C01", "oordeel": "faalt", "bevinding": "python3 tests/feature.py C01 faalt nog op tests/test_coach.py:178 omdat .claude-plugin/plugin.json (oud, v0.1.0) in de root staat; terecht geblokkeerd door de hook op '.claude', binnen de run niet op te lossen; uitweg buiten de run: git rm .claude-plugin/plugin.json; de rest van C01 klopt."},
+    {"id": "C02", "oordeel": "slaagt", "bevinding": "templates/ik/profiel.md:7 en :36 zijn app-neutraal ('De coach leest dit', 'hoe de AI voor jou schrijft'), ook in dist/debug-coach-werkmap/ik/profiel.md; check groen."},
+    {"id": "C03", "oordeel": "slaagt", "bevinding": "Nagespeeld: start op werkmap-claude-werk vraagt niets opnieuw en herschrijft het profiel niet (SKILL.md:19-22, :148), enkel de schakelaar, en eindigt met 'Volgende missie: 2. Je eerste project'; op werkmap-missie7 (7/7) verwijst de afsluiting naar de ladder (:213)."},
+    {"id": "C04", "oordeel": "slaagt", "bevinding": "Ongewijzigd sinds ronde 1; formaat en taal kloppen; missie-05.md:42 mist WebM en MP4 (enkel audio) uit C10: opmerking voor het pakket."},
+    {"id": "C05", "oordeel": "slaagt", "bevinding": "Ongewijzigd; missie 2 op werkmap-missie7 klopt, en missie 3 op werkmap-claude-werk volgt na start Route Claude met werkaccount zonder vragen en geeft de zin zonder code."},
+    {"id": "C06", "oordeel": "slaagt", "bevinding": "Check groen en oplossingen kloppen met de bronnen; staat nog op open/passes false in features.json (administratief)."},
+    {"id": "C07", "oordeel": "slaagt", "bevinding": "Poort, niveau 3-5 en links t3-t5 kloppen; de dubbelregel volgt de acceptatie letterlijk ('al in het log'); 'soort/variant' door elkaar (:47) en 'niveau 6' na niveau 5 (:89) zijn opmerkingen voor het pakket."},
+    {"id": "C08", "oordeel": "slaagt", "bevinding": "Ongewijzigd; standregel in beide breinen, uitlegvorm onder 150 woorden in elke stand, waarschuwingsregel in beide templates."},
+    {"id": "C09", "oordeel": "slaagt", "bevinding": "Links volgen de fixture, zin zonder_code letterlijk in start, missie en uitdaging, hash klopt; staat nog op open in features.json (administratief)."},
+    {"id": "C10", "oordeel": "slaagt", "bevinding": "Ongewijzigd; updates.md en README correct, geen overschrijf- of wisinstructie, het overschrijfgat in start is nu ook dicht."},
+    {"id": "C11", "oordeel": "slaagt", "bevinding": "Ongewijzigd; zes geldige scripts en zes volledige opnameopdrachten, gitignore klopt."},
+    {"id": "C12", "oordeel": "slaagt", "bevinding": "Pakket opnieuw gebouwd (19:01) met het app-neutrale profiel, .coach/mijn-vaardigheden, de catalogus en de zip, zonder de coach."},
+    {"id": "C13", "oordeel": "slaagt", "bevinding": "Ongewijzigd; README dekt beide installaties, werkmap, coachcode en updates zonder slash-commando."}
+  ],
+  "gemist_door_bouwer": [
+    "start schrijft 'Nog geen projecten' in een bestaande projectenmap zonder README (templates/projecten/README.md:3), open sinds ronde 1",
+    "een klare missie opnieuw doen zet ze op bezig en overschrijft de datum, de meter kan zakken (missie/SKILL.md:36, :70-71), open sinds ronde 1",
+    "missie 5 noemt WebM en MP4 (enkel audio) niet als ondersteund formaat (missie-05.md:42), open sinds ronde 1"
+  ]
+}

@@ -1,27 +1,23 @@
 {
-  "ronde": 1,
+  "ronde": 2,
   "features": [
-    {"id": "C01", "oordeel": "faalt", "bevinding": "python3 tests/feature.py C01 faalt op tests/test_coach.py:178 omdat .claude-plugin/plugin.json (oud, v0.1.0) nog in de root staat; terecht geblokkeerd door de hook op '.claude', uitweg buiten de run: git rm .claude-plugin/plugin.json; de rest van C01 klopt."},
-    {"id": "C02", "oordeel": "faalt", "bevinding": "plugin/skills/start/templates/ik/profiel.md:7 ('Claude leest dit elke keer') en :36 ('hoe Claude voor jou schrijft') staan ook in het ChatGPT-werkmappakket (dist/debug-coach-werkmap/ik/profiel.md) en noemen de verkeerde app; maak ze app-neutraal ('de coach' of 'de AI')."},
-    {"id": "C03", "oordeel": "faalt", "bevinding": "start op werkmap-missie7 (7/7) sluit volgens SKILL.md:211 af met 'Volgende missie: je eerste project', en start op een werkmap met gevuld profiel zonder voortgang.md (werkmap-claude-werk) stelt de vijf vragen opnieuw en herschrijft het profiel (SKILL.md:18, :147, :163), tegen 'nooit overschrijven'."},
-    {"id": "C04", "oordeel": "slaagt", "bevinding": "Formaat, taal en de drie herziene missies kloppen; kleine fout missie-05.md:42 mist WebM en MP4 (enkel audio) uit C10, en missie-06 'terwijl jij kijkt' botst met C12/C19 op macOS (volgt de brief): opmerkingen voor het pakket."},
-    {"id": "C05", "oordeel": "slaagt", "bevinding": "Nagespeeld op werkmap-missie7: meter, voorstel, route, Klaar als, successen, feedback, één lagere stand en link s=m2 kloppen; missie 3 op werkmap-claude-werk niet na te spelen omdat de fixture geen voortgang.md heeft (fixture, niet de bouwer)."},
-    {"id": "C06", "oordeel": "slaagt", "bevinding": "Check groen en oplossingen kloppen met de bronnen; nog niet afgevinkt in features.json (passes false), dat is administratief."},
-    {"id": "C07", "oordeel": "twijfel", "bevinding": "Drie uitdagingen na elkaar op werkmap-missie7 geven trede/niveau 3-5 en links t3-t5 correct, maar uitdaging/SKILL.md:47 verwart soort en variant en weigert elk eerder dossier+soort (missie-formaat.md:58: enkel de vorige rij), zodat op niveau 5 met drie dossiers vanaf trede 8 telkens een nieuw dossier nodig is; :89 geeft na niveau 5 'niveau 6'."},
-    {"id": "C08", "oordeel": "slaagt", "bevinding": "coach zet enkel de regel **Stand:** in CLAUDE.md en AGENTS.md, uitleg heeft de vierdelige vorm onder 150 woorden in elke stand, de waarschuwingsregel staat in beide templates."},
-    {"id": "C09", "oordeel": "slaagt", "bevinding": "De drie links in plugin/ volgen basis, regex_s en regex_k, de zin zonder_code staat letterlijk in start, missie en uitdaging, de hash klopt; nog niet afgevinkt in features.json."},
-    {"id": "C10", "oordeel": "slaagt", "bevinding": "docs/updates.md en README beschrijven Add a marketplace, Upgrade + Refresh en Check for updates, en dat mijn-vaardigheden nooit geraakt wordt; geen overschrijf- of wisinstructie voor de werkmap in de skills."},
-    {"id": "C11", "oordeel": "slaagt", "bevinding": "Zes geldige scripts met platform chatgpt en zes volledige opnameopdrachten voor Claude Computer Use; gitignore klopt."},
-    {"id": "C12", "oordeel": "slaagt", "bevinding": "dist/debug-coach-werkmap bevat de templates, .coach/mijn-vaardigheden (plugin.json + skills/README.md), .agents/plugins/marketplace.json in de vorm van C4, de zip, en niet de coach."},
-    {"id": "C13", "oordeel": "slaagt", "bevinding": "README dekt de installatie in ChatGPT en Claude, de werkmap, de coachcode en updates, zonder slash-commando."}
+    {"id": "C01", "oordeel": "faalt", "bevinding": "python3 tests/feature.py C01 faalt nog op tests/test_coach.py:178 omdat .claude-plugin/plugin.json (oud, v0.1.0) in de root staat; terecht geblokkeerd door de hook op '.claude', binnen de run niet op te lossen; uitweg buiten de run: git rm .claude-plugin/plugin.json; de rest van C01 klopt."},
+    {"id": "C02", "oordeel": "slaagt", "bevinding": "templates/ik/profiel.md:7 en :36 zijn app-neutraal ('De coach leest dit', 'hoe de AI voor jou schrijft'), ook in dist/debug-coach-werkmap/ik/profiel.md; check groen."},
+    {"id": "C03", "oordeel": "slaagt", "bevinding": "Nagespeeld: start op werkmap-claude-werk vraagt niets opnieuw en herschrijft het profiel niet (SKILL.md:19-22, :148), enkel de schakelaar, en eindigt met 'Volgende missie: 2. Je eerste project'; op werkmap-missie7 (7/7) verwijst de afsluiting naar de ladder (:213)."},
+    {"id": "C04", "oordeel": "slaagt", "bevinding": "Ongewijzigd sinds ronde 1; formaat en taal kloppen; missie-05.md:42 mist WebM en MP4 (enkel audio) uit C10: opmerking voor het pakket."},
+    {"id": "C05", "oordeel": "slaagt", "bevinding": "Ongewijzigd; missie 2 op werkmap-missie7 klopt, en missie 3 op werkmap-claude-werk volgt na start Route Claude met werkaccount zonder vragen en geeft de zin zonder code."},
+    {"id": "C06", "oordeel": "slaagt", "bevinding": "Check groen en oplossingen kloppen met de bronnen; staat nog op open/passes false in features.json (administratief)."},
+    {"id": "C07", "oordeel": "slaagt", "bevinding": "Poort, niveau 3-5 en links t3-t5 kloppen; de dubbelregel volgt de acceptatie letterlijk ('al in het log'); 'soort/variant' door elkaar (:47) en 'niveau 6' na niveau 5 (:89) zijn opmerkingen voor het pakket."},
+    {"id": "C08", "oordeel": "slaagt", "bevinding": "Ongewijzigd; standregel in beide breinen, uitlegvorm onder 150 woorden in elke stand, waarschuwingsregel in beide templates."},
+    {"id": "C09", "oordeel": "slaagt", "bevinding": "Links volgen de fixture, zin zonder_code letterlijk in start, missie en uitdaging, hash klopt; staat nog op open in features.json (administratief)."},
+    {"id": "C10", "oordeel": "slaagt", "bevinding": "Ongewijzigd; updates.md en README correct, geen overschrijf- of wisinstructie, het overschrijfgat in start is nu ook dicht."},
+    {"id": "C11", "oordeel": "slaagt", "bevinding": "Ongewijzigd; zes geldige scripts en zes volledige opnameopdrachten, gitignore klopt."},
+    {"id": "C12", "oordeel": "slaagt", "bevinding": "Pakket opnieuw gebouwd (19:01) met het app-neutrale profiel, .coach/mijn-vaardigheden, de catalogus en de zip, zonder de coach."},
+    {"id": "C13", "oordeel": "slaagt", "bevinding": "Ongewijzigd; README dekt beide installaties, werkmap, coachcode en updates zonder slash-commando."}
   ],
   "gemist_door_bouwer": [
-    "start op een werkmap op 7/7 wijst 'Volgende missie: je eerste project' aan (start/SKILL.md:209-212)",
-    "start vraagt een gevuld profiel opnieuw en herschrijft het als voortgang.md ontbreekt (start/SKILL.md:18, :147, :163)",
-    "start schrijft 'Nog geen projecten' in een bestaande projectenmap zonder README (templates/projecten/README.md)",
-    "profieltemplate noemt Claude, ook in het ChatGPT-werkmappakket (templates/ik/profiel.md:7, :36)",
-    "ladder-dubbelregel verwart soort en variant en is strenger dan missie-formaat.md:58; 'niveau 6' na niveau 5 (uitdaging/SKILL.md:47, :89)",
-    "missie 5 noemt WebM en MP4 (enkel audio) niet als ondersteund formaat (missie-05.md:42, tegen C10)",
-    "een klare missie opnieuw doen zet ze op bezig en overschrijft de datum, de meter kan zakken (missie/SKILL.md:36, :70-71)"
+    "start schrijft 'Nog geen projecten' in een bestaande projectenmap zonder README (templates/projecten/README.md:3), open sinds ronde 1",
+    "een klare missie opnieuw doen zet ze op bezig en overschrijft de datum, de meter kan zakken (missie/SKILL.md:36, :70-71), open sinds ronde 1",
+    "missie 5 noemt WebM en MP4 (enkel audio) niet als ondersteund formaat (missie-05.md:42), open sinds ronde 1"
   ]
 }

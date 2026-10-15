@@ -33,3 +33,4 @@
 {"tijd": "2026-10-15T18:55:19", "rol": "keurder", "reden": "de keurder schrijft enkel in de runmap"}
 {"tijd": "2026-10-15T18:55:21", "rol": "keurder", "reden": "de keurder schrijft enkel in de runmap"}
 {"tijd": "2026-10-15T18:59:21", "rol": "bouwer", "reden": "dit commando raakt een beschermd pad (.bouwrun); enkel lezen mag"}
+{"tijd": "2026-10-15T19:01:09", "rol": "keurder", "reden": "enkel Bjorn tekent een contract; opnieuw tekenen kan niet vanuit een run"}
