@@ -1,0 +1,152 @@
+{
+  "getekend_op": "2026-10-15T18:30:40",
+  "commit": "327374b2fa364122bb8764aa84b22eecbfc09897",
+  "beschermd": [
+    "tests/**",
+    "docs/bouwruns/dc-r1-coach/bronnen/**",
+    "docs/bouwruns/dc-r2-videopijplijn/**",
+    "docs/bouwruns/dc-r1-coach/contract.md",
+    "docs/bouwruns/dc-r1-coach/run.json",
+    "docs/bouwruns/dc-r1-coach/testplan.md",
+    "docs/bouwruns/dc-r1-coach/getekend.json",
+    "Resources/operator/runtime/bouwrun/**",
+    "Skills/bouwrun/**",
+    ".claude/**",
+    ".bouwrun/**"
+  ],
+  "hashes": {
+    "docs/bouwruns/dc-r1-coach/bronnen/leervragen.md": "98935a2d76a72476a64f4e4ab1aabc58d2669b7f28d20642fcb6ef26ace7775c",
+    "docs/bouwruns/dc-r1-coach/bronnen/missies-brief.md": "6fc3cb68d7e4920e73d3541fc6da9fca74959b0bfec553095242395f6f4c37b5",
+    "docs/bouwruns/dc-r1-coach/bronnen/platformfeiten.md": "a7e223ad5ca35ff3549da85ec05f7b91f3b2331f52a90cc18415022f1a065eef",
+    "docs/bouwruns/dc-r1-coach/bronnen/proef-p5/VERSLAG.md": "8e07148f874feb8a3bbc4659610c52cdd3c31896de2dbe6f65f596a8b0fdd708",
+    "docs/bouwruns/dc-r1-coach/bronnen/proef-p5/log.json": "37e53ad77f5bf5b3d632bb230083623cd743d1d417bccbf70eae134188e0bf84",
+    "docs/bouwruns/dc-r1-coach/bronnen/proeven.md": "c33f80f6b90a9a2b7100520c21480900fb2c139c20d1c91e19dc5427984b1374",
+    "docs/bouwruns/dc-r1-coach/bronnen/projectcoach/auto-memory-guide.md": "1053584d9647691a63755fcffe0e64e7030071ab8e4a305d7a6fbcba6a948e3c",
+    "docs/bouwruns/dc-r1-coach/bronnen/projectcoach/coaching-style.md": "78cdee60bebe28988c3d65f8059a355c4ab3e640cb217606426c11167c333b95",
+    "docs/bouwruns/dc-r1-coach/bronnen/projectcoach/context-window-guide.md": "32f0dbc225021552e12a74168e76f4bce29a6fd004a288afab518330f48eff4b",
+    "docs/bouwruns/dc-r1-coach/bronnen/projectcoach/delegation-mindset.md": "2a902eeecdef066f37890de5c21d0662b3ad1d846d8dd3aa4f2ce882bb134ab4",
+    "docs/bouwruns/dc-r1-coach/bronnen/projectcoach/model-selection.md": "80aade1f3474f1279ee7639b93a33f40af372115af2bcec54aaf1137fe343a1b",
+    "docs/bouwruns/dc-r1-coach/contract.md": "2b05e8a4bc2bc371b0eefe4c21145ec865bd3d1b23164f90521aab29dfb12e78",
+    "docs/bouwruns/dc-r1-coach/run.json": "be05b76cf3b0c854585c48eec506eb5f928a4659eed198312a2735750d2fd561",
+    "docs/bouwruns/dc-r1-coach/testplan.md": "c2a9c6738408ff8f5aefc9b185d2468a9c027e4fca0b1abc93f1ddc11f5776c9",
+    "docs/bouwruns/dc-r2-videopijplijn/bronnen/brand.json": "4adc80c6c0384e370409c528531e47cf89c0866d25cc4ccf8583492b3a0ba140",
+    "docs/bouwruns/dc-r2-videopijplijn/contract.md": "34241b24cfec8ccb12fc5e33af86973a7518a0878d636b473bc2cc30c101178d",
+    "docs/bouwruns/dc-r2-videopijplijn/features.json": "ca137742584cddd6300bb7d601671fd777c799b3148651df31a83cbfc9672c24",
+    "docs/bouwruns/dc-r2-videopijplijn/run.json": "e5131e57c37affb44f2417bfe3695be2e442b58b2ad4d9b177190bbf1a53abba",
+    "docs/bouwruns/dc-r2-videopijplijn/testplan.md": "026a5d06142fac339df6dc6663545c3dd166ffb50e458dcf5d07bc166435288c",
+    "tests/feature.py": "abe6910047deb0d407c683f968687f4381e5a69eadf2d8ba9b02299939ac4ea3",
+    "tests/fixtures/gedeeld/log.schema.json": "79c7fdafcf68659fd8517e83734a582779b257de535b067eb546285f87d84215",
+    "tests/fixtures/gedeeld/missie-formaat.md": "33a99f04301a8140ab879da572f145bf428dc18c5298e198b69eb56de690c74e",
+    "tests/fixtures/gedeeld/script.schema.json": "219c82fb7edec9c9406d837731ff238006dec8671bb53fa3300422d4e64fdd79",
+    "tests/fixtures/gedeeld/voortgangslink.json": "74baa8deea4785ae5792af26f864304bc607b4390e9bda75dbeb543eb08900b2",
+    "tests/fixtures/video/demo/ruw/log.json": "bafd7e8143e8dff59040a77b16c5452ddd07b8abbb542d5c3be013d6a7d9a5e6",
+    "tests/fixtures/video/demo/script.json": "27c95681d97d1a376851c8ce29402a38139a24321213de80a9fe10bb5aa88c4a",
+    "tests/fixtures/werkmap-claude-werk/ik/profiel.md": "8201265581726bdb7470116a09de6fb68caed7c2cb0485282267d7d39a57bcbf",
+    "tests/fixtures/werkmap-leeg/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tests/fixtures/werkmap-missie7/feedback.md": "7543157f11f4f113b7ee8c7392b7dd591f4130d96fc29c89125300760fc5f273",
+    "tests/fixtures/werkmap-missie7/ik/profiel.md": "a6284a3f771c8fcc6bc026e3d6476bc6d66a331397d6fb29d0d6ef2f2cfdd671",
+    "tests/fixtures/werkmap-missie7/projecten/beurs-installatie-2027/README.md": "b217b3f4e471cfd267293ed9396b493df1ae5100ab6670ff8e5bab8bd154b11e",
+    "tests/fixtures/werkmap-missie7/projecten/klantenmail-nieuwsbrief/README.md": "3d3aad49011b8d0ee03d888d28e8822d19c44ccc7cb88b562353f0423fd1a71e",
+    "tests/fixtures/werkmap-missie7/projecten/offertes-q1/README.md": "2f1e7d62b9fe34ae5016258737246014d7485674ffe1e16045982389f16f7331",
+    "tests/fixtures/werkmap-missie7/successen.md": "c72a8367d7388bbf6d40e8f73ffdf42d68ecac5ba59e6e0affe8884d55113d5b",
+    "tests/fixtures/werkmap-missie7/voortgang.md": "952952a5443b1c9b99e258067a93236a11bfd4ea4244610d3fd06c0dc8085382",
+    "tests/fixtures/werkmap-vreemd/lijst.csv": "d1781735361ab10371554342eaff74a98082b0fb91c58b654bfafdcc198e7e11",
+    "tests/fixtures/werkmap-vreemd/notities.txt": "308a7fe5c0a95ce885952f5cae95a74b9e4c2935b9849110a6e914bd19143b58",
+    "tests/gedeeld.sha256": "d00340c28f1d3d761da3f96163e6f3a140dd66fcef5b2687eba8f219dccbc577",
+    "tests/test_coach.py": "f6f146e2549bde69f69378707df2a5f00b4c2fbbe71dcb25f325872cb12e6b7e",
+    "tests/test_video.py": "207b61f097baa44294616cf6efae619effb06407528ae9eac2d63c354c3a753e"
+  },
+  "features": [
+    {
+      "id": "C01",
+      "scenario": "S5",
+      "titel": "Repo-indeling en twee manifesten",
+      "acceptatie": "plugin/plugin.json (portable schema-URL, name debug-coach, version, description) en plugin/.claude-plugin/plugin.json hebben dezelfde name, version en description; .claude-plugin/marketplace.json in de root wijst met source ./plugin naar de plugin; de oude skills/, missies/ en .claude-plugin/plugin.json in de root zijn verhuisd naar plugin/",
+      "check": "python3 tests/feature.py C01"
+    },
+    {
+      "id": "C02",
+      "scenario": "S1",
+      "titel": "Werkmap-templates compleet",
+      "acceptatie": "plugin/skills/start/templates bevat CLAUDE.md en AGENTS.md (dezelfde coachregels en standregel), ik/profiel.md met de vier werkwijzeregels uit missie-formaat.md (Platform, Account, Coachcode, Tools op [TODO]), voortgang.md met 7 missies en een lege ladder-tabel in het gedeelde formaat, feedback.md (kolommen missie, datum, onduidelijk, vastgelopen, wat de coach zag), successen.md, projecten/README.md; voortgang.md heeft per missie een rij die begint met '| N. ' (N = 1 tot 7)",
+      "check": "python3 tests/feature.py C02"
+    },
+    {
+      "id": "C03",
+      "scenario": "S1",
+      "titel": "start: werkmap + missie 1 in beide apps",
+      "acceptatie": "plugin/skills/start/SKILL.md bevat de stappen inventaris, werkmap, missie 1, meter; vragen in de chat als standaard en het formulier enkel als extra; Platform invullen uit de app waarin hij draait; de coachcode vragen (8 tekens, staat op de startplanpagina) en anders [TODO] laten; de trainingsschakelaar per platform; de voortgangslink m1 of de zin zonder_code; nooit overschrijven; geen slash-commando",
+      "check": "python3 tests/feature.py C03"
+    },
+    {
+      "id": "C04",
+      "scenario": "S2",
+      "titel": "Zeven missiebestanden volgens het gedeelde formaat",
+      "acceptatie": "plugin/missies/missie-01.md tot missie-07.md volgen missie-formaat.md exact (frontmatter missie, titel, video; de zeven koppen in volgorde; foutsubkoppen ChatGPT en Claude); video-slugs zoals in de brief; missie 4 heeft een route zonder werkaccount; missie 5 noemt audio uploaden; missie 7 maakt een eigen- skill in mijn-vaardigheden (ChatGPT) of uploadt ze via Customize > Skills (Claude); Nederlands, geen em dash, geen slash-commando",
+      "check": "python3 tests/feature.py C04"
+    },
+    {
+      "id": "C05",
+      "scenario": "S2",
+      "titel": "missie: begeleiden, route, afronden",
+      "acceptatie": "plugin/skills/missie/SKILL.md: meter tonen, volgende open missie voorstellen en overslaan toelaten, route uit Platform en Account (enkel vragen bij [TODO]), coachstand volgen, Klaar als controleren, één rij successen en één rij feedback aanvullen, één keer een lagere stand voorstellen, de voortgangslink m<N> of de zin zonder_code; geen slash-commando",
+      "check": "python3 tests/feature.py C05"
+    },
+    {
+      "id": "C06",
+      "scenario": "S3",
+      "titel": "Vastlopen per platform",
+      "acceptatie": "elke missie heeft onder Wat kan hier fout gaan minstens drie items onder ### ChatGPT en twee onder ### Claude in de vorm '- **probleem:** oplossing'",
+      "check": "python3 tests/feature.py C06"
+    },
+    {
+      "id": "C07",
+      "scenario": "S4",
+      "titel": "De uitdagingenladder",
+      "acceptatie": "plugin/skills/uitdaging/ladder.md heeft vijf niveaus met soort en voorbeeld zoals in de brief; SKILL.md verwijst naar de open missies zolang missie 7 niet klaar is, kiest het niveau volgens de ladderregels in missie-formaat.md (na 5 blijft 5, trede loopt door), weigert een zin of combinatie dossier+soort die al in het log staat, voegt een rij toe aan de ladder-tabel en geeft de link t<trede>; ladder.md heeft vijf koppen '## Niveau 1' tot '## Niveau 5'; SKILL.md noemt de kop '## Ladder' in voortgang.md en de regel dat het na niveau 5 bij niveau 5 blijft",
+      "check": "python3 tests/feature.py C07"
+    },
+    {
+      "id": "C08",
+      "scenario": "S2",
+      "titel": "Coach in drie standen + uitleg",
+      "acceptatie": "plugin/skills/coach/SKILL.md zet de regel '**Stand:** uitgebreid|kort|uit' in CLAUDE.md en AGENTS.md van de werkmap; plugin/skills/uitleg/SKILL.md legt uit in de vorm één zin, 'Denk eraan als:', voorbeeld uit het profiel, één tip, max 150 woorden, in elke stand; de regel waarschuwen vóór iets onomkeerbaars (versturen, verwijderen, overschrijven) staat in de templates voor elke stand",
+      "check": "python3 tests/feature.py C08"
+    },
+    {
+      "id": "C09",
+      "scenario": "S2",
+      "titel": "Voortgangslink volgens de gedeelde fixture",
+      "acceptatie": "elke link die in plugin/ voorkomt, voldoet aan basis, regex_s en regex_k van tests/fixtures/gedeeld/voortgangslink.json (met een voorbeeldcode), en start, missie en uitdaging bevatten de zin zonder_code letterlijk; de hash van de fixture klopt",
+      "check": "python3 tests/feature.py C09"
+    },
+    {
+      "id": "C10",
+      "scenario": "S5",
+      "titel": "Updates raken de gebruiker niet",
+      "acceptatie": "start schrijft een template enkel als het bestand ontbreekt; geen skill bevat een instructie om ik/, projecten/, feedback.md, successen.md, voortgang.md of mijn-vaardigheden te overschrijven of te wissen; docs/updates.md beschrijft updaten in ChatGPT (de coach komt via Add a marketplace met BinaryBjorn/debug-coach; updaten via Instellingen > Plugins > Marketplace > Upgrade, daarna Refresh) en in Claude (Check for updates), en zegt dat mijn-vaardigheden nooit door een update geraakt wordt",
+      "check": "python3 tests/feature.py C10"
+    },
+    {
+      "id": "C11",
+      "scenario": "S7",
+      "titel": "Zes videoscripts + opnameopdrachten",
+      "acceptatie": "videos/{welkom,klaarzetten,missie-3,missie-5,missie-7,coach-uitzetten}/script.json zijn geldig volgens script.schema.json met platform chatgpt; elke opname.md is een opdracht voor Claude met Computer Use (op de mini, demo-account, enkel nepdata in beeld): ChatGPT-venster vooraan, opname van enkel dat gebied met screencapture -v -R, tijdstip vóór elke klik, start_video_gemeten meten aan de eerste beeldwissel, ruw/opname.mov en ruw/log.json in de vorm van log.schema.json, een stap-id per handeling; .gitignore sluit videos/*/ruw/ en videos/*/uit/ uit",
+      "check": "python3 tests/feature.py C11"
+    },
+    {
+      "id": "C12",
+      "scenario": "S1",
+      "titel": "Werkmappakket met mijn-vaardigheden",
+      "acceptatie": "python3 scripts/bouw_werkmap.py maakt dist/debug-coach-werkmap/ met alle templates, een lege lokale plugin .coach/mijn-vaardigheden/ (plugin.json met name mijn-vaardigheden, skills/README.md die uitlegt wat er komt), .agents/plugins/marketplace.json (catalogusnaam mijn-werkmap, plugin mijn-vaardigheden) die naar ./.coach/mijn-vaardigheden wijst, en dist/debug-coach-werkmap.zip; de coach zelf zit niet in het pakket (die komt via GitHub); dist/ staat in .gitignore",
+      "check": "python3 tests/feature.py C12"
+    },
+    {
+      "id": "C13",
+      "scenario": "S1",
+      "titel": "README",
+      "acceptatie": "README.md beschrijft installeren in ChatGPT (werkmappakket in OneDrive op altijd op dit apparaat, openen in Work, Plugins > Add > Add a marketplace met BinaryBjorn/debug-coach, debug-coach installeren, mijn-vaardigheden installeren onder Personal, 'start' zeggen) en in Claude (Customize, Plugins, Add marketplace met BinaryBjorn/debug-coach), de werkmap, de coachcode en updates (Upgrade in ChatGPT, Check for updates in Claude); geen slash-commando's",
+      "check": "python3 tests/feature.py C13"
+    }
+  ]
+}

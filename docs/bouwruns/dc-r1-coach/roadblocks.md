@@ -1,0 +1,6 @@
+%% Per roadblock: wat vastliep, wat geprobeerd (ladder 1-4), uitweg of geparkeerd. %%
+
+## C01 · het oude manifest in de root kan niet weg (hook)
+**Wat vastliep:** de acceptatie eist dat `.claude-plugin/plugin.json` in de root verdwijnt (verhuisd naar `plugin/.claude-plugin/plugin.json`). `git mv` en `git rm` op dat pad worden geweigerd door de PreToolUse-hook: "dit commando raakt een beschermd pad (.claude); enkel lezen mag". De hook matcht op de tekst `.claude`, en die zit ook in `.claude-plugin`. Ook een `cat >>` naar de runmap werd geweigerd, enkel omdat de tekst `.claude-plugin` noemde.
+**Geprobeerd:** (1) `git mv` samen met de andere verhuizingen: geweigerd; (2) `git rm` apart: geweigerd; (3) het hookscript nalezen: het staat buiten de kloon. Write en Edit kunnen een bestand maken of wijzigen (`plugin/.claude-plugin/plugin.json` en `marketplace.json` lukten), maar niet wissen. De hook omzeilen (een glob die `.claude` niet letterlijk bevat) heb ik bewust niet gedaan.
+**Uitweg:** buiten de run `git rm .claude-plugin/plugin.json` en committen, of de hook laten matchen op `.claude/` in plaats van `.claude`. Daarna is C01 groen: dat bestand doet de enige assert nog falen (`test_C01_catalogus_en_verhuis`, regel 178). Al de rest staat klaar.

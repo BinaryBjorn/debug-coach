@@ -1,0 +1,652 @@
+{
+  "gemaakt": "2026-10-15T19:05:13",
+  "wandklok_uren": 0.57,
+  "per_rol": {
+    "brandtest": {
+      "sessies": 1,
+      "kost_usd_schatting": 0.17,
+      "duur_min": 0.5
+    },
+    "keurder": {
+      "sessies": 2,
+      "kost_usd_schatting": 5.42,
+      "duur_min": 4.2
+    },
+    "pakket": {
+      "sessies": 1,
+      "kost_usd_schatting": 0.47,
+      "duur_min": 1.7
+    },
+    "bouwer": {
+      "sessies": 8,
+      "kost_usd_schatting": 8.06,
+      "duur_min": 22.1
+    }
+  },
+  "kost_usd_schatting_totaal": 14.12,
+  "kost_per_uur_schatting": 24.95,
+  "berichten_aan_bjorn_tijdens_run": 0,
+  "r6": {
+    "observe_sessies": 3,
+    "goal_stopte_te_vroeg": 0,
+    "sessies": [
+      {
+        "tijd": "2026-10-15T18:34:34",
+        "sessie": 1,
+        "modus": "observe",
+        "features": "C01,C02",
+        "check_exit": 0,
+        "goal_liet_stoppen_zonder_klaar": false,
+        "subtype": "success",
+        "is_error": false,
+        "beurten": 39,
+        "duur_min": 3.3,
+        "kost_usd_schatting": 1.1799191949999999,
+        "per_model": {
+          "claude-opus-5-5": {
+            "inputTokens": 52,
+            "outputTokens": 15330,
+            "cacheReadInputTokens": 1574626,
+            "cacheCreationInputTokens": 68753,
+            "webSearchRequests": 0,
+            "costUSD": 1.1717571999999998,
+            "contextWindow": 1000000,
+            "maxOutputTokens": 128000,
+            "thinkingTokens": 2754,
+            "canonicalModel": "claude-opus-5-5",
+            "provider": "firstParty",
+            "costBasis": "list"
+          },
+          "claude-haiku-5-5": {
+            "inputTokens": 4,
+            "outputTokens": 648,
+            "cacheReadInputTokens": 872,
+            "cacheCreationInputTokens": 62631,
+            "webSearchRequests": 0,
+            "costUSD": 0.008161995,
+            "contextWindow": 1000000,
+            "maxOutputTokens": 128000,
+            "thinkingTokens": 476,
+            "canonicalModel": "claude-haiku-5-5",
+            "provider": "firstParty",
+            "costBasis": "list"
+          }
+        },
+        "usage": {
+          "input_tokens": 52,
+          "cache_creation_input_tokens": 68753,
+          "cache_read_input_tokens": 1574626,
+          "output_tokens": 15330,
+          "output_tokens_details": {
+            "thinking_tokens": 2754
+          },
+          "server_tool_use": {
+            "web_search_requests": 0,
+            "web_fetch_requests": 0
+          },
+          "service_tier": "standard",
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 68753,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "inference_geo": "global",
+          "iterations": [
+            {
+              "input_tokens": 2,
+              "output_tokens": 709,
+              "cache_read_input_tokens": 79301,
+              "cache_creation_input_tokens": 439,
+              "cache_creation": {
+                "ephemeral_5m_input_tokens": 0,
+                "ephemeral_1h_input_tokens": 439
+              },
+              "type": "message"
+            }
+          ],
+          "speed": "standard",
+          "fallback_credit": null
+        }
+      },
+      {
+        "tijd": "2026-10-15T18:39:19",
+        "sessie": 2,
+        "modus": "observe",
+        "features": "C03,C04",
+        "check_exit": 0,
+        "goal_liet_stoppen_zonder_klaar": false,
+        "subtype": "success",
+        "is_error": false,
+        "beurten": 33,
+        "duur_min": 4.7,
+        "kost_usd_schatting": 1.6458292950000002,
+        "per_model": {
+          "claude-opus-5-5": {
+            "inputTokens": 38,
+            "outputTokens": 31662,
+            "cacheReadInputTokens": 1302684,
+            "cacheCreationInputTokens": 92523,
+            "webSearchRequests": 0,
+            "costUSD": 1.6341128000000003,
+            "contextWindow": 1000000,
+            "maxOutputTokens": 128000,
+            "thinkingTokens": 4662,
+            "canonicalModel": "claude-opus-5-5",
+            "provider": "firstParty",
+            "costBasis": "list"
+          },
+          "claude-haiku-5-5": {
+            "inputTokens": 4,
+            "outputTokens": 737,
+            "cacheReadInputTokens": 872,
+            "cacheCreationInputTokens": 90711,
+            "webSearchRequests": 0,
+            "costUSD": 0.011716495,
+            "contextWindow": 1000000,
+            "maxOutputTokens": 128000,
+            "thinkingTokens": 535,
+            "canonicalModel": "claude-haiku-5-5",
+            "provider": "firstParty",
+            "costBasis": "list"
+          }
+        },
+        "usage": {
+          "input_tokens": 38,
+          "cache_creation_input_tokens": 92523,
+          "cache_read_input_tokens": 1302684,
+          "output_tokens": 31662,
+          "output_tokens_details": {
+            "thinking_tokens": 4662
+          },
+          "server_tool_use": {
+            "web_search_requests": 0,
+            "web_fetch_requests": 0
+          },
+          "service_tier": "standard",
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 92523,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "inference_geo": "global",
+          "iterations": [
+            {
+              "input_tokens": 2,
+              "output_tokens": 1182,
+              "cache_read_input_tokens": 107361,
+              "cache_creation_input_tokens": 1376,
+              "cache_creation": {
+                "ephemeral_5m_input_tokens": 0,
+                "ephemeral_1h_input_tokens": 1376
+              },
+              "type": "message"
+            }
+          ],
+          "speed": "standard",
+          "fallback_credit": null
+        }
+      },
+      {
+        "tijd": "2026-10-15T18:42:16",
+        "sessie": 3,
+        "modus": "observe",
+        "features": "C05,C07",
+        "check_exit": 0,
+        "goal_liet_stoppen_zonder_klaar": false,
+        "subtype": "success",
+        "is_error": false,
+        "beurten": 29,
+        "duur_min": 2.9,
+        "kost_usd_schatting": 1.1198217199999998,
+        "per_model": {
+          "claude-opus-5-5": {
+            "inputTokens": 40,
+            "outputTokens": 17931,
+            "cacheReadInputTokens": 1168148,
+            "cacheCreationInputTokens": 64858,
+            "webSearchRequests": 0,
+            "costUSD": 1.1112735999999999,
+            "contextWindow": 1000000,
+            "maxOutputTokens": 128000,
+            "thinkingTokens": 2134,
+            "canonicalModel": "claude-opus-5-5",
+            "provider": "firstParty",
+            "costBasis": "list"
+          },
+          "claude-haiku-5-5": {
+            "inputTokens": 4,
+            "outputTokens": 815,
+            "cacheReadInputTokens": 872,
+            "cacheCreationInputTokens": 65052,
+            "webSearchRequests": 0,
+            "costUSD": 0.00854812,
+            "contextWindow": 1000000,
+            "maxOutputTokens": 128000,
+            "thinkingTokens": 501,
+            "canonicalModel": "claude-haiku-5-5",
+            "provider": "firstParty",
+            "costBasis": "list"
+          }
+        },
+        "usage": {
+          "input_tokens": 40,
+          "cache_creation_input_tokens": 64858,
+          "cache_read_input_tokens": 1168148,
+          "output_tokens": 17931,
+          "output_tokens_details": {
+            "thinking_tokens": 2134
+          },
+          "server_tool_use": {
+            "web_search_requests": 0,
+            "web_fetch_requests": 0
+          },
+          "service_tier": "standard",
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 64858,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "inference_geo": "global",
+          "iterations": [
+            {
+              "input_tokens": 2,
+              "output_tokens": 946,
+              "cache_read_input_tokens": 79971,
+              "cache_creation_input_tokens": 1101,
+              "cache_creation": {
+                "ephemeral_5m_input_tokens": 0,
+                "ephemeral_1h_input_tokens": 1101
+              },
+              "type": "message"
+            }
+          ],
+          "speed": "standard",
+          "fallback_credit": null
+        }
+      },
+      {
+        "tijd": "2026-10-15T18:45:04",
+        "sessie": 4,
+        "modus": "block",
+        "features": "C08,C10",
+        "check_exit": 0,
+        "goal_liet_stoppen_zonder_klaar": false,
+        "subtype": "success",
+        "is_error": false,
+        "beurten": 23,
+        "duur_min": 2.8,
+        "kost_usd_schatting": 0.9684953949999998,
+        "per_model": {
+          "claude-opus-5-5": {
+            "inputTokens": 34,
+            "outputTokens": 13844,
+            "cacheReadInputTokens": 970567,
+            "cacheCreationInputTokens": 61173,
+            "webSearchRequests": 0,
+            "costUSD": 0.9605133999999999,
+            "contextWindow": 1000000,
+            "maxOutputTokens": 128000,
+            "thinkingTokens": 1851,
+            "canonicalModel": "claude-opus-5-5",
+            "provider": "firstParty",
+            "costBasis": "list"
+          },
+          "claude-haiku-5-5": {
+            "inputTokens": 4,
+            "outputTokens": 526,
+            "cacheReadInputTokens": 872,
+            "cacheCreationInputTokens": 61679,
+            "webSearchRequests": 0,
+            "costUSD": 0.007981995,
+            "contextWindow": 1000000,
+            "maxOutputTokens": 128000,
+            "thinkingTokens": 327,
+            "canonicalModel": "claude-haiku-5-5",
+            "provider": "firstParty",
+            "costBasis": "list"
+          }
+        },
+        "usage": {
+          "input_tokens": 34,
+          "cache_creation_input_tokens": 61173,
+          "cache_read_input_tokens": 970567,
+          "output_tokens": 13844,
+          "output_tokens_details": {
+            "thinking_tokens": 1851
+          },
+          "server_tool_use": {
+            "web_search_requests": 0,
+            "web_fetch_requests": 0
+          },
+          "service_tier": "standard",
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 61173,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "inference_geo": "global",
+          "iterations": [
+            {
+              "input_tokens": 2,
+              "output_tokens": 981,
+              "cache_read_input_tokens": 75971,
+              "cache_creation_input_tokens": 1416,
+              "cache_creation": {
+                "ephemeral_5m_input_tokens": 0,
+                "ephemeral_1h_input_tokens": 1416
+              },
+              "type": "message"
+            }
+          ],
+          "speed": "standard",
+          "fallback_credit": null
+        }
+      },
+      {
+        "tijd": "2026-10-15T18:49:51",
+        "sessie": 5,
+        "modus": "block",
+        "features": "C11,C12",
+        "check_exit": 0,
+        "goal_liet_stoppen_zonder_klaar": false,
+        "subtype": "success",
+        "is_error": false,
+        "beurten": 30,
+        "duur_min": 4.7,
+        "kost_usd_schatting": 1.5564844950000003,
+        "per_model": {
+          "claude-opus-5-5": {
+            "inputTokens": 46,
+            "outputTokens": 29393,
+            "cacheReadInputTokens": 1520450,
+            "cacheCreationInputTokens": 81766,
+            "webSearchRequests": 0,
+            "costUSD": 1.5462620000000002,
+            "contextWindow": 1000000,
+            "maxOutputTokens": 128000,
+            "thinkingTokens": 5325,
+            "canonicalModel": "claude-opus-5-5",
+            "provider": "firstParty",
+            "costBasis": "list"
+          },
+          "claude-haiku-5-5": {
+            "inputTokens": 4,
+            "outputTokens": 633,
+            "cacheReadInputTokens": 872,
+            "cacheCreationInputTokens": 79175,
+            "webSearchRequests": 0,
+            "costUSD": 0.010222495,
+            "contextWindow": 1000000,
+            "maxOutputTokens": 128000,
+            "thinkingTokens": 419,
+            "canonicalModel": "claude-haiku-5-5",
+            "provider": "firstParty",
+            "costBasis": "list"
+          }
+        },
+        "usage": {
+          "input_tokens": 46,
+          "cache_creation_input_tokens": 81766,
+          "cache_read_input_tokens": 1520450,
+          "output_tokens": 29393,
+          "output_tokens_details": {
+            "thinking_tokens": 5325
+          },
+          "server_tool_use": {
+            "web_search_requests": 0,
+            "web_fetch_requests": 0
+          },
+          "service_tier": "standard",
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 81766,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "inference_geo": "global",
+          "iterations": [
+            {
+              "input_tokens": 2,
+              "output_tokens": 1119,
+              "cache_read_input_tokens": 97711,
+              "cache_creation_input_tokens": 269,
+              "cache_creation": {
+                "ephemeral_5m_input_tokens": 0,
+                "ephemeral_1h_input_tokens": 269
+              },
+              "type": "message"
+            }
+          ],
+          "speed": "standard",
+          "fallback_credit": null
+        }
+      },
+      {
+        "tijd": "2026-10-15T18:51:05",
+        "sessie": 6,
+        "modus": "block",
+        "features": "C13",
+        "check_exit": 0,
+        "goal_liet_stoppen_zonder_klaar": false,
+        "subtype": "success",
+        "is_error": false,
+        "beurten": 14,
+        "duur_min": 1.2,
+        "kost_usd_schatting": 0.5625406700000001,
+        "per_model": {
+          "claude-opus-5-5": {
+            "inputTokens": 26,
+            "outputTokens": 5929,
+            "cacheReadInputTokens": 569444,
+            "cacheCreationInputTokens": 40534,
+            "webSearchRequests": 0,
+            "costUSD": 0.5568448,
+            "contextWindow": 1000000,
+            "maxOutputTokens": 128000,
+            "thinkingTokens": 504,
+            "canonicalModel": "claude-opus-5-5",
+            "provider": "firstParty",
+            "costBasis": "list"
+          },
+          "claude-haiku-5-5": {
+            "inputTokens": 4,
+            "outputTokens": 950,
+            "cacheReadInputTokens": 872,
+            "cacheCreationInputTokens": 41694,
+            "webSearchRequests": 0,
+            "costUSD": 0.0056958700000000004,
+            "contextWindow": 1000000,
+            "maxOutputTokens": 128000,
+            "thinkingTokens": 759,
+            "canonicalModel": "claude-haiku-5-5",
+            "provider": "firstParty",
+            "costBasis": "list"
+          }
+        },
+        "usage": {
+          "input_tokens": 26,
+          "cache_creation_input_tokens": 40534,
+          "cache_read_input_tokens": 569444,
+          "output_tokens": 5929,
+          "output_tokens_details": {
+            "thinking_tokens": 504
+          },
+          "server_tool_use": {
+            "web_search_requests": 0,
+            "web_fetch_requests": 0
+          },
+          "service_tier": "standard",
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 40534,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "inference_geo": "global",
+          "iterations": [
+            {
+              "input_tokens": 2,
+              "output_tokens": 613,
+              "cache_read_input_tokens": 56494,
+              "cache_creation_input_tokens": 254,
+              "cache_creation": {
+                "ephemeral_5m_input_tokens": 0,
+                "ephemeral_1h_input_tokens": 254
+              },
+              "type": "message"
+            }
+          ],
+          "speed": "standard",
+          "fallback_credit": null
+        }
+      },
+      {
+        "tijd": "2026-10-15T18:59:49",
+        "sessie": 7,
+        "modus": "block",
+        "features": "C01,C02",
+        "check_exit": 0,
+        "goal_liet_stoppen_zonder_klaar": false,
+        "subtype": "success",
+        "is_error": false,
+        "beurten": 16,
+        "duur_min": 1.3,
+        "kost_usd_schatting": 0.46449117000000006,
+        "per_model": {
+          "claude-opus-5-5": {
+            "inputTokens": 24,
+            "outputTokens": 5199,
+            "cacheReadInputTokens": 482799,
+            "cacheCreationInputTokens": 32412,
+            "webSearchRequests": 0,
+            "costUSD": 0.45993180000000006,
+            "contextWindow": 1000000,
+            "maxOutputTokens": 128000,
+            "thinkingTokens": 355,
+            "canonicalModel": "claude-opus-5-5",
+            "provider": "firstParty",
+            "costBasis": "list"
+          },
+          "claude-haiku-5-5": {
+            "inputTokens": 4,
+            "outputTokens": 662,
+            "cacheReadInputTokens": 872,
+            "cacheCreationInputTokens": 33754,
+            "webSearchRequests": 0,
+            "costUSD": 0.00455937,
+            "contextWindow": 1000000,
+            "maxOutputTokens": 128000,
+            "thinkingTokens": 455,
+            "canonicalModel": "claude-haiku-5-5",
+            "provider": "firstParty",
+            "costBasis": "list"
+          }
+        },
+        "usage": {
+          "input_tokens": 24,
+          "cache_creation_input_tokens": 32412,
+          "cache_read_input_tokens": 482799,
+          "output_tokens": 5199,
+          "output_tokens_details": {
+            "thinking_tokens": 355
+          },
+          "server_tool_use": {
+            "web_search_requests": 0,
+            "web_fetch_requests": 0
+          },
+          "service_tier": "standard",
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 32412,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "inference_geo": "global",
+          "iterations": [
+            {
+              "input_tokens": 2,
+              "output_tokens": 614,
+              "cache_read_input_tokens": 48309,
+              "cache_creation_input_tokens": 317,
+              "cache_creation": {
+                "ephemeral_5m_input_tokens": 0,
+                "ephemeral_1h_input_tokens": 317
+              },
+              "type": "message"
+            }
+          ],
+          "speed": "standard",
+          "fallback_credit": null
+        }
+      },
+      {
+        "tijd": "2026-10-15T19:01:05",
+        "sessie": 8,
+        "modus": "block",
+        "features": "C03",
+        "check_exit": 0,
+        "goal_liet_stoppen_zonder_klaar": false,
+        "subtype": "success",
+        "is_error": false,
+        "beurten": 15,
+        "duur_min": 1.2,
+        "kost_usd_schatting": 0.5565733449999999,
+        "per_model": {
+          "claude-opus-5-5": {
+            "inputTokens": 24,
+            "outputTokens": 6671,
+            "cacheReadInputTokens": 530388,
+            "cacheCreationInputTokens": 38937,
+            "webSearchRequests": 0,
+            "costUSD": 0.5510895999999998,
+            "contextWindow": 1000000,
+            "maxOutputTokens": 128000,
+            "thinkingTokens": 1113,
+            "canonicalModel": "claude-opus-5-5",
+            "provider": "firstParty",
+            "costBasis": "list"
+          },
+          "claude-haiku-5-5": {
+            "inputTokens": 4,
+            "outputTokens": 984,
+            "cacheReadInputTokens": 872,
+            "cacheCreationInputTokens": 39861,
+            "webSearchRequests": 0,
+            "costUSD": 0.005483745,
+            "contextWindow": 1000000,
+            "maxOutputTokens": 128000,
+            "thinkingTokens": 794,
+            "canonicalModel": "claude-haiku-5-5",
+            "provider": "firstParty",
+            "costBasis": "list"
+          }
+        },
+        "usage": {
+          "input_tokens": 24,
+          "cache_creation_input_tokens": 38937,
+          "cache_read_input_tokens": 530388,
+          "output_tokens": 6671,
+          "output_tokens_details": {
+            "thinking_tokens": 1113
+          },
+          "server_tool_use": {
+            "web_search_requests": 0,
+            "web_fetch_requests": 0
+          },
+          "service_tier": "standard",
+          "cache_creation": {
+            "ephemeral_1h_input_tokens": 38937,
+            "ephemeral_5m_input_tokens": 0
+          },
+          "inference_geo": "global",
+          "iterations": [
+            {
+              "input_tokens": 2,
+              "output_tokens": 780,
+              "cache_read_input_tokens": 54306,
+              "cache_creation_input_tokens": 845,
+              "cache_creation": {
+                "ephemeral_5m_input_tokens": 0,
+                "ephemeral_1h_input_tokens": 845
+              },
+              "type": "message"
+            }
+          ],
+          "speed": "standard",
+          "fallback_credit": null
+        }
+      }
+    ]
+  },
+  "let_op": "Kosten zijn schattingen in API-dollars uit --output-format json, niet de abonnementslimiet. De /usage-balk voor en na staat in retro.md."
+}
