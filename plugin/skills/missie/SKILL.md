@@ -136,9 +136,9 @@ Enkel als de missie nu `klaar` is. Lees de coachcode uit het profiel (`- **Coach
 
 - **Coachcode ingevuld:** geef deze link op een eigen regel, met het nummer van de missie in plaats van `<N>` (1 tot 7) en de code van de gebruiker in plaats van `<coachcode>`:
 
-  `https://debug.marketing/coach/v?s=m<N>&k=<coachcode>`
+  https://debug.marketing/coach/v?s=m<N>&k=<coachcode>
 
-  Zeg erbij in één regel: *"Klik hierop, dan staat deze missie ook op je startplan als klaar."*
+  Geef de link als gewone tekst, zodat hij klikbaar is: nooit tussen backticks of in een codeblok. Zeg erbij in één regel: *"Klik hierop, dan staat deze missie ook op je startplan als klaar."*
 - **Coachcode `[TODO]`:** geef geen link. Heeft het profiel geen coachcode ([TODO]), dan geeft de coach geen link maar de zin: 'Vul je coachcode in je profiel in (staat op je startplanpagina), dan kan ik je voortgang doorgeven.'
 
 Missie niet klaar: geen link en geen zin over de link.

@@ -81,9 +81,9 @@ Enkel als de uitdaging klaar is. Lees de coachcode uit het profiel (`- **Coachco
 
 - **Coachcode ingevuld:** geef deze link op een eigen regel, met het nummer van de trede in plaats van `<trede>` en de code van de gebruiker in plaats van `<coachcode>`:
 
-  `https://debug.marketing/coach/v?s=t<trede>&k=<coachcode>`
+  https://debug.marketing/coach/v?s=t<trede>&k=<coachcode>
 
-  Zeg erbij in één regel: *"Klik hierop, dan staat deze trede ook op je startplan."*
+  Geef de link als gewone tekst, zodat hij klikbaar is: nooit tussen backticks of in een codeblok. Zeg erbij in één regel: *"Klik hierop, dan staat deze trede ook op je startplan."*
 - **Coachcode `[TODO]`:** geef geen link. Heeft het profiel geen coachcode ([TODO]), dan geeft de coach geen link maar de zin: 'Vul je coachcode in je profiel in (staat op je startplanpagina), dan kan ik je voortgang doorgeven.'
 
 ### Eén volgende stap

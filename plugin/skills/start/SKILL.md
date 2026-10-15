@@ -17,7 +17,7 @@ Kijk in de werkmap (de map die de app opende):
 
 - **Leeg, of geen werkmap van Debug Coach** (geen `voortgang.md` en geen `ik/profiel.md`): een nieuwe start. Ga naar stap 1.
 - **Een vers werkmappakket:** staan alle missies op `open` in `voortgang.md` en staat het profiel (`ik/profiel.md`) bovenaan op `status: leeg`, dan is het een nieuwe start, ook als alle bestanden al bestaan. De gebruiker heeft nog niets gedaan: het welkom, de tabel van de werkmap en de uitleg van projectbrein en context zijn nieuw voor de gebruiker. Doe stap 1 volledig (welkom, tabel, projectbrein; schrijf enkel wat ontbreekt, overschrijf niets), dan stap 2 met de uitleg van context, en na missie 1 altijd de meter van stap 3. Zeg niet "je werkmap bestaat al".
-- **De werkmap bestaat al, ook maar voor een deel** (`voortgang.md` of `ik/profiel.md` staat er, en het is geen vers werkmappakket): dit is een tweede keer. **Overschrijf nooit iets.**
+- **De werkmap bestaat al, ook maar voor een deel** (`voortgang.md` of `ik/profiel.md` staat er, en het is geen vers werkmappakket): dit is een tweede keer. **Overschrijf nooit iets.** Wil de gebruiker toch iets vervangen of verwijderen: vraag eerst, zeg welk bestand het is en wacht op een duidelijk ja.
   1. Schrijf enkel de templatebestanden die ontbreken (regels van stap 1) en zeg in één regel welke.
   2. Lees `voortgang.md` en `ik/profiel.md`.
   3. Bestond het profiel al, maar `voortgang.md` niet (net aangemaakt uit het template): het profiel telt. Een sectie op `gevuld` of `ontwerp` vraag je nooit opnieuw en schrijf je nooit opnieuw. Halen **Rol**, **Dossiers** en **Account** al `ontwerp` of `gevuld`, dan is enkel de trainingsschakelaar nog te bespreken (stap 2, enkel dat deel); daarna zet je missie 1 op `klaar`.
@@ -199,9 +199,9 @@ Staat missie 1 op `klaar`, geef dan de voortgangslink, zodat de gebruiker de sta
 
 - **Coachcode ingevuld:** geef deze link, met de code van de gebruiker in plaats van `<coachcode>`, op een eigen regel:
 
-  `https://debug.marketing/coach/v?s=m1&k=<coachcode>`
+  https://debug.marketing/coach/v?s=m1&k=<coachcode>
 
-  Zeg erbij in één regel: *"Klik hierop, dan staat missie 1 ook op je startplan als klaar."*
+  Geef de link als gewone tekst, zodat hij klikbaar is: nooit tussen backticks of in een codeblok. Zeg erbij in één regel: *"Klik hierop, dan staat missie 1 ook op je startplan als klaar."*
 - **Coachcode `[TODO]`:** geef geen link. Heeft het profiel geen coachcode ([TODO]), dan geeft de coach geen link maar de zin: 'Vul je coachcode in je profiel in (staat op je startplanpagina), dan kan ik je voortgang doorgeven.'
 
 Missie 1 nog niet klaar: geen link en geen zin over de link.

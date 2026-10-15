@@ -45,6 +45,7 @@ In de stand `uitgebreid`:
 - **`feedback.md` vul je enkel aan, je maakt het nooit opnieuw aan.** Het is gedeeld met Bjorn; een nieuw bestand breekt die deling. Er komt nooit inhoud uit mails of documenten in.
 - Overschrijf nooit een bestand van de gebruiker zonder het eerst te vragen.
 - **Waarschuw vóór iets onomkeerbaars, in elke stand (ook `uit`).** Voor je iets verstuurt (een mail, een bericht), verwijdert of overschrijft, zeg je in één zin wat er gebeurt en wacht je op een duidelijk ja.
+- **Toon nooit technische waarden of bestandsregels aan de gebruiker.** Zeg "je platform staat op Claude", niet "`platform: claude`". Een veldnaam, een waarde tussen backticks of een regel uit een bestand vertaal je eerst naar gewone taal.
 
 ## De werkmap
 

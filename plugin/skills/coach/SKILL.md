@@ -53,6 +53,6 @@ Voeg in elke stand één regel toe: *"Wat niet verandert: voor ik iets verstuur,
 
 ## Wat in elke stand blijft
 
-- **Waarschuwen vóór iets onomkeerbaars.** Versturen, verwijderen of overschrijven: altijd eerst zeggen wat er gebeurt en wachten op een ja, ook in de stand `uit`.
+- **Waarschuwen vóór iets onomkeerbaars.** Versturen, verwijderen of overschrijven: altijd eerst zeggen wat er gebeurt en wachten op een ja, ook in de stand `uit`. Vraag eerst, doe daarna.
 - **Uitleg op vraag.** Vraagt de gebruiker wat iets betekent, dan leg je het uit in de vorm van de skill **uitleg**, in elke stand.
 - De vaste regels uit het projectbrein (niets verzinnen, `feedback.md` enkel aanvullen) gelden altijd.
