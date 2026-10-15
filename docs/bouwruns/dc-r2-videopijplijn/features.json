@@ -83,8 +83,8 @@
       "titel": "Handleiding",
       "acceptatie": "videos/README.md beschrijft de keten: script.json, opname door Claude met Computer Use op de mini (opname.md), ruw/opname.mov en ruw/log.json, python3 videos/maak.py, nakijken, uit/ en waar de video daarna heen gaat, en de omgevingsvariabele OPENAI_API_KEY",
       "check": "python3 tests/feature.py V08",
-      "passes": false,
-      "status": "open",
+      "passes": true,
+      "status": "klaar",
       "reden": "",
       "pogingen": 0
     }
