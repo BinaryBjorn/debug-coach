@@ -2,3 +2,4 @@
 {"tijd": "2026-10-15T21:49:28", "sessie": "e5b9e82d-1f3d-4841-a58a-c7dcae01c523", "modus": "observe", "features": "D03,D04", "check_exit": 0, "herstart_door_hook": false, "weigeringen_tot_nu": 0, "uitkomst": "doorgelaten"}
 {"tijd": "2026-10-15T21:52:43", "sessie": "bc5b6aa5-c433-48e1-8b7c-c86b5c76fb5f", "modus": "block", "features": "D05,D06", "check_exit": 0, "herstart_door_hook": false, "weigeringen_tot_nu": 0, "uitkomst": "doorgelaten"}
 {"tijd": "2026-10-15T21:56:26", "sessie": "328d2b76-c1d1-401a-aaa4-5aa5ca1ebed6", "modus": "block", "features": "D07,D08", "check_exit": 0, "herstart_door_hook": false, "weigeringen_tot_nu": 0, "uitkomst": "doorgelaten"}
+{"tijd": "2026-10-15T21:58:46", "sessie": "9d49ce68-21c5-4398-8cbd-c87b0b20081a", "modus": "block", "features": "D09", "check_exit": 0, "herstart_door_hook": false, "weigeringen_tot_nu": 0, "uitkomst": "doorgelaten"}
