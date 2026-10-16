@@ -1,0 +1,44 @@
+{
+  "slug": "missie-5",
+  "titel": "Missie 5: van gesprek naar verslag",
+  "platform": "chatgpt",
+  "app": "ChatGPT desktop (Work)",
+  "stappen": [
+    {
+      "id": "s01",
+      "handeling": "Klik in het invoerveld, typ: volgende missie, en verstuur",
+      "tekst": "Zeg: volgende missie. Missie 5 maakt van een gesprek een verslag.",
+      "duur_s": 5
+    },
+    {
+      "id": "s02",
+      "handeling": "Wacht tot de coach de missie uitlegt",
+      "tekst": "Vraag eerst toestemming om op te nemen, en neem het gesprek op met de dictafoon van je gsm.",
+      "duur_s": 7
+    },
+    {
+      "id": "s03",
+      "handeling": "Klik op de knop om een bestand toe te voegen en kies nepgesprek.m4a",
+      "tekst": "Upload het audiobestand in de chat. Dat kan op een betaald plan, tot 512 megabyte.",
+      "duur_s": 7
+    },
+    {
+      "id": "s04",
+      "handeling": "Typ: schrijf een verslag voor het team in de projectmap, elke actie krijgt een eigenaar en een datum, en verstuur",
+      "tekst": "Vraag het verslag: voor wie het is, welke vorm, en dat elke actie een eigenaar en een datum krijgt.",
+      "duur_s": 8
+    },
+    {
+      "id": "s05",
+      "handeling": "Wacht tot het verslag er staat",
+      "tekst": "Work schrijft het verslag in je projectmap.",
+      "duur_s": 5
+    },
+    {
+      "id": "s06",
+      "handeling": "Typ: schrijf de vervolgmail als concept, niet versturen, en verstuur",
+      "tekst": "Laat de vervolgmail als concept schrijven. Versturen doe je zelf.",
+      "duur_s": 6
+    }
+  ]
+}

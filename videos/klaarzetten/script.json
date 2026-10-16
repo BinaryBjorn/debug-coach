@@ -1,0 +1,62 @@
+{
+  "slug": "klaarzetten",
+  "titel": "Je werkmap klaarzetten",
+  "platform": "chatgpt",
+  "app": "ChatGPT desktop (Work)",
+  "stappen": [
+    {
+      "id": "s01",
+      "handeling": "Laat het venster stil staan op Home",
+      "tekst": "Pak het werkmappakket uit in je OneDrive en zet die map op altijd op dit apparaat bewaren. Zo staan de bestanden echt op je computer.",
+      "duur_s": 9
+    },
+    {
+      "id": "s02",
+      "handeling": "Klik bovenaan op Work",
+      "tekst": "Open ChatGPT en kies bovenaan Work.",
+      "duur_s": 4
+    },
+    {
+      "id": "s03",
+      "handeling": "Open in Work de map debug-coach-werkmap en geef toestemming",
+      "tekst": "Open je werkmap: kies de map debug-coach-werkmap en geef Work toestemming om ze te lezen.",
+      "duur_s": 7
+    },
+    {
+      "id": "s04",
+      "handeling": "Klik in de zijbalk op Plugins",
+      "tekst": "Ga in de zijbalk naar Plugins.",
+      "duur_s": 4
+    },
+    {
+      "id": "s05",
+      "handeling": "Klik op Add en kies Add a marketplace",
+      "tekst": "Klik op Add en kies Add a marketplace.",
+      "duur_s": 4
+    },
+    {
+      "id": "s06",
+      "handeling": "Klik in het veld Source, typ BinaryBjorn/debug-coach en klik op Add marketplace",
+      "tekst": "Vul bij Source in: BinaryBjorn/debug-coach. Klik dan op Add marketplace.",
+      "duur_s": 7
+    },
+    {
+      "id": "s07",
+      "handeling": "Klik op het tabblad Personal en op het plusje bij debug-coach",
+      "tekst": "Onder Personal staat nu debug-coach. Klik op het plusje om de coach te installeren.",
+      "duur_s": 7
+    },
+    {
+      "id": "s08",
+      "handeling": "Klik op het plusje bij mijn-vaardigheden onder mijn-werkmap",
+      "tekst": "Installeer ook mijn-vaardigheden uit je werkmap. Daar komen later je eigen vaardigheden. Zie je ze niet, herstart dan de app.",
+      "duur_s": 9
+    },
+    {
+      "id": "s09",
+      "handeling": "Open een nieuw gesprek in Work, typ: start, en verstuur",
+      "tekst": "Open een nieuw gesprek in Work en zeg: start. De coach zet je werkmap klaar en leert jou kennen.",
+      "duur_s": 8
+    }
+  ]
+}

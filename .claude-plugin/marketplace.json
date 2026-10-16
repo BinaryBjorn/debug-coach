@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "debug-coach",
-      "source": "./",
+      "source": "./plugin",
       "description": "Debug Coach: leer werken met Claude op je eigen werk, via zeven missies en een coach."
     }
   ]

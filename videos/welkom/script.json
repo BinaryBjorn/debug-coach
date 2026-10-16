@@ -1,0 +1,44 @@
+{
+  "slug": "welkom",
+  "titel": "Welkom bij Debug Coach",
+  "platform": "chatgpt",
+  "app": "ChatGPT desktop (Work)",
+  "stappen": [
+    {
+      "id": "s01",
+      "handeling": "Laat het venster stil staan op Home, met Work bovenaan gekozen",
+      "tekst": "Welkom bij Debug Coach. Je leert werken met AI op je eigen werk, niet op voorbeeldjes.",
+      "duur_s": 6
+    },
+    {
+      "id": "s02",
+      "handeling": "Klik bovenaan op Work",
+      "tekst": "Je werkt in ChatGPT, in Work. Work kan je bestanden lezen en afgewerkte documenten maken.",
+      "duur_s": 7
+    },
+    {
+      "id": "s03",
+      "handeling": "Klik in het invoerveld, typ: toon mijn meter, en verstuur",
+      "tekst": "Er zijn zeven missies. Elke missie is één echte taak uit je eigen werk.",
+      "duur_s": 6
+    },
+    {
+      "id": "s04",
+      "handeling": "Wacht tot het antwoord met de meter er staat",
+      "tekst": "De coach toont je meter: welke missies klaar zijn en wat de volgende is. Je zegt gewoon: volgende missie.",
+      "duur_s": 8
+    },
+    {
+      "id": "s05",
+      "handeling": "Scrol rustig door het antwoord van de coach",
+      "tekst": "Na missie 7 begint de ladder: uitdagingen die telkens een trede moeilijker worden.",
+      "duur_s": 7
+    },
+    {
+      "id": "s06",
+      "handeling": "Laat het venster stil staan",
+      "tekst": "Begin met het filmpje over klaarzetten. Daarna zeg je: start.",
+      "duur_s": 5
+    }
+  ]
+}
