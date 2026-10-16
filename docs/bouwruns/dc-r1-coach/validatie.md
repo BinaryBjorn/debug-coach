@@ -1,6 +1,6 @@
 ---
 type: validatie
-status: wacht-op-bjorn
+status: aanvaard
 date: 2026-10-15
 tags: [bouwrun, validatie]
 ---
