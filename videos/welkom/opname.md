@@ -64,3 +64,7 @@
 | `s04` | Wacht tot het antwoord met de meter er staat | `wacht` bij het begin, minstens de duur van de stap wachten, dan nog een `wacht` | De coach toont je meter: welke missies klaar zijn en wat de volgende is. Je zegt gewoon: volgende missie. |
 | `s05` | Scrol rustig door het antwoord van de coach | `wacht` bij het begin, minstens de duur van de stap wachten, dan nog een `wacht` | Na missie 7 begint de ladder: uitdagingen die telkens een trede moeilijker worden. |
 | `s06` | Laat het venster stil staan | `wacht` bij het begin, minstens de duur van de stap wachten, dan nog een `wacht` | Begin met het filmpje over klaarzetten. Daarna zeg je: start. |
+
+## Beginsituatie
+
+Coach geïnstalleerd, demowerkmap open in Work, missie 1 en 2 klaar. Enkel het demo-account en nepdata in beeld (persona Sam, Noorderlicht Techniek, verzonnen).

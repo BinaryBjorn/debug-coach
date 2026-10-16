@@ -12,14 +12,14 @@
     },
     {
       "id": "s02",
-      "handeling": "Typ: ik vraag elke week een weekoverzicht van mijn projecten, maak daar een vaardigheid van, en verstuur",
-      "tekst": "Kies iets wat je elke week opnieuw vraagt, en vertel het de coach.",
+      "handeling": "Typ: maak een vaardigheid voor mijn weekoverzicht: elke maandag, per project de stand en de volgende stap, als korte tabel. En verstuur",
+      "tekst": "Kies iets wat je elke week opnieuw vraagt, en beschrijf zelf wat de vaardigheid moet doen: wanneer, wat, in welke vorm.",
       "duur_s": 6
     },
     {
       "id": "s03",
-      "handeling": "Wacht tot de coach de vaardigheid in mijn-vaardigheden heeft geschreven",
-      "tekst": "De coach schrijft de vaardigheid in mijn-vaardigheden, in je werkmap: wanneer ze gebruikt wordt, wat ze doet, in welke vorm.",
+      "handeling": "Wacht tot de coach je beschrijving verbeterd heeft en de vaardigheid in mijn-vaardigheden heeft gezet",
+      "tekst": "Jij beschrijft wat ze doet. De coach verbetert je beschrijving en zet de vaardigheid in mijn-vaardigheden, in je werkmap.",
       "duur_s": 9
     },
     {

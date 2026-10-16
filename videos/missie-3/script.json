@@ -30,7 +30,7 @@
     },
     {
       "id": "s05",
-      "handeling": "Typ een vraag om een samenvatting van één document (voor wie, hoe lang, wat erin moet) en verstuur",
+      "handeling": "Typ: vat offertes-q1.pdf samen voor mijn verkoopsdirecteur, maximum tien regels, met de drie grootste offertes en hun deadline. En verstuur",
       "tekst": "Vraag dan een samenvatting van één echt document. Zeg voor wie ze is, hoe lang, en wat er zeker in moet.",
       "duur_s": 9
     },

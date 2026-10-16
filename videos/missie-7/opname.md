@@ -64,3 +64,7 @@
 | `s04` | Klik in de zijbalk op Plugins en daarna op Refresh | twee keer `klik`, elk met tijdstip vlak vóór de klik | Ga naar Plugins en klik op Refresh. Of herstart de app. |
 | `s05` | Open een nieuw gesprek, typ: @mijn-vaardigheden maak mijn weekoverzicht, en verstuur | `klik` in het veld, `typ` met de getypte tekst, `klik` op versturen of op de knop | Test in een nieuw gesprek: typ apenstaartje mijn-vaardigheden, of vraag het gewoon. |
 | `s06` | Wacht tot het weekoverzicht er staat | `wacht` bij het begin, minstens de duur van de stap wachten, dan nog een `wacht` | Werkt het, dan zet de coach je vaardigheid in successen. Een update van de coach raakt ze nooit. |
+
+## Beginsituatie
+
+Missie 1 tot 6 klaar; mijn-vaardigheden geïnstalleerd en leeg. Enkel het demo-account en nepdata in beeld (persona Sam, Noorderlicht Techniek, verzonnen).

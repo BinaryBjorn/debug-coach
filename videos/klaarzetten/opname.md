@@ -68,3 +68,7 @@
 | `s07` | Klik op het tabblad Personal en op het plusje bij debug-coach | twee keer `klik`, elk met tijdstip vlak vóór de klik | Onder Personal staat nu debug-coach. Klik op het plusje om de coach te installeren. |
 | `s08` | Klik op het plusje bij mijn-vaardigheden onder mijn-werkmap | `klik` (tijdstip vlak vóór de klik, x en y) | Installeer ook mijn-vaardigheden uit je werkmap. Daar komen later je eigen vaardigheden. Zie je ze niet, herstart dan de app. |
 | `s09` | Open een nieuw gesprek in Work, typ: start, en verstuur | `klik` in het veld, `typ` met de getypte tekst, `klik` op versturen of op de knop | Open een nieuw gesprek in Work en zeg: start. De coach zet je werkmap klaar en leert jou kennen. |
+
+## Beginsituatie
+
+Verse app: geen catalogus debug-marketing, geen plugins geïnstalleerd, de demowerkmap nog niet geopend in Work. Enkel het demo-account en nepdata in beeld (persona Sam, Noorderlicht Techniek, verzonnen).

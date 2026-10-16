@@ -65,3 +65,7 @@
 | `s04` | Typ: schrijf een verslag voor het team in de projectmap, elke actie krijgt een eigenaar en een datum, en verstuur | `klik` in het veld, `typ` met de getypte tekst, `klik` op versturen of op de knop | Vraag het verslag: voor wie het is, welke vorm, en dat elke actie een eigenaar en een datum krijgt. |
 | `s05` | Wacht tot het verslag er staat | `wacht` bij het begin, minstens de duur van de stap wachten, dan nog een `wacht` | Work schrijft het verslag in je projectmap. |
 | `s06` | Typ: schrijf de vervolgmail als concept, niet versturen, en verstuur | `klik` in het veld, `typ` met de getypte tekst, `klik` op versturen of op de knop | Laat de vervolgmail als concept schrijven. Versturen doe je zelf. |
+
+## Beginsituatie
+
+Missie 1 tot 4 klaar; op het bureaublad staat nepgesprek.m4a (verzonnen gesprek, computerstem). Enkel het demo-account en nepdata in beeld (persona Sam, Noorderlicht Techniek, verzonnen).

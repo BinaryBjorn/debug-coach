@@ -64,3 +64,7 @@
 | `s04` | Wacht tot de bronnenlijst er staat | `wacht` bij het begin, minstens de duur van de stap wachten, dan nog een `wacht` | Work kijkt in je werkmap en zet alles op een rij. |
 | `s05` | Typ een vraag om een samenvatting van één document (voor wie, hoe lang, wat erin moet) en verstuur | `klik` in het veld, `typ` met de getypte tekst, `klik` op versturen of op de knop | Vraag dan een samenvatting van één echt document. Zeg voor wie ze is, hoe lang, en wat er zeker in moet. |
 | `s06` | Wacht tot de samenvatting er staat | `wacht` bij het begin, minstens de duur van de stap wachten, dan nog een `wacht` | Een mail kan je als bestand bewaren in je projectmap, of je plakt de tekst in de chat. |
+
+## Beginsituatie
+
+Missie 1 en 2 klaar; in de werkmap staan de nepbestanden (o.a. mijn-bestanden/offertes-q1.pdf en vijf mails als bestand). Enkel het demo-account en nepdata in beeld (persona Sam, Noorderlicht Techniek, verzonnen).

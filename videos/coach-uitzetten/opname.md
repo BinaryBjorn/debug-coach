@@ -64,3 +64,7 @@
 | `s04` | Typ: zet de coach uit, en verstuur | `klik` in het veld, `typ` met de getypte tekst, `klik` op versturen of op de knop | Zeg: zet de coach uit. Dan doet hij het werk zonder uitleg, tenzij je erom vraagt. |
 | `s05` | Wacht tot het antwoord er staat | `wacht` bij het begin, minstens de duur van de stap wachten, dan nog een `wacht` | Ook in de stand uit waarschuwt de coach altijd vóór iets wat je niet kan terugdraaien, zoals versturen of verwijderen. |
 | `s06` | Typ: zet de coach terug aan, en verstuur | `klik` in het veld, `typ` met de getypte tekst, `klik` op versturen of op de knop | Wil je terug meer uitleg, zeg dan: zet de coach terug aan. |
+
+## Beginsituatie
+
+Missie 1 klaar, coach op stand uitgebreid. Enkel het demo-account en nepdata in beeld (persona Sam, Noorderlicht Techniek, verzonnen).
